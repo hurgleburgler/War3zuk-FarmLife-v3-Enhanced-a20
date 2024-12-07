@@ -3521,7 +3521,7 @@
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="TakeDelay" value="15"/>
       <property name="Material" value="Morganic"/>
-      <property name="MaxDamage" value="50"/>
+      <property name="MaxDamage" value="100"/>
       <property name="Stacknumber" value="1"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/FarmLifeAnimals.unity3d?FarmCatPrefab"/>
@@ -3529,6 +3529,9 @@
       <property name="MultiBlockDim" value="1,1,1"/>
       <property name="DescriptionKey" value="farmLifeTomCatDesc"/>
       <property name="Group" value="Animals,All"/>
+      <property class="RepairItems">
+        <property name="foodCanCatfood" value="1"/>
+      </property>
     </block>
     <block name="Tree Seeds Crate">
       <property name="CustomIcon" value="cntShippingCrateLabEquipment"/>
