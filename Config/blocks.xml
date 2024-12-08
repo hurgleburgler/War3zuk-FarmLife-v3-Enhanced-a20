@@ -4503,15 +4503,16 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="AvocadoSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Banana Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
       <property name="CustomIcon" value="Banana Tree"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees1.unity3d?BananaTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="1,7,1"/>
+      <property name="MultiBlockDim" value="2,3,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4519,9 +4520,9 @@
       <property name="PlantGrowing.FertileLevel" value="1"/>
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-      <drop event="Harvest" name="Banana" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Banana" count="20" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Banana Sapling"/>
-      <property name="MaxDamage" value="500"/>
+      <property name="MaxDamage" value="2000"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
       <property name="DescriptionKey" value="BananaTreeDesc"/>
     </block>
@@ -4541,13 +4542,14 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="BananaSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Cherry Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
       <property name="CustomIcon" value="Cherry Tree"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees1.unity3d?CherryTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
@@ -4580,18 +4582,19 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="CherrySaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Cinnamon Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
-      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="Meier Tree"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees2.unity3d?CinnamonTreePrefab"/>
+      <property name="ModelOffset" value="0,0,0"/>
+      <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
-      <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
-      <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="1,7,1"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -4618,18 +4621,19 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="CinnamonSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Coconut Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
-      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="Meier Tree"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees4.unity3d?PalmTreePrefab"/>
+      <property name="ModelOffset" value="0,0,0"/>
+      <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
-      <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
-      <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="1,7,1"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -4656,18 +4660,19 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="CoconutSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Lime Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
-      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="Meier Tree"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees3_1.unity3d?LimeTreePrefab"/>
+      <property name="ModelOffset" value="0,0,0"/>
+      <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
-      <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
-      <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="1,7,1"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -4694,13 +4699,14 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="LimeSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Meyer Lemon Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
       <property name="CustomIcon" value="Meier Tree"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees2.unity3d?LemonTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
@@ -4732,12 +4738,13 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="MeyerLemonSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Nut Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees2.unity3d?ChestnutTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
@@ -4769,13 +4776,14 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="NutSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Olive Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
       <property name="CustomIcon" value="Olive Tree"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees3_2.unity3d?OliveTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
@@ -4807,13 +4815,14 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="OliveSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Orange Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
       <property name="CustomIcon" value="Orange Tree"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees4.unity3d?OrangeTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
@@ -4883,17 +4892,19 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="PearSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Red Apple Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
-      <property name="CreativeMode" value="None"/>
-      <property name="ActivationDistance" value="12"/>
-      <property name="BigDecorationRadius" value="6"/>
+      <property name="CustomIcon" value="Red Apple Tree"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees1.unity3d?AppleTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="1,7,1"/>
+      <property name="FallOver" value="false"/>
+      <property name="ActivationDistance" value="12"/>
+      <property name="BigDecorationRadius" value="6"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -4958,13 +4969,14 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="SakuraSaplingDesc"/>
     </block>
+    <!-- Done -->
     <block name="Sugar Maple Tree">
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="DisplayInfo" value="Name"/>
       <property name="CustomIcon" value="Sugar Maple Tree"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees3_1.unity3d?MapleTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
@@ -5855,7 +5867,7 @@
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="12"/>
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/hgTrees4.unity3d?PeachTreePrefab"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
