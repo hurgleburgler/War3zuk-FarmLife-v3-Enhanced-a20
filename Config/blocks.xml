@@ -4511,6 +4511,7 @@
       <property name="CustomIcon" value="hgBananaTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgBananaTree.unity3d?BananaTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="5,5,2"/>
       <property name="FallOver" value="false"/>
@@ -4550,6 +4551,7 @@
       <property name="CustomIcon" value="hgCherryTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgCherryTree.unity3d?CherryTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="3,5,1"/>
       <property name="FallOver" value="false"/>
@@ -4590,6 +4592,7 @@
       <property name="CustomIcon" value="hgCinnamonTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgCinnamonTree.unity3d?CinnamonTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="3,4,1"/>
       <property name="FallOver" value="false"/>
@@ -4629,6 +4632,7 @@
       <property name="CustomIcon" value="hgPalmTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgPalmTree.unity3d?PalmTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="1,13,1"/>
       <property name="FallOver" value="false"/>
@@ -4668,6 +4672,7 @@
       <property name="CustomIcon" value="hgLimeTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgLimeTree.unity3d?LimeTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="3,4,1"/>
       <property name="FallOver" value="false"/>
@@ -4707,6 +4712,7 @@
       <property name="CustomIcon" value="hgLemonTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgLemonTree.unity3d?LemonTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="3,7,1"/>
       <property name="FallOver" value="false"/>
@@ -4746,6 +4752,7 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="CustomIcon" value="hgChestnutTreeIcon"/>
       <property name="Model" value="#@modfolder:Resources/hgChestnutTree.unity3d?ChestnutTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="9,15,1"/>
       <property name="FallOver" value="false"/>
@@ -4785,6 +4792,7 @@
       <property name="CustomIcon" value="hgOliveTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgOliveTree.unity3d?OliveTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="7,9,1"/>
       <property name="FallOver" value="false"/>
@@ -4824,6 +4832,7 @@
       <property name="CustomIcon" value="hgOrangeTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgOrangeTree.unity3d?OrangeTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="3,8,1"/>
       <property name="FallOver" value="false"/>
@@ -4862,6 +4871,7 @@
       <property name="CustomIcon" value="hgPearTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgPearTree.unity3d?PearTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="1,7,1"/>
       <property name="FallOver" value="false"/>
@@ -4901,6 +4911,7 @@
       <property name="CustomIcon" value="hgRedAppleTreeIcon"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgRedAppleTree.unity3d?RedAppleTreePrefab"/>
+      <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <property name="MultiBlockDim" value="5,8,1"/>
       <property name="FallOver" value="false"/>
