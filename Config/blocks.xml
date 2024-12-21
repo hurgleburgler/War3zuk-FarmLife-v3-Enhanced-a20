@@ -657,7 +657,8 @@
       <property name="SortOrder2" value="0050"/>
       <property name="DisplayType" value="blockTerrainFertile"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?TerracottaPlanterPrefab"/>
+      <property name="Model" value="#@modfolder:Resources/hgWoodPlanter.unity3d?PlanterPrefab"/>
+      <!--<property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?TerracottaPlanterPrefab"/>-->
       <property name="MultiBlockDim" value="1,1,1"/>
       <property name="DescriptionKey" value="farmLifeTerracottaPlanterDesc"/>
       <property name="Group" value="Resources,All"/>
