@@ -1,87 +1,87 @@
 <Biomes>
 	
     <append xpath="worldgeneration/biomes/biome[@name='snow']/decorations">
-		<decoration type="block" blockname="Apple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Avocado Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Banana Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Cherry Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Cinnamon Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Coconut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Lime Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Meyer Lemon Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Nut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Olive Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Orange Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Pear Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Red Apple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Sakura Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="7"/>
+		<decoration type="block" blockname="Apple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Avocado Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Banana Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Cherry Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Cinnamon Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Coconut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Lime Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Meyer Lemon Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Nut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Olive Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Orange Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Pear Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Red Apple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Sakura Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="3"/>
 	</append>
 	
     <append xpath="worldgeneration/biomes/biome[@name='pine_forest']/decorations">
-		<decoration type="block" blockname="Apple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Avocado Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Banana Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Cherry Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Cinnamon Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Coconut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Lime Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Meyer Lemon Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Nut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Olive Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Orange Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Pear Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Red Apple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Sakura Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="7"/>
+		<decoration type="block" blockname="Apple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Avocado Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Banana Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Cherry Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Cinnamon Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Coconut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Lime Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Meyer Lemon Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Nut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Olive Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Orange Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Pear Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Red Apple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Sakura Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="3"/>
 	</append>
 	
     <append xpath="worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
-		<decoration type="block" blockname="Apple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Avocado Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Banana Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Cherry Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Cinnamon Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Coconut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Lime Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Meyer Lemon Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Nut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Olive Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Orange Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Pear Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Red Apple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Sakura Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="7"/>
+		<decoration type="block" blockname="Apple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Avocado Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Banana Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Cherry Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Cinnamon Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Coconut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Lime Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Meyer Lemon Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Nut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Olive Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Orange Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Pear Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Red Apple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Sakura Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="3"/>
 	</append>
 	
 	<append xpath="worldgeneration/biomes/biome[@name='desert']/decorations">
-		<decoration type="block" blockname="Apple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Avocado Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Banana Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Cherry Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Cinnamon Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Coconut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Lime Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Meyer Lemon Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Nut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Olive Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Orange Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Pear Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Red Apple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Sakura Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="7"/>
-		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="7"/>
+		<decoration type="block" blockname="Apple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Avocado Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Banana Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Cherry Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Cinnamon Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Coconut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Lime Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Meyer Lemon Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Nut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Olive Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Orange Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Pear Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Red Apple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Sakura Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="3"/>
+		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="3"/>
 	</append>
 	
 </Biomes>
