@@ -3,9 +3,7 @@
   <insertAfter xpath="/lootcontainers/lootgroup[@name='twitch_T4_Rewards']">
 
     <lootgroup name="FarmLifev3LootA" count="2">
-      <item name="Old Salt" count="2,4" loot_prob_template="low"/>
       <item name="Seed Pack" count="2" loot_prob_template="low"/>
-      <item name="Salt" loot_prob_template="low"/>
       <item name="Black Pepper" loot_prob_template="low"/>
       <item name="Salt Shaker" loot_prob_template="low"/>
       <item name="Black Pepper Tin" loot_prob_template="low"/>
@@ -136,10 +134,9 @@
   </append>
 
   <append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
-    <item name="Salt" count="1,2" loot_prob_template="verylow"/>
+    <item name="Salt Shaker" count="1,2" loot_prob_template="verylow"/>
     <item name="Mustard" count="1,2" loot_prob_template="verylow"/>
     <item name="Black Pepper" count="1,2" loot_prob_template="verylow"/>
-    <item name="Salt Shaker" count="1,2" loot_prob_template="verylow"/>
     <item name="Black Pepper Tin" count="1" loot_prob_template="verylow"/>
     <item name="Air of Scotland" count="1" loot_prob_template="verylow"/>
     <item name="Bottle Cap" count="1,2" loot_prob_template="verylow"/>
@@ -158,9 +155,8 @@
     <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
     <item name="Graham Cracker Box" count="1,2" loot_prob_template="med"/>
     <item name="Marshmallow Bag" count="1,2" loot_prob_template="med"/>
-    <item name="Salt" count="1,2" loot_prob_template="med"/>
-    <item name="Black Pepper" count="1,2" loot_prob_template="med"/>
     <item name="Salt Shaker" count="1,2" loot_prob_template="med"/>
+    <item name="Black Pepper" count="1,2" loot_prob_template="med"/>
     <item name="Black Pepper Tin" count="1" loot_prob_template="med"/>
     <item name="Air of Scotland" count="1" loot_prob_template="verylow"/>
     <item name="Bottle Cap" count="1,2" loot_prob_template="verylow"/>

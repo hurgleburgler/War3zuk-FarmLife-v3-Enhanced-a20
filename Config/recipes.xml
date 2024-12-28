@@ -1445,7 +1445,7 @@
 
     <recipe name="Fresh Butter" count="1" craft_time="25" craft_area="Dairy Churn">
       <ingredient name="Cream" count="2"/>
-      <ingredient name="Old Salt" count="2"/>
+      <ingredient name="Salt" count="2"/>
     </recipe>
 
     <recipe name="Cream" count="1" craft_time="15" craft_area="Dairy Churn">
@@ -1455,7 +1455,7 @@
 
     <recipe name="Cheese" count="1" craft_time="60" craft_area="Dairy Churn">
       <ingredient name="Fresh Milk" count="3"/>
-      <ingredient name="Old Salt" count="5"/>
+      <ingredient name="Salt" count="5"/>
     </recipe>
 
     <recipe name="Cream Cheese" count="1" craft_time="15" craft_area="Dairy Churn">
@@ -2447,11 +2447,7 @@
 
     <recipe name="Chips" count="1" craft_time="20" craft_area="Gas Oven" craft_tool="Cast Iron Skillet">
       <ingredient name="foodCropPotato" count="2"/>
-      <ingredient name="Old Salt" count="1"/>
-    </recipe>
-
-    <recipe name="Salt" count="5" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Old Salt" count="1"/>
+      <ingredient name="Salt" count="1"/>
     </recipe>
 
     <recipe name="Chips and Salsa" count="1" craft_time="60" craft_area="Chopping Board">
@@ -3431,7 +3427,9 @@
     <recipe name="Salmon Steak" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
       <ingredient name="Whole Salmon" count="1"/>
     </recipe>
-
+    <recipe name="Salt" count="5" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+      <ingredient name="Old Salt" count="1"/>
+    </recipe>
     <recipe name="Salt" count="20" craft_time="60">
       <ingredient name="Salt Shaker" count="1"/>
     </recipe>
