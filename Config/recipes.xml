@@ -52,10 +52,6 @@
       <ingredient name="Animal Feed" count="2"/>
     </recipe>
 
-    <recipe name="Fresh Milk" count="1" craft_time="10" craft_area="Cow" craft_tool="Pasteurizer">
-      <ingredient name="Raw Milk" count="1"/>
-    </recipe>
-
     <recipe name="Animal Feed" count="10" craft_time="60" craft_area="Farm Table">
       <ingredient name="Sorghum" count="2"/>
       <ingredient name="Wheat" count="2"/>
@@ -126,7 +122,7 @@
       <ingredient name="Dough" count="2"/>
       <ingredient name="Fresh Butter" count="2"/>
       <ingredient name="Sugar" count="5"/>
-      <ingredient name="Fresh Milk" count="1"/>
+      <ingredient name="Milk" count="1"/>
     </recipe>
     <!--
 		===============================================================
@@ -409,6 +405,10 @@
 
     <recipe name="Milk" count="10" craft_time="60" craft_area="Gas Oven" craft_tool="toolCookingPot">
       <ingredient name="Raw Milk" count="1"/>
+    </recipe>
+
+    <recipe name="Milk" count="10" craft_time="60">
+      <ingredient name="Fresh Milk" count="1"/>
     </recipe>
 
     <recipe name="Milking Machine" count="1" craft_time="60" craft_area="Farm Table">
@@ -1422,7 +1422,7 @@
     <recipe name="Cereal" count="1" craft_time="10">
       <ingredient name="Whole Wheat" count="1"/>
       <ingredient name="Flax Fiber" count="1"/>
-      <ingredient name="Fresh Milk" count="1"/>
+      <ingredient name="Milk" count="1"/>
     </recipe>
 
     <recipe name="Bagel and Cream Cheese" count="1" craft_time="10">
@@ -1435,7 +1435,7 @@
       <ingredient name="Flour" count="3"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
       <ingredient name="foodEgg" count="1"/>
-      <ingredient name="Fresh Milk" count="1"/>
+      <ingredient name="Milk" count="1"/>
     </recipe>
 
     <recipe name="Raw Pasta" count="1" craft_time="15" craft_area="KitchNaid" craft_tool="Pasta Helper">
@@ -1449,12 +1449,12 @@
     </recipe>
 
     <recipe name="Cream" count="1" craft_time="15" craft_area="Dairy Churn">
-      <ingredient name="Fresh Milk" count="3"/>
+      <ingredient name="Milk" count="3"/>
       <ingredient name="Sugar" count="5"/>
     </recipe>
 
     <recipe name="Cheese" count="1" craft_time="60" craft_area="Dairy Churn">
-      <ingredient name="Fresh Milk" count="3"/>
+      <ingredient name="Milk" count="3"/>
       <ingredient name="Salt" count="5"/>
     </recipe>
 
@@ -2268,7 +2268,7 @@
     </recipe>
 
     <recipe name="Butter" count="10" craft_time="60" craft_area="Dairy Churn">
-      <ingredient name="Raw Milk" count="1"/>
+      <ingredient name="Milk" count="1"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
 
@@ -2290,7 +2290,6 @@
     </recipe>
 
     <recipe name="Cheddar Step 1" count="1" craft_time="60" craft_area="Brew Cooker" craft_tool="Boiler">
-      <ingredient name="Raw Milk" count="5"/>
       <ingredient name="Milk" count="10"/>
       <ingredient name="Salt" count="5"/>
       <ingredient name="Cheese Culture" count="5"/>
@@ -3209,7 +3208,6 @@
       <ingredient name="Boiled Linguini" count="1"/>
     </recipe>
     <recipe name="Parmesan" count="10" craft_time="60" craft_area="Gas Oven" craft_tool="toolCookingPot">
-      <ingredient name="Raw Milk" count="1"/>
       <ingredient name="Milk" count="5"/>
       <ingredient name="Briney Water" count="1"/>
     </recipe>
@@ -3304,7 +3302,6 @@
       <ingredient name="Queso Fresco Step 3" count="1"/>
     </recipe>
     <recipe name="Queso Fresco Step 1" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="toolCookingPot">
-      <ingredient name="Raw Milk" count="1"/>
       <ingredient name="Milk" count="5"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
@@ -3747,7 +3744,6 @@
       <ingredient name="Swiss Cheese Step 8" count="1"/>
     </recipe>
     <recipe name="Swiss Cheese Step 1" count="1" craft_time="60" craft_area="Brew Cooker" craft_tool="Boiler">
-      <ingredient name="Raw Milk" count="5"/>
       <ingredient name="Milk" count="10"/>
       <ingredient name="Cheese Culture" count="5"/>
     </recipe>
@@ -3860,7 +3856,7 @@
       <ingredient name="Cheese Cloth" count="1"/>
     </recipe>
     <recipe name="Yogurt Step 1" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="toolCookingPot">
-      <ingredient name="Raw Milk" count="2"/>
+      <ingredient name="Milk" count="2"/>
     </recipe>
     <recipe name="Yogurt Step 2" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Yogurt Step 1" count="1"/>
@@ -3875,7 +3871,7 @@
     <recipe name="Pancakes" count="1" craft_time="20" craft_area="Gas Oven" craft_tool="Cast Iron Skillet">
       <ingredient name="Sugar" count="2"/>
       <ingredient name="Flour" count="2"/>
-      <ingredient name="Fresh Milk" count="1"/>
+      <ingredient name="Milk" count="1"/>
     </recipe>
 
     <recipe name="Farm Barrel" count="1" craft_time="20" craft_area="Farm Table">
