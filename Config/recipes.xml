@@ -475,6 +475,11 @@
       <ingredient name="Animal Feed" count="10"/>
     </recipe>
 
+    <recipe name="Milk" count="1" craft_time="10" craft_area="Cow" craft_tool="Pasteurizer">
+      <ingredient name="Raw Milk" count="1"/>
+    </recipe>
+
+
     <recipe name="Raw Pink Rose" count="1" craft_time="60" craft_area="Brew Station" craft_tool="Wine Tank">
       <ingredient name="drinkJarBoiledWater" count="15"/>
       <ingredient name="Grape Pulp" count="5"/>
