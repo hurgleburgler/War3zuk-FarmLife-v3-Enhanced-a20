@@ -4223,7 +4223,7 @@
       <property class="Workstation">
         <property name="Modules" value="tools,output,fuel,input"/>
         <property name="Collide" value="melee,bullet,arrow,rocket"/>
-        <property name="CraftingAreaRecipes" value="All,Gas Oven"/>
+        <property name="CraftingAreaRecipes" value="campfire,oven,range"/>
       </property>
       <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
       <property name="CraftActionName" value="OVEN"/>
