@@ -3975,7 +3975,7 @@
       <property name="MaxDamage" value="800"/>
       <property name="StabilitySupport" value="false"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/FarmLife.unity3d?CBoardPrefab"/>
+      <property name="Model" value="#@modfolder:Resources/hgCuttingBoard.unity3d?CuttingBoardPrefab"/>
       <property name="MultiBlockDim" value="1,1,1"/>
       <property name="Stacknumber" value="1"/>
       <property class="Workstation">
@@ -4254,7 +4254,7 @@
       <property name="StabilitySupport" value="false"/>
       <property name="MultiBlockDim" value="1,1,1"/>
       <property name="Shape" value="ModelEntity"/>
-      <property name="Model" value="#@modfolder:Resources/FarmLife.unity3d?KitchNaidPrefab"/>
+      <property name="Model" value="#@modfolder:Resources/hgKitchenAid.unity3d?KitchenAidPrefab"/>
       <property name="ParticleName" value="campfire"/>
       <property name="ParticleOffset" value="0.5,0.75,0.5"/>
       <property name="Stacknumber" value="1"/>
