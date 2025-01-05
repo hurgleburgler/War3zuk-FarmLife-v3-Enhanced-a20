@@ -182,8 +182,12 @@
       <ingredient name="Ground Cinnamon" count="5"/>
     </recipe>
 
+    <recipe name="Red Apples" count="1">
+      <ingredient name="Apple" count="1"/>
+    </recipe>
+
     <recipe name="Apple Juice" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Veggie Attachment">
-      <ingredient name="Apple" count="5"/>
+      <ingredient name="Red Apples" count="5"/>
       <ingredient name="drinkJarEmpty" count="1"/>
     </recipe>
 
@@ -3496,7 +3500,7 @@
       <ingredient name="Raw Sugar" count="10"/>
     </recipe>
     <recipe name="Sliced Apples" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
-      <ingredient name="Apple" count="3"/>
+      <ingredient name="Red Apples" count="3"/>
     </recipe>
     <recipe name="Sliced Avocado" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="Avocado" count="3"/>
