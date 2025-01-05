@@ -2619,6 +2619,7 @@
       <property name="CustomIconTint" value="ff2600" />
       <property name="DescriptionKey" value="farmLifeCherryWoodchipsDesc" />
     </item>
+    <!-- Deprecated -->
     <item name="Chicken Breast">
       <property name="CreativeMode" value="Player"/>
       <property name="HoldType" value="31"/>
@@ -2647,71 +2648,175 @@
       </effect_group>
       <property name="DescriptionKey" value="farmLifeChickenBreastDesc"/>
     </item>
-    <item name="ChickenThigh">
+    <item name="ChickenBreast">
       <property name="CreativeMode" value="Player"/>
       <property name="HoldType" value="31"/>
-      <property name="DisplayType" value="food"/>
-      <property name="CustomIcon" value="hgChickenThigh" />
-      <property name="Group" value="Food/Cooking"/>
+      <property name="DisplayType" value="foodRaw"/>
+      <property name="CustomIcon" value="7rchic"/>
+      <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-      <property name="Material" value="Morganic"/>
+      <property name="Material" value="MfoodRawMeat"/>
       <property name="Stacknumber" value="50000"/>
-      <property name="EconomicValue" value="4"/>
+      <property name="EconomicValue" value="15"/>
       <property name="EconomicBundleSize" value="5"/>
       <property name="CraftingIngredientTime" value="5"/>
       <property name="Weight" value="5"/>
       <property class="Action0">
         <property name="Class" value="Eat"/>
         <property name="Delay" value="1.0"/>
+        <property name="Use_time" value="..."/>
         <property name="Sound_start" value="player_eating"/>
       </property>
-      <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10"/>
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffIllFoodPoisoning0">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="90"/>
+      <effect_group tiered="false" name="Food Tier 0">
+        <!-- Display Values -->
+        <display_value name="foodAmountAdd" value="3"/>
+        <display_value name="foodHealthAmount" value="-1"/>
+        <display_value name="dStaminaBonus" value="-1"/>
+        <display_value name="dDysenteryRisk" value=".95"/>
+
+        <!-- Effects -->
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="3"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="95"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+          <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
         </triggered_effect>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeChickenBreastDesc"/>
+    </item>
+    <item name="ChickenThigh">
+      <property name="CreativeMode" value="Player"/>
+      <property name="HoldType" value="31"/>
+      <property name="DisplayType" value="foodRaw"/>
+      <property name="CustomIcon" value="hgChickenThigh"/>
+      <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+      <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="MfoodRawMeat"/>
+      <property name="Stacknumber" value="50000"/>
+      <property name="EconomicValue" value="12"/>
+      <property name="EconomicBundleSize" value="5"/>
+      <property name="CraftingIngredientTime" value="5"/>
+      <property name="Weight" value="5"/>
+      <property class="Action0">
+        <property name="Class" value="Eat"/>
+        <property name="Delay" value="1.0"/>
+        <property name="Use_time" value="..."/>
+        <property name="Sound_start" value="player_eating"/>
+      </property>
+      <effect_group tiered="false" name="Food Tier 0">
+        <!-- Display Values -->
+        <display_value name="foodAmountAdd" value="2"/>
+        <display_value name="foodHealthAmount" value="-1"/>
+        <display_value name="dStaminaBonus" value="-1"/>
+        <display_value name="dDysenteryRisk" value=".95"/>
+
+        <!-- Effects -->
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="95"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+          <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+        </triggered_effect>
+      </effect_group>
+      <property name="DescriptionKey" value="farmLifeChickenThighDesc"/>
     </item>
     <item name="ChickenDrumstick">
       <property name="CreativeMode" value="Player"/>
       <property name="HoldType" value="31"/>
-      <property name="DisplayType" value="food"/>
-      <property name="CustomIcon" value="hgChickenDrumstick" />
-      <property name="Group" value="Food/Cooking"/>
+      <property name="DisplayType" value="foodRaw"/>
+      <property name="CustomIcon" value="hgChickenDrumstick"/>
+      <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-      <property name="Material" value="Morganic"/>
+      <property name="Material" value="MfoodRawMeat"/>
       <property name="Stacknumber" value="50000"/>
-      <property name="EconomicValue" value="4"/>
+      <property name="EconomicValue" value="8"/>
       <property name="EconomicBundleSize" value="5"/>
       <property name="CraftingIngredientTime" value="5"/>
       <property name="Weight" value="5"/>
       <property class="Action0">
         <property name="Class" value="Eat"/>
         <property name="Delay" value="1.0"/>
+        <property name="Use_time" value="..."/>
         <property name="Sound_start" value="player_eating"/>
       </property>
-      <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10"/>
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffIllFoodPoisoning0">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="90"/>
+      <effect_group tiered="false" name="Food Tier 0">
+        <!-- Display Values -->
+        <display_value name="foodAmountAdd" value="2"/>
+        <display_value name="foodHealthAmount" value="-1"/>
+        <display_value name="dStaminaBonus" value="-1"/>
+        <display_value name="dDysenteryRisk" value=".95"/>
+
+        <!-- Effects -->
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="95"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+          <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
         </triggered_effect>
       </effect_group>
-      <property name="DescriptionKey" value="farmLifeChickenBreastDesc"/>
+      <property name="DescriptionKey" value="farmLifeChickenDrumstickDesc"/>
+    </item>
+    <item name="ChickenWing">
+      <property name="CreativeMode" value="Player"/>
+      <property name="HoldType" value="31"/>
+      <property name="DisplayType" value="foodRaw"/>
+      <property name="CustomIcon" value="Chicken Wing"/>
+      <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+      <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="MfoodRawMeat"/>
+      <property name="Stacknumber" value="50000"/>
+      <property name="EconomicValue" value="6"/>
+      <property name="EconomicBundleSize" value="5"/>
+      <property name="CraftingIngredientTime" value="5"/>
+      <property name="Weight" value="5"/>
+      <property class="Action0">
+        <property name="Class" value="Eat"/>
+        <property name="Delay" value="1.0"/>
+        <property name="Use_time" value="..."/>
+        <property name="Sound_start" value="player_eating"/>
+      </property>
+      <effect_group tiered="false" name="Food Tier 0">
+        <!-- Display Values -->
+        <display_value name="foodAmountAdd" value="1"/>
+        <display_value name="foodHealthAmount" value="-1"/>
+        <display_value name="dStaminaBonus" value="-1"/>
+        <display_value name="dDysenteryRisk" value=".95"/>
+
+        <!-- Effects -->
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="95"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+          <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+        </triggered_effect>
+      </effect_group>
+      <property name="DescriptionKey" value="farmLifeChickenWingDesc"/>
     </item>
     <item name="ChickenGiblets">
       <property name="CreativeMode" value="Player"/>
       <property name="HoldType" value="31"/>
-      <property name="DisplayType" value="food"/>
-      <property name="CustomIcon" value="hgChickenGiblets" />
-      <property name="Group" value="Food/Cooking"/>
+      <property name="DisplayType" value="foodRaw"/>
+      <property name="CustomIcon" value="hgChickenGiblets"/>
+      <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-      <property name="Material" value="Morganic"/>
+      <property name="Material" value="MfoodRawMeat"/>
       <property name="Stacknumber" value="50000"/>
       <property name="EconomicValue" value="4"/>
       <property name="EconomicBundleSize" value="5"/>
@@ -2720,16 +2825,28 @@
       <property class="Action0">
         <property name="Class" value="Eat"/>
         <property name="Delay" value="1.0"/>
+        <property name="Use_time" value="..."/>
         <property name="Sound_start" value="player_eating"/>
       </property>
-      <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10"/>
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffIllFoodPoisoning0">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="90"/>
+      <effect_group tiered="false" name="Food Tier 0">
+        <!-- Display Values -->
+        <display_value name="foodAmountAdd" value="1"/>
+        <display_value name="foodHealthAmount" value="-1"/>
+        <display_value name="dStaminaBonus" value="-1"/>
+        <display_value name="dDysenteryRisk" value=".95"/>
+
+        <!-- Effects -->
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="95"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+          <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
         </triggered_effect>
       </effect_group>
-      <property name="DescriptionKey" value="farmLifeChickenBreastDesc"/>
+      <property name="DescriptionKey" value="farmLifeChickenGibletsDesc"/>
     </item>
     <item name="Chicken Stock">
       <property name="CreativeMode" value="Player"/>
@@ -2848,6 +2965,7 @@
       <property name="CustomIcon" value="IngredientIcon" />
       <property name="DescriptionKey" value="farmLifeChickenTamaleStep5Desc" />
     </item>
+    <!-- Deprecated -->
     <item name="Chicken Wing">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
@@ -12025,8 +12143,8 @@
         <property name="Class" value="OpenBundle" />
         <property name="Delay" value="1.0" />
         <property name="Sound_start" value="harvest_animal" />
-        <property name="Create_item" value="ChickenThigh,ChickenDrumstick,ChickenGiblets"/>
-        <property name="Create_item_count" value="2,2,1"/>
+        <property name="Create_item" value="ChickenBreast,ChickenThigh,ChickenDrumstick,ChickenWing,ChickenGiblets"/>
+        <property name="Create_item_count" value="2,2,2,2,1"/>
       </property>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10" />
