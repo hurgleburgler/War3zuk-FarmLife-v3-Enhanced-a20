@@ -21,7 +21,6 @@
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="PlantGrowing.Next" value="Baby Chick"/>
       <property name="Group" value="Breeding,All"/>
-      <drop event="Destroy" name="Raw Chicken" count="1"/>
       <property name="CustomIcon" value="Fertile Egg"/>
       <property name="DescriptionKey" value="FertileEggDesc"/>
     </block>
@@ -40,7 +39,7 @@
       <property name="Model" value="#@modfolder:Resources/ChickenPlant.unity3d?ChickenPlantPrefab2"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="PlantGrowing.Next" value="Mature Chicken"/>
-      <drop event="Destroy" name="Raw Chicken" count="1"/>
+      <drop event="Destroy" name="ChickenBreast" count="1"/>
       <property name="FilterTags" value="fother"/>
       <property name="DescriptionKey" value="BabyChickDesc"/>
     </block>
@@ -50,12 +49,9 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/ChickenPlant.unity3d?ChickenPlantPrefab3"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-      <drop event="Harvest" name="Raw Chicken" count="10" tag="wildCropsHarvest"/>
-      <drop event="Harvest" name="Chicken Breast" count="5" tag="cropHarvest"/>
-      <drop event="Harvest" name="Chicken Wing" count="5" tag="cropHarvest"/>
-      <drop event="Harvest" name="Whole Chicken" count="2" tag="cropHarvest"/>
-      <drop event="Harvest" name="resourceFeather" count="10,20" tag="cropHarvest"/>
-      <drop event="Harvest" name="foodEgg" count="10,20" tag="cropHarvest"/>
+      <drop event="Harvest" name="Whole Chicken" count="10" tag="cropHarvest,butcherHarvest"/>
+      <drop event="Harvest" name="resourceFeather" count="50" tag="cropHarvest"/>
+      <drop event="Harvest" name="foodEgg" count="0,1" tag="cropHarvest"/>
       <property name="FilterTags" value="fother"/>
       <property name="CustomIcon" value="Wild Chicken"/>
       <property name="DescriptionKey" value="WildChickenDesc"/>
@@ -5163,12 +5159,9 @@
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullChickenCoop"/>
-      <drop event="Harvest" name="Raw Chicken" count="4" tag="wildCropsHarvest"/>
-      <drop event="Harvest" name="Chicken Breast" count="2" tag="cropHarvest"/>
-      <drop event="Harvest" name="Chicken Wing" count="2" tag="cropHarvest"/>
-      <drop event="Harvest" name="Whole Chicken" count="1" tag="cropHarvest"/>
-      <drop event="Harvest" name="resourceFeather" count="4,8" tag="cropHarvest"/>
-      <drop event="Harvest" name="foodEgg" count="2,4" tag="cropHarvest"/>
+      <drop event="Harvest" name="Whole Chicken" count="10" tag="cropHarvest,butcherHarvest"/>
+      <drop event="Harvest" name="resourceFeather" count="50" tag="cropHarvest"/>
+      <drop event="Harvest" name="foodEgg" count="0,1" tag="cropHarvest"/>
       <property name="DowngradeBlock" value="Baby Chicken"/>
       <drop event="Destroy" count="0"/>
       <property name="DescriptionKey" value="AdultChickenDesc"/>

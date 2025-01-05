@@ -138,7 +138,7 @@
 
     <recipe name="Fried Rice" count="1" craft_time="180" craft_area="campfire">
       <ingredient name="White Rice" count="3"/>
-      <ingredient name="Raw Chicken Breast" count="1"/>
+      <ingredient name="ChickenBreast" count="1"/>
       <ingredient name="Raw Kobe Beef" count="1"/>
       <ingredient name="Herbs" count="1"/>
     </recipe>
@@ -641,7 +641,7 @@
     </recipe>
 
     <recipe name="Fresh Baked Chicken Breast" count="1" craft_time="15" craft_area="campfire">
-      <ingredient name="Raw Chicken Breast" count="1"/>
+      <ingredient name="ChickenBreast" count="1"/>
       <ingredient name="Herbs" count="1"/>
       <ingredient name="Heirloom Tomatoes" count="1"/>
       <ingredient name="foodCropPotato" count="1"/>
@@ -649,7 +649,7 @@
     </recipe>
 
     <recipe name="Fresh BBQ Chicken Legs" count="1" craft_time="60" craft_area="Webber Grill" craft_tool="toolCookingGrill">
-      <ingredient name="Raw Chicken Legs and Wings" count="1"/>
+      <ingredient name="ChickenDrumstick" count="2"/>
       <ingredient name="foodHoney" count="1"/>
       <ingredient name="Herbs" count="1"/>
       <ingredient name="Spices" count="1"/>
@@ -675,7 +675,7 @@
     </recipe>
 
     <recipe name="Spicy Hot Wings" count="1" craft_time="15" craft_area="Webber Grill" craft_tool="toolCookingGrill">
-      <ingredient name="Raw Chicken Legs and Wings" count="1"/>
+      <ingredient name="ChickenWing" count="2"/>
       <ingredient name="foodHoney" count="1"/>
       <ingredient name="Ground Hot Pepper" count="1"/>
       <ingredient name="Spices" count="1"/>
@@ -1515,13 +1515,14 @@
       <ingredient name="Raw Pork" count="40"/>
     </recipe>
 
-    <recipe name="Raw Chicken Breast" count="1" craft_time="5" craft_area="Chopping Board" craft_tool="Damascus Knife">
+<!--    <recipe name="ChickenBreast" count="1" craft_time="5" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="Raw Chicken" count="1"/>
-    </recipe>
+    </recipe>-->
 
-    <recipe name="Raw Chicken Legs and Wings" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
-      <ingredient name="Raw Chicken" count="5"/>
-    </recipe>
+<!--    <recipe name="Raw Chicken Legs and Wings" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
+      <ingredient name="ChickenDrumstick" count="2"/>
+      <ingredient name="ChickenWing" count="2"/>
+    </recipe>-->
 
     <recipe name="AnimalBreedingKit" count="1" craft_time="20" craft_area="Farm Table">
       <ingredient name="drugSteroids" count="5"/>
@@ -2373,7 +2374,7 @@
     </recipe>
 
     <recipe name="Chicken Stock" count="5" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Raw Chicken" count="1"/>
+      <ingredient name="Whole Chicken" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="15"/>
     </recipe>
 
@@ -3518,7 +3519,7 @@
       <ingredient name="ChickenBreast" count="4"/>
     </recipe>
     <recipe name="Sliced Chicken" count="10" craft_time="60" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
-      <ingredient name="Raw Chicken" count="1"/>
+      <ingredient name="Whole Chicken" count="1"/>
     </recipe>
     <recipe name="Sliced Ginger" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="Ginger Root" count="1"/>
@@ -3565,7 +3566,7 @@
       <ingredient name="Walnut Woodchips" count="1"/>
     </recipe>
     <recipe name="Smoked Chicken" count="1" craft_time="60" craft_area="Cold Smoker" craft_tool="Turkey Rack">
-      <ingredient name="Raw Chicken" count="1"/>
+      <ingredient name="Whole Chicken" count="1"/>
       <ingredient name="Apple Woodchips" count="5"/>
     </recipe>
     <recipe name="Smoked Ham" count="1" craft_time="60" craft_area="Cold Smoker" craft_tool="Meat Hanger">
@@ -3607,7 +3608,7 @@
       <ingredient name="drinkJarRiverWater" count="4"/>
       <ingredient name="Spices" count="4"/>
       <ingredient name="Heirloom Tomatoes" count="4"/>
-      <ingredient name="Raw Chicken Breast" count="4"/>
+      <ingredient name="ChickenBreast" count="4"/>
     </recipe>
     <recipe name="Spaghetti" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Pasta Helper">
       <ingredient name="Aged Wheat Flour" count="4"/>
@@ -3642,7 +3643,7 @@
       <ingredient name="Meyer Lemon" count="1"/>
     </recipe>
     <recipe name="Spicy Chicken Wings" count="10" craft_time="60" craft_area="Webber Grill" craft_tool="Tongs">
-      <ingredient name="Chicken Wing" count="10"/>
+      <ingredient name="ChickenWing" count="10"/>
       <ingredient name="Spicy BBQ Sauce" count="10"/>
       <ingredient name="Ground Hot Pepper" count="2"/>
       <ingredient name="Maple Woodchips" count="5"/>
@@ -4135,10 +4136,10 @@
       <ingredient name="Raw Mutton" count="4"/>
     </recipe>
 
-    <recipe name="Raw Chicken" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
+<!--    <recipe name="Raw Chicken" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Whole Chicken" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
-    </recipe>
+    </recipe>-->
 
     <recipe name="Sour Cream" count="10" craft_time="60" craft_area="Fermentor Bench" craft_tool="Clay Pot">
       <ingredient name="Cream" count="10"/>
@@ -4253,7 +4254,7 @@
     </recipe>
 
     <recipe name="Wild Roasted Chicken" count="1" craft_time="30" craft_area="campfire">
-      <ingredient name="Raw Chicken" count="1"/>
+      <ingredient name="Whole Chicken" count="1"/>
       <ingredient name="Herbs" count="3"/>
       <ingredient name="Spices" count="3"/>
     </recipe>
