@@ -2651,6 +2651,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="food"/>
+      <property name="CustomIcon" value="hgChickenThigh" />
       <property name="Group" value="Food/Cooking"/>
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -2678,6 +2679,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="food"/>
+      <property name="CustomIcon" value="hgChickenDrumstick" />
       <property name="Group" value="Food/Cooking"/>
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -2701,10 +2703,11 @@
       </effect_group>
       <property name="DescriptionKey" value="farmLifeChickenBreastDesc"/>
     </item>
-    <item name="Chicken Giblets">
+    <item name="ChickenGiblets">
       <property name="CreativeMode" value="Player"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="food"/>
+      <property name="CustomIcon" value="hgChickenGiblets" />
       <property name="Group" value="Food/Cooking"/>
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
