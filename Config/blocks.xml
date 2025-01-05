@@ -107,7 +107,7 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/CattlePlant.unity3d?CattlePlantPrefab2"/>
       <property name="DisplayType" value="blockMulti"/>
-      <property name="MultiBlockDim" value="7,2,7"/>
+      <property name="MultiBlockDim" value="5,2,5"/>
       <property name="BigDecorationRadius" value="3"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="PlantGrowing.Next" value="Mature Cow"/>
@@ -121,7 +121,7 @@
       <property name="Material" value="Manimal"/>
       <property name="Model" value="#@modfolder:Resources/CattlePlant.unity3d?CattlePlantPrefab3"/>
       <property name="DisplayType" value="blockMulti"/>
-      <property name="MultiBlockDim" value="7,2,7"/>
+      <property name="MultiBlockDim" value="5,2,5"/>
       <property name="BigDecorationRadius" value="3"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <drop event="Harvest" name="Raw Beef" count="80" tag="wildCropsHarvest"/>
@@ -137,7 +137,7 @@
       <property name="HeatMapFrequency" value="20"/>
       <property name="MaxDamage" value="1"/>
       <property name="DisplayType" value="blockMulti"/>
-      <property name="MultiBlockDim" value="7,2,7"/>
+      <property name="MultiBlockDim" value="5,2,5"/>
       <property name="Material" value="Manimal"/>
       <property name="CreativeMode" value="Player"/>
       <drop event="Harvest" name="Raw Beef" count="80" tag="wildCropsHarvest,butcherHarvest"/>
