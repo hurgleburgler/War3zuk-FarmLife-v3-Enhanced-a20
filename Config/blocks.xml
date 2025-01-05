@@ -49,7 +49,7 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/ChickenPlant.unity3d?ChickenPlantPrefab3"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-      <drop event="Harvest" name="Whole Chicken" count="10" tag="cropHarvest,butcherHarvest"/>
+      <drop event="Harvest" name="WholeChicken" count="10" tag="cropHarvest,butcherHarvest"/>
       <drop event="Harvest" name="resourceFeather" count="50" tag="cropHarvest"/>
       <drop event="Harvest" name="foodEgg" count="0,1" tag="cropHarvest"/>
       <property name="FilterTags" value="fother"/>
@@ -67,7 +67,7 @@
       <property name="MultiBlockDim" value="3,1,3"/>
       <property name="Material" value="Manimal"/>
       <property name="CreativeMode" value="Player"/>
-      <drop event="Harvest" name="Whole Chicken" count="10" tag="cropHarvest,butcherHarvest"/>
+      <drop event="Harvest" name="WholeChicken" count="10" tag="cropHarvest,butcherHarvest"/>
       <drop event="Harvest" name="resourceFeather" count="50" tag="cropHarvest"/>
       <drop event="Harvest" name="foodEgg" count="0,1" tag="cropHarvest"/>
       <property name="FilterTags" value="fother"/>
@@ -5159,7 +5159,7 @@
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullChickenCoop"/>
-      <drop event="Harvest" name="Whole Chicken" count="10" tag="cropHarvest,butcherHarvest"/>
+      <drop event="Harvest" name="WholeChicken" count="10" tag="cropHarvest,butcherHarvest"/>
       <drop event="Harvest" name="resourceFeather" count="50" tag="cropHarvest"/>
       <drop event="Harvest" name="foodEgg" count="0,1" tag="cropHarvest"/>
       <property name="DowngradeBlock" value="Baby Chicken"/>

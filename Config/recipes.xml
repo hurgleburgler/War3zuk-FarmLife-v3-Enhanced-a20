@@ -136,7 +136,7 @@
       <ingredient name="Cheese" count="1"/>
     </recipe>
 
-    <recipe name="Fried Rice" count="1" craft_time="180" craft_area="campfire">
+    <recipe name="FriedRice" count="1" craft_time="180" craft_area="campfire">
       <ingredient name="White Rice" count="3"/>
       <ingredient name="ChickenBreast" count="1"/>
       <ingredient name="Raw Kobe Beef" count="1"/>
@@ -640,7 +640,7 @@
       <ingredient name="Butter" count="1"/>
     </recipe>
 
-    <recipe name="Fresh Baked Chicken Breast" count="1" craft_time="15" craft_area="campfire">
+    <recipe name="BakedChickenBreast" count="1" craft_time="15" craft_area="campfire">
       <ingredient name="ChickenBreast" count="1"/>
       <ingredient name="Herbs" count="1"/>
       <ingredient name="Heirloom Tomatoes" count="1"/>
@@ -648,7 +648,7 @@
       <ingredient name="Iceberg Lettuce" count="1"/>
     </recipe>
 
-    <recipe name="Fresh BBQ Chicken Legs" count="1" craft_time="60" craft_area="Webber Grill" craft_tool="toolCookingGrill">
+    <recipe name="BBQChickenLegs" count="1" craft_time="60" craft_area="Webber Grill" craft_tool="toolCookingGrill">
       <ingredient name="ChickenDrumstick" count="2"/>
       <ingredient name="foodHoney" count="1"/>
       <ingredient name="Herbs" count="1"/>
@@ -674,7 +674,7 @@
       <ingredient name="Butter" count="1"/>
     </recipe>
 
-    <recipe name="Spicy Hot Wings" count="1" craft_time="15" craft_area="Webber Grill" craft_tool="toolCookingGrill">
+    <recipe name="SpicyHotWings" count="1" craft_time="15" craft_area="Webber Grill" craft_tool="toolCookingGrill">
       <ingredient name="ChickenWing" count="2"/>
       <ingredient name="foodHoney" count="1"/>
       <ingredient name="Ground Hot Pepper" count="1"/>
@@ -2373,8 +2373,8 @@
       <ingredient name="Shredded Lettuce" count="1"/>
     </recipe>
 
-    <recipe name="Chicken Stock" count="5" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Whole Chicken" count="1"/>
+    <recipe name="ChickenStock" count="5" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
+      <ingredient name="WholeChicken" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="15"/>
     </recipe>
 
@@ -2388,7 +2388,7 @@
       <ingredient name="Minced Garlic" count="2"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="5"/>
-      <ingredient name="Pulled Chicken" count="5"/>
+      <ingredient name="PulledChicken" count="5"/>
     </recipe>
 
     <recipe name="Chicken Tamale Step 2" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Mixing Bowl">
@@ -2413,7 +2413,7 @@
     <recipe name="Chicken Tamale Step 5" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Chicken Tamale Step 4" count="1"/>
       <ingredient name="Corn Masa" count="2"/>
-      <ingredient name="Chicken Stock" count="2"/>
+      <ingredient name="ChickenStock" count="2"/>
       <ingredient name="Lard" count="10"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
@@ -2640,11 +2640,11 @@
       <ingredient name="Dough" count="1"/>
     </recipe>
 
-    <recipe name="Egg Noodle Soup" count="5" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
+    <recipe name="EggNoodleSoup" count="5" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Egg Noodle Soup Step 1" count="1"/>
       <ingredient name="Boiled Egg Noodles" count="1"/>
-      <ingredient name="Chicken Stock" count="5"/>
-      <ingredient name="Sliced Chicken" count="10"/>
+      <ingredient name="ChickenStock" count="5"/>
+      <ingredient name="SlicedChicken" count="10"/>
       <ingredient name="Salt and Pepper" count="1"/>
     </recipe>
 
@@ -2823,7 +2823,7 @@
     </recipe>
 
     <recipe name="Grandma's Omelette Step 1" count="1" craft_time="60" craft_area="Chopping Board">
-      <ingredient name="Pulled Chicken" count="3"/>
+      <ingredient name="PulledChicken" count="3"/>
       <ingredient name="Diced Ham" count="3"/>
       <ingredient name="Sliced Broccoli" count="3"/>
       <ingredient name="Swiss Cheese" count="3"/>
@@ -3220,7 +3220,7 @@
       <ingredient name="Milk" count="5"/>
       <ingredient name="Briney Water" count="1"/>
     </recipe>
-    <recipe name="Parmesan Crusted Chicken" count="2" craft_time="60" craft_area="Webber Grill" craft_tool="Spatula">
+    <recipe name="ParmesanCrustedChicken" count="2" craft_time="60" craft_area="Webber Grill" craft_tool="Spatula">
       <ingredient name="ChickenBreast" count="2"/>
       <ingredient name="Parmesan" count="2"/>
       <ingredient name="foodEgg" count="1"/>
@@ -3301,8 +3301,8 @@
       <ingredient name="Pork Chimichanga Step 1" count="1"/>
       <ingredient name="Olive Oil" count="1"/>
     </recipe>
-    <recipe name="Pulled Chicken" count="15" craft_time="60" craft_area="Chopping Board">
-      <ingredient name="Smoked Chicken" count="2"/>
+    <recipe name="PulledChicken" count="15" craft_time="60" craft_area="Chopping Board">
+      <ingredient name="SmokedChicken" count="2"/>
     </recipe>
     <recipe name="Pulled Pork" count="10" craft_time="60" craft_area="Chopping Board">
       <ingredient name="Smoked Pork Ribs" count="1"/>
@@ -3374,7 +3374,7 @@
     </recipe>
     <recipe name="Risotto" count="1" craft_time="60" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Risotto Step 4" count="1"/>
-      <ingredient name="Chicken Stock" count="4"/>
+      <ingredient name="ChickenStock" count="4"/>
       <ingredient name="Parmesan" count="1"/>
     </recipe>
     <recipe name="Risotto Step 1" count="1" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
@@ -3515,11 +3515,11 @@
     <recipe name="Sliced Broccoli" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="Broccoli" count="3"/>
     </recipe>
-    <recipe name="Sliced Chicken" count="10" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
-      <ingredient name="ChickenBreast" count="4"/>
+    <recipe name="SlicedChicken" count="10" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
+      <ingredient name="ChickenBreast" count="3"/>
     </recipe>
-    <recipe name="Sliced Chicken" count="10" craft_time="60" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
-      <ingredient name="Whole Chicken" count="1"/>
+    <recipe name="SlicedChicken" count="10" craft_time="60" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
+      <ingredient name="WholeChicken" count="1"/>
     </recipe>
     <recipe name="Sliced Ginger" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="Ginger Root" count="1"/>
@@ -3565,8 +3565,8 @@
       <ingredient name="Apple Woodchips" count="4"/>
       <ingredient name="Walnut Woodchips" count="1"/>
     </recipe>
-    <recipe name="Smoked Chicken" count="1" craft_time="60" craft_area="Cold Smoker" craft_tool="Turkey Rack">
-      <ingredient name="Whole Chicken" count="1"/>
+    <recipe name="SmokedChicken" count="1" craft_time="60" craft_area="Cold Smoker" craft_tool="Turkey Rack">
+      <ingredient name="WholeChicken" count="1"/>
       <ingredient name="Apple Woodchips" count="5"/>
     </recipe>
     <recipe name="Smoked Ham" count="1" craft_time="60" craft_area="Cold Smoker" craft_tool="Meat Hanger">
@@ -3603,7 +3603,7 @@
       <ingredient name="Whole Turkey" count="1"/>
       <ingredient name="Apple Woodchips" count="5"/>
     </recipe>
-    <recipe name="Soup" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
+    <recipe name="ChickenSoup" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Herbs" count="5"/>
       <ingredient name="drinkJarRiverWater" count="4"/>
       <ingredient name="Spices" count="4"/>
@@ -3632,7 +3632,7 @@
     </recipe>
     <recipe name="Spanish Rice Step 2" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Spanish Rice Step 1" count="1"/>
-      <ingredient name="Chicken Stock" count="1"/>
+      <ingredient name="ChickenStock" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="2"/>
       <ingredient name="Minced Garlic" count="1"/>
     </recipe>
@@ -3642,7 +3642,7 @@
       <ingredient name="Cooking Vinegar" count="1"/>
       <ingredient name="Meyer Lemon" count="1"/>
     </recipe>
-    <recipe name="Spicy Chicken Wings" count="10" craft_time="60" craft_area="Webber Grill" craft_tool="Tongs">
+    <recipe name="SpicyChickenWings" count="10" craft_time="60" craft_area="Webber Grill" craft_tool="Tongs">
       <ingredient name="ChickenWing" count="10"/>
       <ingredient name="Spicy BBQ Sauce" count="10"/>
       <ingredient name="Ground Hot Pepper" count="2"/>
@@ -4137,7 +4137,7 @@
     </recipe>
 
 <!--    <recipe name="Raw Chicken" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Whole Chicken" count="1"/>
+      <ingredient name="WholeChicken" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
     </recipe>-->
 
@@ -4202,7 +4202,7 @@
 
     <recipe name="Chicken Nachos" count="1" craft_time="60" craft_area="Chopping Board">
       <ingredient name="Chicken Nachos Step 1" count="1"/>
-      <ingredient name="Pulled Chicken" count="2"/>
+      <ingredient name="PulledChicken" count="2"/>
       <ingredient name="Shredded Cheddar" count="1"/>
       <ingredient name="Tortillas Chips" count="5"/>
       <ingredient name="Sour Cream" count="1"/>
@@ -4253,8 +4253,8 @@
       <ingredient name="Sausage Gravy" count="1"/>
     </recipe>
 
-    <recipe name="Wild Roasted Chicken" count="1" craft_time="30" craft_area="campfire">
-      <ingredient name="Whole Chicken" count="1"/>
+    <recipe name="RoastedChicken" count="1" craft_time="30" craft_area="campfire">
+      <ingredient name="WholeChicken" count="1"/>
       <ingredient name="Herbs" count="3"/>
       <ingredient name="Spices" count="3"/>
     </recipe>

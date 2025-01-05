@@ -1,7 +1,19 @@
 <configs>
 	
     <append xpath="/buffs">
-		
+
+        <buff name="buffSalmonellaRisk" hidden="true">
+            <stack_type value="ignore"/>
+            <duration value=".1"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="95"/>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDysenteryCatchFood">
+                    <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+                </triggered_effect>
+            </effect_group>
+        </buff>
+
         <buff name="Accidental Varietal" name_key="Accidental Varietal" description_key="Dark fruits and a hint of vanilla. Bonus to traders and being around my friends." icon="ui_game_symbol_beer">
             <damage_type value="disease"/>
             <stack_type value="duration"/>
