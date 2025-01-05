@@ -12021,13 +12021,13 @@
         <property name="Delay" value="1.0" />
         <property name="Sound_start" value="player_eating" />
       </property>
-<!--      <property class="Action1">
+      <property class="Action1">
         <property name="Class" value="OpenBundle" />
         <property name="Delay" value="1.0" />
         <property name="Sound_start" value="harvest_animal" />
-        <property name="Create_item" value="Chicken Breast,ChickenThigh,ChickenDrumstick,ChickenGiblets"/>
-        <property name="Create_item_count" value="2,2,2,1"/>
-      </property>-->
+        <property name="Create_item" value="ChickenThigh,ChickenDrumstick,ChickenGiblets"/>
+        <property name="Create_item_count" value="2,2,1"/>
+      </property>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0" />
