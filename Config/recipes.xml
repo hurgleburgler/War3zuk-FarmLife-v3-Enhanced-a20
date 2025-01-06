@@ -3518,9 +3518,6 @@
     <recipe name="SlicedChicken" count="10" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="ChickenBreast" count="3"/>
     </recipe>
-    <recipe name="SlicedChicken" count="10" craft_time="60" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
-      <ingredient name="WholeChicken" count="1"/>
-    </recipe>
     <recipe name="Sliced Ginger" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="Ginger Root" count="1"/>
     </recipe>

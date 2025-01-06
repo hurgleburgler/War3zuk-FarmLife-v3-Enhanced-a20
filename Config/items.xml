@@ -38,7 +38,7 @@
       <property name="Extends" value="baseRawChicken"/>
       <property name="DisplayType" value="foodRaw"/>
       <property name="CustomIcon" value="Whole Chicken"/>
-      <property class="Action0">
+      <property class="Action1">
         <property name="Class" value="OpenBundle"/>
         <property name="Delay" value="0.0"/>
         <property name="Sound_start" value="harvest_animal"/>
