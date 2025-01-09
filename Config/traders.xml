@@ -1,6 +1,6 @@
 <configs>
-	
-    <append xpath="/traders/trader_item_groups/trader_item_group[@name='seeds']">
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='seeds']">
 		<item name="Barley Seed"/>
 		<item name="Basil Seed"/>
 		<item name="Beet Seed"/>
@@ -22,13 +22,13 @@
 		<item name="FloralHops Seed"/>
 		<item name="Garlic Seed"/>
 		<item name="GhostPepper Seed"/>
-		<item name="Ginger Seed"/>        
+		<item name="Ginger Seed"/>
 		<item name="GreenBean Seed"/>
 		<item name="Habanero Seed"/>
 		<item name="HeirloomTomato Seed"/>
 		<item name="Herb Seed"/>
 		<item name="IcebergLettuce Seed"/>
-		<item name="Jalapeno Seed"/>		
+		<item name="Jalapeno Seed"/>
 		<item name="KidneyBean Seed"/>
 		<item name="Marijuana Seed"/>
 		<item name="Mint Seed"/>
@@ -57,6 +57,12 @@
 		<item name="Tomato Seed"/>
 		<item name="VineyardGrape Seed"/>
 		<item name="Wheat Seed"/>
-    </append>
-	
+	</append>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodVending']">
+		<item name="Graham Cracker Box" count="1" prob="0.1"/>
+		<item name="Marshmallow Bag" count="1" prob="0.1"/>
+		<item name="Chocolate Bar" count="1" prob="0.1"/>
+	</append>
+
 </configs>
