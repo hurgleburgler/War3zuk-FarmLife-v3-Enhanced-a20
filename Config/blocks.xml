@@ -3072,13 +3072,10 @@
       <property name="Extends" value="cropsHarvestableMaster"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
-      <drop event="Harvest" name="Sugar Cane" count="1" tag="wildCropsHarvest"/>
-      <drop event="Harvest" name="Sugarcane Stalk" count="1" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Sugar Cane" count="2" tag="wildCropsHarvest"/>
       <property name="Class" value="CropsGrown"/>
       <property name="Create_item" value="Sugar Cane"/>
-      <property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
-      <property name="Create_item" value="Sugarcane Stalk"/>
-      <property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+      <property name="Create_item_count" count="2" tag="wildCropsHarvest"/>
       <property name="DescriptionKey" value="SugarCanePlantDesc"/>
     </block>
     <block name="plantedSugarCaneHarvestRandomHelper">
@@ -3095,8 +3092,7 @@
       <property name="DescriptionKey" value="farmLifeSugarCaneDesc"/>
       <property name="CustomIcon" value="Sugar Cane Seed"/>
       <property name="CreativeMode" value="None"/>
-      <drop event="Harvest" name="Sugar Cane" count="1" tag="cropHarvest"/>
-      <drop event="Harvest" name="Sugarcane Stalk" count="1" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Sugar Cane" count="2" tag="cropHarvest"/>
       <property name="DowngradeBlock" value="SugarCane Growing 1"/>
     </block><!-- Sunflower -->
     <block name="Sunflower Seed">
@@ -4918,6 +4914,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Red Apples" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Apple Wood Plank" count="4" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Red Apple Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
