@@ -675,9 +675,9 @@
       <property name="DescriptionKey" value="farmLifeWoodPlanterDesc"/>
       <property name="Group" value="Resources,All"/>
     </block>
-    <!--==========================================================-->
+    <!--==========================================================
     PLANTS
-    <!--==========================================================-->
+    ==========================================================-->
     <block name="Barley Seed">
       <property name="Extends" value="cropsGrowingMaster"/>
       <property name="CustomIcon" value="Barley Seed"/>
@@ -4431,13 +4431,15 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="1,7,1"/>
+      <!--<property name="MultiBlockDim" value="1,7,1"/>-->
+      <property name="MultiBlockDim" value="2,7,2"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Apple" count="4" tag="wildCropsHarvest"/>
       <drop event="Harvest" name="Apple Wood Plank" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Apple Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Apple Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4466,7 +4468,8 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="1,7,1"/>
+     <!-- <property name="MultiBlockDim" value="1,7,1"/>-->
+      <property name="MultiBlockDim" value="2,7,1"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="12"/>
       <property name="FallOver" value="false"/>
@@ -4475,6 +4478,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Avocado" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Avocado Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Avocado Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4505,7 +4509,8 @@
       <property name="Model" value="#@modfolder:Resources/hgBananaTree.unity3d?BananaTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="5,5,2"/>
+      <!--<property name="MultiBlockDim" value="5,5,2"/>-->
+      <property name="MultiBlockDim" value="2,5,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4514,6 +4519,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Banana" count="20" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Banana Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Banana Sapling"/>
       <property name="MaxDamage" value="2000"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4545,7 +4551,8 @@
       <property name="Model" value="#@modfolder:Resources/hgCherryTree.unity3d?CherryTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="3,5,1"/>
+      <!--<property name="MultiBlockDim" value="3,5,1"/>-->
+      <property name="MultiBlockDim" value="2,5,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4555,6 +4562,7 @@
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Cherry" count="4" tag="wildCropsHarvest"/>
       <drop event="Harvest" name="Cherry Wood Plank" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Cherry Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Cherry Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4586,7 +4594,8 @@
       <property name="Model" value="#@modfolder:Resources/hgCinnamonTree.unity3d?CinnamonTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="3,4,1"/>
+      <!--<property name="MultiBlockDim" value="3,4,1"/>-->
+      <property name="MultiBlockDim" value="2,4,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4595,6 +4604,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Cinnamon Bark" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Cinnamon Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Cinnamon Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4626,7 +4636,8 @@
       <property name="Model" value="#@modfolder:Resources/hgPalmTree.unity3d?PalmTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="1,13,1"/>
+      <!--<property name="MultiBlockDim" value="1,13,1"/>-->
+      <property name="MultiBlockDim" value="2,13,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4635,6 +4646,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Coconut" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Coconut Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Coconut Sapling"/>
       <property name="MaxDamage" value="1000"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4666,7 +4678,8 @@
       <property name="Model" value="#@modfolder:Resources/hgLimeTree.unity3d?LimeTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="3,4,1"/>
+      <!--<property name="MultiBlockDim" value="3,4,1"/>-->
+      <property name="MultiBlockDim" value="2,4,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4675,6 +4688,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Lime" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Lime Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Lime Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4706,7 +4720,8 @@
       <property name="Model" value="#@modfolder:Resources/hgLemonTree.unity3d?LemonTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="3,7,1"/>
+      <!--<property name="MultiBlockDim" value="3,7,1"/>-->
+      <property name="MultiBlockDim" value="2,7,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4715,6 +4730,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Meyer Lemon" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Meyer Lemon Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Meyer Lemon Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4746,7 +4762,8 @@
       <property name="Model" value="#@modfolder:Resources/hgChestnutTree.unity3d?ChestnutTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="9,15,1"/>
+      <!--<property name="MultiBlockDim" value="9,15,1"/>-->
+      <property name="MultiBlockDim" value="3,15,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4755,6 +4772,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="300" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Nuts" count="50" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Nut Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Nut Sapling"/>
       <property name="MaxDamage" value="5000"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4786,7 +4804,8 @@
       <property name="Model" value="#@modfolder:Resources/hgOliveTree.unity3d?OliveTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="7,9,1"/>
+      <!--<property name="MultiBlockDim" value="7,9,1"/>-->
+      <property name="MultiBlockDim" value="3,9,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4795,6 +4814,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="150" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Olive" count="20" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Olive Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Olive Sapling"/>
       <property name="MaxDamage" value="3000"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4826,7 +4846,8 @@
       <property name="Model" value="#@modfolder:Resources/hgOrangeTree.unity3d?OrangeTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="3,8,1"/>
+      <!--<property name="MultiBlockDim" value="3,8,1"/>-->
+      <property name="MultiBlockDim" value="2,8,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4835,6 +4856,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Orange" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Orange Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Orange Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4865,7 +4887,8 @@
       <property name="Model" value="#@modfolder:Resources/hgPearTree.unity3d?PearTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="1,7,1"/>
+      <!--<property name="MultiBlockDim" value="1,7,1"/>-->
+      <property name="MultiBlockDim" value="2,7,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4874,6 +4897,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Pear" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Pear Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Pear Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4905,7 +4929,8 @@
       <property name="Model" value="#@modfolder:Resources/hgRedAppleTree.unity3d?RedAppleTreePrefab"/>
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="5,8,1"/>
+      <!--<property name="MultiBlockDim" value="5,8,1"/>-->
+      <property name="MultiBlockDim" value="2,8,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4915,6 +4940,7 @@
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Red Apples" count="4" tag="wildCropsHarvest"/>
       <drop event="Harvest" name="Apple Wood Plank" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Red Apple Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Red Apple Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4944,7 +4970,8 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="1,7,1"/>
+      <!--<property name="MultiBlockDim" value="1,7,1"/>-->
+      <property name="MultiBlockDim" value="2,7,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4953,6 +4980,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Ume" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Sakura Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Sakura Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -4983,7 +5011,8 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgMapleTree.unity3d?MapleTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="3,8,1"/>
+      <!--<property name="MultiBlockDim" value="3,8,1"/>-->
+      <property name="MultiBlockDim" value="2,8,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4993,6 +5022,7 @@
       <drop event="Harvest" name="resourceWood" count="100" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Maple Sap" count="10" tag="wildCropsHarvest"/>
       <drop event="Harvest" name="Maple Wood Plank" count="10" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Sugar Maple Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Sugar Maple Sapling"/>
       <property name="MaxDamage" value="2000"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -5022,7 +5052,8 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgWalnutTree.unity3d?WalnutTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="3,4,1"/>
+      <!--<property name="MultiBlockDim" value="3,4,1"/>-->
+      <property name="MultiBlockDim" value="2,4,2"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -5032,6 +5063,7 @@
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="Walnut" count="4" tag="wildCropsHarvest"/>
       <drop event="Harvest" name="Walnut Wood Plank" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Walnut Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="Walnut Sapling"/>
       <property name="MaxDamage" value="500"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -5061,7 +5093,8 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/hgOakTree.unity3d?OakTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
-      <property name="MultiBlockDim" value="5,25,5"/>
+      <!--<property name="MultiBlockDim" value="5,25,5"/>-->
+      <property name="MultiBlockDim" value="4,25,4"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -5070,6 +5103,7 @@
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
       <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
       <drop event="Harvest" name="White Oak Plank" count="4" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="White Oak Tree Seed" count="1" tag="wildCropsHarvest"/>
       <property name="DowngradeBlock" value="White Oak Sapling"/>
       <property name="MaxDamage" value="10000"/>
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -5091,6 +5125,212 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
       <property name="DescriptionKey" value="WhiteOakSaplingDesc"/>
     </block>
+
+    <!-- Tree Seed Blocks -->
+    <block name="Apple Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="7appleseed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Apple Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Apple Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="AppleTreeSeedDesc"/>
+    </block>
+
+    <block name="Avocado Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Avocado Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Avocado Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Avocado Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="AvocadoTreeSeedDesc"/>
+    </block>
+
+    <block name="Banana Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Banana Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Banana Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Banana Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="BananaTreeSeedDesc"/>
+    </block>
+
+    <block name="Cherry Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Cherry Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Cherry Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Cherry Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="CherryTreeSeedDesc"/>
+    </block>
+
+    <block name="Cinnamon Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Cinnamon Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Cinnamon Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Cinnamon Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="CinnamonTreeSeedDesc"/>
+    </block>
+
+    <block name="Coconut Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Coconut Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Coconut Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Coconut Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="CoconutTreeSeedDesc"/>
+    </block>
+
+    <block name="Lime Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Lime Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Lime Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Lime Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="LimeTreeSeedDesc"/>
+    </block>
+
+    <block name="Meyer Lemon Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Meyer Lemon Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Meyer Lemon Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Meyer Lemon Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="MeyerLemonTreeSeedDesc"/>
+    </block>
+
+    <block name="Nut Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="7Nutseed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Nut Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Nut Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="NutTreeSeedDesc"/>
+    </block>
+
+    <block name="Olive Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Olive Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Olive Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Olive Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="OliveTreeSeedDesc"/>
+    </block>
+
+    <block name="Orange Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Orange Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Orange Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Orange Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="OrangeTreeSeedDesc"/>
+    </block>
+
+    <block name="Pear Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Pear Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Pear Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Pear Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="PearTreeSeedDesc"/>
+    </block>
+
+    <block name="Red Apple Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Red Apple Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Red Apple Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Red Apple Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="RedAppleTreeSeedDesc"/>
+    </block>
+
+    <block name="Sakura Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Sakura Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Sakura Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Sakura Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="SakuraTreeSeedDesc"/>
+    </block>
+
+    <block name="Sugar Maple Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Sugar Maple Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Sugar Maple Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Sugar Maple Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="SugarMapleTreeSeedDesc"/>
+    </block>
+
+    <block name="Walnut Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="Walnut Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="Walnut Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="Walnut Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="WalnutTreeSeedDesc"/>
+    </block>
+
+    <block name="White Oak Tree Seed">
+      <property name="Extends" value="cropsGrowingMaster"/>
+      <property name="CustomIcon" value="White Oak Seed"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="PlantGrowing.Next" value="White Oak Sapling"/>
+      <property name="Group" value="Food/Cooking,Seeds"/>
+      <drop event="Destroy" name="White Oak Tree Seed" count="1"/>
+      <property name="DescriptionKey" value="WhiteOakTreeSeedDesc"/>
+    </block>
+
     <!-- STATIONARY ANIMALS -->
     <block name="Baby Chicken">
       <property name="CustomIcon" value="Hungry Chicken Coop"/>
