@@ -5137,6 +5137,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Apple Tree Seed" count="1"/>
       <property name="DescriptionKey" value="AppleTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Avocado Tree Seed">
@@ -5149,6 +5150,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Avocado Tree Seed" count="1"/>
       <property name="DescriptionKey" value="AvocadoTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Banana Tree Seed">
@@ -5161,6 +5163,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Banana Tree Seed" count="1"/>
       <property name="DescriptionKey" value="BananaTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Cherry Tree Seed">
@@ -5173,6 +5176,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Cherry Tree Seed" count="1"/>
       <property name="DescriptionKey" value="CherryTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Cinnamon Tree Seed">
@@ -5185,6 +5189,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Cinnamon Tree Seed" count="1"/>
       <property name="DescriptionKey" value="CinnamonTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Coconut Tree Seed">
@@ -5197,6 +5202,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Coconut Tree Seed" count="1"/>
       <property name="DescriptionKey" value="CoconutTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Lime Tree Seed">
@@ -5209,6 +5215,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Lime Tree Seed" count="1"/>
       <property name="DescriptionKey" value="LimeTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Meyer Lemon Tree Seed">
@@ -5221,6 +5228,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Meyer Lemon Tree Seed" count="1"/>
       <property name="DescriptionKey" value="MeyerLemonTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Nut Tree Seed">
@@ -5233,6 +5241,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Nut Tree Seed" count="1"/>
       <property name="DescriptionKey" value="NutTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Olive Tree Seed">
@@ -5245,6 +5254,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Olive Tree Seed" count="1"/>
       <property name="DescriptionKey" value="OliveTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Orange Tree Seed">
@@ -5257,6 +5267,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Orange Tree Seed" count="1"/>
       <property name="DescriptionKey" value="OrangeTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Pear Tree Seed">
@@ -5269,6 +5280,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Pear Tree Seed" count="1"/>
       <property name="DescriptionKey" value="PearTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Red Apple Tree Seed">
@@ -5281,6 +5293,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Red Apple Tree Seed" count="1"/>
       <property name="DescriptionKey" value="RedAppleTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Sakura Tree Seed">
@@ -5293,6 +5306,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Sakura Tree Seed" count="1"/>
       <property name="DescriptionKey" value="SakuraTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Sugar Maple Tree Seed">
@@ -5305,6 +5319,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Sugar Maple Tree Seed" count="1"/>
       <property name="DescriptionKey" value="SugarMapleTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="Walnut Tree Seed">
@@ -5317,6 +5332,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Walnut Tree Seed" count="1"/>
       <property name="DescriptionKey" value="WalnutTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <block name="White Oak Tree Seed">
@@ -5329,6 +5345,7 @@
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="White Oak Tree Seed" count="1"/>
       <property name="DescriptionKey" value="WhiteOakTreeSeedDesc"/>
+      <property name="PlantGrowing.FertileLevel" value="1"/>
     </block>
 
     <!-- STATIONARY ANIMALS -->
@@ -5708,7 +5725,7 @@
       <drop event="Destroy" count="0"/>
       <property name="DescriptionKey" value="AdultElkDesc"/>
     </block>
-    <block name="Baby Veal Calf">
+    <block name="Baby Veal Calve">
       <property name="CustomIcon" value="Hungry Veal Pen"/>
       <property name="Extends" value="cropsGrowingMaster"/>
       <property name="Class" value="PlantGrowing"/>
@@ -5725,7 +5742,7 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryVealPenPrefab"/>
       <property name="DescriptionKey" value="farmLifeHungryVealPenDesc"/>
-      <property name="PlantGrowing.Next" value="Maturing Veal Calf"/>
+      <property name="PlantGrowing.Next" value="Maturing Veal Calve"/>
       <property name="PlantGrowing.GrowthRate" value="62"/>
       <property name="PlantGrowing.IsRandom" value="false"/>
       <property name="PlantGrowing.LightLevelGrow" value="0"/>
@@ -5735,9 +5752,9 @@
       <drop event="Harvest" name="resourceWood" count="20" prob="1"/>
       <drop event="Destroy" count="0"/>
     </block>
-    <block name="Maturing Veal Calf">
+    <block name="Maturing Veal Calve">
       <property name="CustomIcon" value="Hungry Veal Pen"/>
-      <property name="Extends" value="Baby Veal Calf"/>
+      <property name="Extends" value="Baby Veal Calve"/>
       <property name="Class" value="PlantGrowing"/>
       <property name="CreativeMode" value="Dev"/>
       <property name="DisplayInfo" value="Name"/>
@@ -5751,7 +5768,7 @@
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingVealPenPrefab"/>
-      <property name="PlantGrowing.Next" value="Adult Veal Calf"/>
+      <property name="PlantGrowing.Next" value="Adult Veal Calve"/>
       <property name="PlantGrowing.GrowthRate" value="62"/>
       <property name="PlantGrowing.IsRandom" value="false"/>
       <property name="PlantGrowing.LightLevelGrow" value="0"/>
@@ -5759,9 +5776,9 @@
       <property name="PlantGrowing.FertileLevel" value="0"/>
       <drop event="Harvest" name="resourceWood" count="20" prob="1"/>
       <drop event="Destroy" count="0"/>
-      <property name="DescriptionKey" value="MaturingVealCalfDesc"/>
+      <property name="DescriptionKey" value="MaturingVealCalveDesc"/>
     </block>
-    <block name="Adult Veal Calf">
+    <block name="Adult Veal Calve">
       <property name="CustomIcon" value="Hungry Veal Pen"/>
       <property name="CreativeMode" value="Dev"/>
       <property name="DisplayInfo" value="Name"/>
@@ -5780,9 +5797,9 @@
       <drop event="Harvest" name="Calf Stomache" count="1" tag="cropHarvest"/>
       <drop event="Harvest" name="resourceBone" count="4,8" tag="cropHarvest"/>
       <drop event="Harvest" name="resourceAnimalFat" count="2,4" tag="cropHarvest"/>
-      <property name="DowngradeBlock" value="Baby Veal Calf"/>
+      <property name="DowngradeBlock" value="Baby Veal Calve"/>
       <drop event="Destroy" count="0"/>
-      <property name="DescriptionKey" value="AdultVealCalfDesc"/>
+      <property name="DescriptionKey" value="AdultVealCalveDesc"/>
     </block>
     <block name="Baby Salmon Pond">
       <property name="CustomIcon" value="Salmon Pond"/>

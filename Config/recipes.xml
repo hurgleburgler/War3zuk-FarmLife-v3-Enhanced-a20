@@ -1719,7 +1719,7 @@
 
     <recipe name="Fermentor Bench" count="1" craft_time="10" craft_area="Farm Table">
       <ingredient name="Walnut Wood Plank" count="5"/>
-      <ingredient name="Walnut Shelf" count="5"/>
+      <ingredient name="Walnut Shelve" count="5"/>
       <ingredient name="resourceNail" count="50"/>
     </recipe>
 
@@ -1763,7 +1763,7 @@
 
     <recipe name="Aging Shelves" count="1" craft_time="10" craft_area="Farm Table">
       <ingredient name="Walnut Wood Plank" count="10"/>
-      <ingredient name="Walnut Shelf" count="7"/>
+      <ingredient name="Walnut Shelve" count="7"/>
       <ingredient name="resourceNail" count="40"/>
     </recipe>
 
@@ -1929,7 +1929,7 @@
       <ingredient name="resourceScrapPolymers" count="4"/>
     </recipe>
 
-    <recipe name="Walnut Shelf" count="1" craft_time="10" craft_area="Farm Table"> <!-- Changed from Table Saw -->
+    <recipe name="Walnut Shelve" count="1" craft_time="10" craft_area="Farm Table"> <!-- Changed from Table Saw -->
       <ingredient name="Walnut Wood Plank" count="5"/>
     </recipe>
 
@@ -4082,7 +4082,7 @@
       <ingredient name="cryogenicContainerElk" count="2"/>
     </recipe>
 
-    <recipe name="Baby Veal Calf" count="1" craft_time="300" craft_area="Cow" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
+    <recipe name="Baby Veal Calve" count="1" craft_time="300" craft_area="Cow" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
       <ingredient name="hayBaleSquare" count="10"/>
       <ingredient name="resourceWood" count="100"/>
       <ingredient name="cryogenicContainerCow" count="2"/>
