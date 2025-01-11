@@ -4432,7 +4432,7 @@
       <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="1,7,1"/>-->
-      <property name="MultiBlockDim" value="2,7,2"/>
+      <property name="MultiBlockDim" value="3,7,3"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
       <property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -4451,6 +4451,7 @@
       <property name="DisplayInfo" value="Name"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Apple Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4469,7 +4470,7 @@
       <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
       <property name="ModelOffset" value="0,0,0"/>
      <!-- <property name="MultiBlockDim" value="1,7,1"/>-->
-      <property name="MultiBlockDim" value="2,7,1"/>
+      <property name="MultiBlockDim" value="3,7,3"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="12"/>
       <property name="FallOver" value="false"/>
@@ -4490,6 +4491,7 @@
       <property name="DisplayInfo" value="Name"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Avocado Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4510,7 +4512,7 @@
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="5,5,2"/>-->
-      <property name="MultiBlockDim" value="2,5,2"/>
+      <property name="MultiBlockDim" value="3,5,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4532,6 +4534,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Banana Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4552,7 +4555,7 @@
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="3,5,1"/>-->
-      <property name="MultiBlockDim" value="2,5,2"/>
+      <property name="MultiBlockDim" value="3,5,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4575,6 +4578,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Cherry Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4595,7 +4599,7 @@
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="3,4,1"/>-->
-      <property name="MultiBlockDim" value="2,4,2"/>
+      <property name="MultiBlockDim" value="3,4,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4617,6 +4621,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Cinnamon Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4637,7 +4642,7 @@
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="1,13,1"/>-->
-      <property name="MultiBlockDim" value="2,13,2"/>
+      <property name="MultiBlockDim" value="3,13,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4659,6 +4664,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Coconut Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4679,7 +4685,7 @@
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="3,4,1"/>-->
-      <property name="MultiBlockDim" value="2,4,2"/>
+      <property name="MultiBlockDim" value="3,4,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4701,6 +4707,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Lime Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4721,7 +4728,7 @@
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="3,7,1"/>-->
-      <property name="MultiBlockDim" value="2,7,2"/>
+      <property name="MultiBlockDim" value="3,7,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4743,6 +4750,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Meyer Lemon Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4785,6 +4793,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Nut Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4827,6 +4836,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Olive Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4847,7 +4857,7 @@
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="3,8,1"/>-->
-      <property name="MultiBlockDim" value="2,8,2"/>
+      <property name="MultiBlockDim" value="3,8,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4869,6 +4879,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Orange Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4888,7 +4899,7 @@
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="1,7,1"/>-->
-      <property name="MultiBlockDim" value="2,7,2"/>
+      <property name="MultiBlockDim" value="3,7,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4910,6 +4921,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Pear Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4930,7 +4942,7 @@
       <property name="OnlySimpleRotations" value="true"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="5,8,1"/>-->
-      <property name="MultiBlockDim" value="2,8,2"/>
+      <property name="MultiBlockDim" value="3,8,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4953,6 +4965,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Red Apple Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -4971,7 +4984,7 @@
       <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="1,7,1"/>-->
-      <property name="MultiBlockDim" value="2,7,2"/>
+      <property name="MultiBlockDim" value="3,7,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -4993,6 +5006,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Sakura Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5012,7 +5026,7 @@
       <property name="Model" value="#@modfolder:Resources/hgMapleTree.unity3d?MapleTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="3,8,1"/>-->
-      <property name="MultiBlockDim" value="2,8,2"/>
+      <property name="MultiBlockDim" value="3,8,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -5035,6 +5049,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Sugar Maple Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5053,7 +5068,7 @@
       <property name="Model" value="#@modfolder:Resources/hgWalnutTree.unity3d?WalnutTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="3,4,1"/>-->
-      <property name="MultiBlockDim" value="2,4,2"/>
+      <property name="MultiBlockDim" value="3,4,3"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -5076,6 +5091,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Walnut Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5094,7 +5110,7 @@
       <property name="Model" value="#@modfolder:Resources/hgOakTree.unity3d?OakTreePrefab"/>
       <property name="ModelOffset" value="0,0,0"/>
       <!--<property name="MultiBlockDim" value="5,25,5"/>-->
-      <property name="MultiBlockDim" value="4,25,4"/>
+      <property name="MultiBlockDim" value="5,25,5"/>
       <property name="FallOver" value="false"/>
       <property name="ActivationDistance" value="12"/>
       <property name="BigDecorationRadius" value="6"/>
@@ -5116,6 +5132,7 @@
       <property name="CreativeMode" value="None"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+      <property name="MultiBlockDim" value="5,1,5"/>
       <property name="PlantGrowing.Next" value="White Oak Tree"/>
       <property name="PlantGrowing.GrowthRate" value="60"/>
       <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5133,6 +5150,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Apple Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Apple Tree Seed" count="1"/>
@@ -5146,6 +5164,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Avocado Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Avocado Tree Seed" count="1"/>
@@ -5159,6 +5178,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Banana Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Banana Tree Seed" count="1"/>
@@ -5172,6 +5192,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Cherry Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Cherry Tree Seed" count="1"/>
@@ -5185,6 +5206,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Cinnamon Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Cinnamon Tree Seed" count="1"/>
@@ -5198,6 +5220,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Coconut Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Coconut Tree Seed" count="1"/>
@@ -5211,6 +5234,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Lime Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Lime Tree Seed" count="1"/>
@@ -5224,6 +5248,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Meyer Lemon Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Meyer Lemon Tree Seed" count="1"/>
@@ -5237,6 +5262,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Nut Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Nut Tree Seed" count="1"/>
@@ -5250,6 +5276,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Olive Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Olive Tree Seed" count="1"/>
@@ -5263,6 +5290,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Orange Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Orange Tree Seed" count="1"/>
@@ -5276,6 +5304,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Pear Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Pear Tree Seed" count="1"/>
@@ -5289,6 +5318,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Red Apple Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Red Apple Tree Seed" count="1"/>
@@ -5302,6 +5332,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Sakura Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Sakura Tree Seed" count="1"/>
@@ -5315,6 +5346,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Sugar Maple Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Sugar Maple Tree Seed" count="1"/>
@@ -5328,6 +5360,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="3,1,3"/>
       <property name="PlantGrowing.Next" value="Walnut Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="Walnut Tree Seed" count="1"/>
@@ -5341,6 +5374,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+      <property name="MultiBlockDim" value="5,1,5"/>
       <property name="PlantGrowing.Next" value="White Oak Sapling"/>
       <property name="Group" value="Food/Cooking,Seeds"/>
       <drop event="Destroy" name="White Oak Tree Seed" count="1"/>
