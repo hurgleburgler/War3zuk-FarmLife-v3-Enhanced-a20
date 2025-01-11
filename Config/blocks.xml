@@ -5468,7 +5468,7 @@
       <drop event="Destroy" count="0"/>
       <property name="DescriptionKey" value="AdultElkDesc"/>
     </block>
-    <block name="Baby Veal Calve">
+    <block name="Baby Veal Calf">
       <property name="CustomIcon" value="Hungry Veal Pen"/>
       <property name="Extends" value="cropsGrowingMaster"/>
       <property name="Class" value="PlantGrowing"/>
@@ -5485,7 +5485,7 @@
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryVealPenPrefab"/>
       <property name="DescriptionKey" value="farmLifeHungryVealPenDesc"/>
-      <property name="PlantGrowing.Next" value="Maturing Veal Calve"/>
+      <property name="PlantGrowing.Next" value="Maturing Veal Calf"/>
       <property name="PlantGrowing.GrowthRate" value="62"/>
       <property name="PlantGrowing.IsRandom" value="false"/>
       <property name="PlantGrowing.LightLevelGrow" value="0"/>
@@ -5495,9 +5495,9 @@
       <drop event="Harvest" name="resourceWood" count="20" prob="1"/>
       <drop event="Destroy" count="0"/>
     </block>
-    <block name="Maturing Veal Calve">
+    <block name="Maturing Veal Calf">
       <property name="CustomIcon" value="Hungry Veal Pen"/>
-      <property name="Extends" value="Baby Veal Calve"/>
+      <property name="Extends" value="Baby Veal Calf"/>
       <property name="Class" value="PlantGrowing"/>
       <property name="CreativeMode" value="Dev"/>
       <property name="DisplayInfo" value="Name"/>
@@ -5511,7 +5511,7 @@
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingVealPenPrefab"/>
-      <property name="PlantGrowing.Next" value="Adult Veal Calve"/>
+      <property name="PlantGrowing.Next" value="Adult Veal Calf"/>
       <property name="PlantGrowing.GrowthRate" value="62"/>
       <property name="PlantGrowing.IsRandom" value="false"/>
       <property name="PlantGrowing.LightLevelGrow" value="0"/>
@@ -5519,9 +5519,9 @@
       <property name="PlantGrowing.FertileLevel" value="0"/>
       <drop event="Harvest" name="resourceWood" count="20" prob="1"/>
       <drop event="Destroy" count="0"/>
-      <property name="DescriptionKey" value="MaturingVealCalveDesc"/>
+      <property name="DescriptionKey" value="MaturingVealCalfDesc"/>
     </block>
-    <block name="Adult Veal Calve">
+    <block name="Adult Veal Calf">
       <property name="CustomIcon" value="Hungry Veal Pen"/>
       <property name="CreativeMode" value="Dev"/>
       <property name="DisplayInfo" value="Name"/>
@@ -5540,9 +5540,9 @@
       <drop event="Harvest" name="Calf Stomache" count="1" tag="cropHarvest"/>
       <drop event="Harvest" name="resourceBone" count="4,8" tag="cropHarvest"/>
       <drop event="Harvest" name="resourceAnimalFat" count="2,4" tag="cropHarvest"/>
-      <property name="DowngradeBlock" value="Baby Veal Calve"/>
+      <property name="DowngradeBlock" value="Baby Veal Calf"/>
       <drop event="Destroy" count="0"/>
-      <property name="DescriptionKey" value="AdultVealCalveDesc"/>
+      <property name="DescriptionKey" value="AdultVealCalfDesc"/>
     </block>
     <block name="Baby Salmon Pond">
       <property name="CustomIcon" value="Salmon Pond"/>
