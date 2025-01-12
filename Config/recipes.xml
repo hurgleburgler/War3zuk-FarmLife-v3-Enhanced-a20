@@ -4496,7 +4496,7 @@
       <ingredient name="Graham Cracker Box" count="1"/>
     </recipe>
 
-    <recipe name="foodCanBeefRations" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <recipe name="foodCanBeef" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
       <ingredient name="Raw Beef" count="1"/>
       <ingredient name="drinkCanEmpty" count="1"/>
       <ingredient name="foodRawMeat" count="2"/>
@@ -4506,8 +4506,18 @@
       </effect_group>
     </recipe>
 
-    <recipe name="foodCanLambRations" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <recipe name="foodCanLamb" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
       <ingredient name="Raw Lamb" count="1"/>
+      <ingredient name="drinkCanEmpty" count="1"/>
+      <ingredient name="foodRawMeat" count="2"/>
+      <ingredient name="drinkJarBoiledWater" count="1"/>
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" level="4,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+      </effect_group>
+    </recipe>
+
+    <recipe name="foodCanChicken" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+      <ingredient name="SlicedChicken" count="1"/>
       <ingredient name="drinkCanEmpty" count="1"/>
       <ingredient name="foodRawMeat" count="2"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
