@@ -125,6 +125,7 @@
       <property name="BigDecorationRadius" value="3"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <drop event="Harvest" name="Raw Beef" count="80" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Beef Fat" count="5,10" tag="cropHarvest"/>
       <property name="FilterTags" value="fother"/>
       <property name="CustomIcon" value="Wild Cattle"/>
       <property name="DescriptionKey" value="WildCattleDesc"/>
@@ -141,6 +142,7 @@
       <property name="Material" value="Manimal"/>
       <property name="CreativeMode" value="Player"/>
       <drop event="Harvest" name="Raw Beef" count="80" tag="wildCropsHarvest,butcherHarvest"/>
+      <drop event="Harvest" name="Beef Fat" count="5,10" tag="cropHarvest"/>
       <property name="FilterTags" value="fother"/>
       <property name="DescriptionKey" value="MatureCowDesc"/>
     </block>
@@ -331,6 +333,7 @@
       <property name="ModelOffset" value="0,0,0"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <drop event="Harvest" name="Horse Scraps" count="20,40" tag="cropHarvest"/>
+      <drop event="Harvest" name="Horse Fat" count="5,7" tag="cropHarvest"/>
       <drop event="Harvest" name="resourceLeather" count="5,10" tag="cropHarvest"/>
       <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
       <property name="FilterTags" value="fother"/>
@@ -349,9 +352,11 @@
       <property name="Material" value="Manimal"/>
       <property name="CreativeMode" value="Player"/>
       <drop event="Harvest" name="Horse Scraps" count="4,8" tag="cropHarvest"/>
+      <drop event="Harvest" name="Horse Fat" count="5,7" tag="cropHarvest"/>
       <drop event="Harvest" name="Horse Hide" count="1" tag="cropHarvest"/>
       <drop event="Harvest" name="resourceBone" count="4,8" tag="cropHarvest"/>
       <drop event="Harvest" name="Raw Horse Meat" count="10" tag="cropHarvest"/>
+      <drop event="Harvest" name="Horse Fat" count="5,7" tag="cropHarvest"/>
       <drop event="Harvest" name="Raw Horse Ribs" count="1" tag="cropHarvest"/>
       <property name="FilterTags" value="fother"/>
       <property name="DescriptionKey" value="MatureHorseDesc"/>
@@ -475,6 +480,7 @@
       <property name="BigDecorationRadius" value="3"/>
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <drop event="Harvest" name="Raw Mutton" count="80" tag="wildCropsHarvest"/>
+      <drop event="Harvest" name="Lamb Fat" count="2,5" tag="cropHarvest"/>
       <property name="FilterTags" value="fother"/>
       <property name="CustomIcon" value="Wild Sheep"/>
       <property name="DescriptionKey" value="WildSheepDesc"/>
@@ -491,6 +497,7 @@
       <property name="Material" value="Manimal"/>
       <property name="CreativeMode" value="Player"/>
       <drop event="Harvest" name="Raw Mutton" count="20" tag="wildCropsHarvest,butcherHarvest"/>
+      <drop event="Harvest" name="Lamb Fat" count="2,5" tag="cropHarvest"/>
       <drop event="Harvest" name="Raw Lamb" count="20" tag="wildCropsHarvest,butcherHarvest"/>
       <property name="FilterTags" value="fother"/>
       <property name="DescriptionKey" value="MatureSheepDesc"/>
