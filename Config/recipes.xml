@@ -1978,7 +1978,7 @@
 
     <recipe name="American Fries" count="20" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="American Fries Step 1" count="1"/>
-      <ingredient name="Vegetable Oil" count="10"/>
+      <ingredient name="resourceAnimalFat" count="5"/>
     </recipe>
 
     <recipe name="American Fries Step 1" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
@@ -2025,42 +2025,25 @@
       <ingredient name="Mesquite Woodchips" count="1"/>
     </recipe>
 
-    <recipe name="Baked Rigatoni" count="1" craft_time="10" craft_area="oven" craft_tool="PyreX Bakeware">
-      <ingredient name="Baked Rigatoni Step 2" count="1"/>
-      <ingredient name="Parmesan" count="1"/>
-    </recipe>
-
-    <recipe name="Baked Rigatoni Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+    <recipe name="Baked Rigatoni" count="1" craft_time="15" craft_area="oven" craft_tool="PyreX Bakeware">
       <ingredient name="Ground Veal" count="5"/>
+      <ingredient name="Boiled Rigatoni" count="2"/>
+      <ingredient name="Marinara" count="2"/>
+      <ingredient name="Parmesan" count="3"/> <!-- Combined the Parmesan amounts -->
       <ingredient name="Olive Oil" count="1"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="Black Pepper" count="1"/>
     </recipe>
 
-    <recipe name="Baked Rigatoni Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Baked Rigatoni Step 1" count="1"/>
-      <ingredient name="Marinara" count="2"/>
-      <ingredient name="Parmesan" count="2"/>
-      <ingredient name="Boiled Rigatoni" count="2"/>
-    </recipe>
-
-    <recipe name="Bananna Bread" count="10" craft_time="10" craft_area="oven" craft_tool="PyreX Bakeware">
-      <ingredient name="Bananna Bread Step 2" count="1"/>
-    </recipe>
-
-    <recipe name="Bananna Bread Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+    <recipe name="Banana Bread" count="10" craft_time="15" craft_area="oven" craft_tool="PyreX Bakeware">
+      <ingredient name="Banana" count="10"/>
       <ingredient name="Sugar" count="10"/>
       <ingredient name="Butter" count="5"/>
-      <ingredient name="Banana" count="10"/>
-      <ingredient name="foodEgg" count="2"/>
       <ingredient name="Wheat Flour" count="2"/>
-    </recipe>
-
-    <recipe name="Bananna Bread Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Bananna Bread Step 1" count="1"/>
-      <ingredient name="Salt" count="1"/>
+      <ingredient name="foodEgg" count="2"/>
       <ingredient name="Milk" count="1"/>
       <ingredient name="Ground Cinnamon" count="1"/>
+      <ingredient name="Salt" count="1"/>
     </recipe>
 
     <recipe name="Bechamel" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
@@ -2069,36 +2052,16 @@
       <ingredient name="Salt" count="1"/>
     </recipe>
 
-    <recipe name="Beef Chili" count="20" craft_time="10" craft_area="Webber Grill" craft_tool="Ceramic Dutch Oven">
-      <ingredient name="Beef Chili Step 3" count="1"/>
-      <ingredient name="Sliced Green Bell" count="2"/>
-      <ingredient name="Sliced Yellow Bell" count="2"/>
-      <ingredient name="Sliced Red Bell" count="2"/>
-      <ingredient name="Cheddar" count="20"/>
-    </recipe>
-
-    <recipe name="Beef Chili Step 1" count="1" craft_time="10" craft_area="Webber Grill" craft_tool="Ceramic Dutch Oven">
+    <recipe name="Beef Chili" count="20" craft_time="20" craft_area="Webber Grill" craft_tool="Ceramic Dutch Oven">
       <ingredient name="Ground Beef" count="10"/>
-      <ingredient name="Sliced Steak" count="5"/>
-      <ingredient name="Crushed Tomato" count="5"/>
-      <ingredient name="Beer Double IPA" count="2"/>
-      <ingredient name="Salt" count="1"/>
-      <ingredient name="Black Pepper" count="1"/>
-    </recipe>
-
-    <recipe name="Beef Chili Step 2" count="1" craft_time="10" craft_area="Webber Grill" craft_tool="Ceramic Dutch Oven">
-      <ingredient name="Beef Chili Step 1" count="1"/>
       <ingredient name="Diced Onions" count="10"/>
+      <ingredient name="Crushed Tomato" count="5"/>
+      <ingredient name="Cooked Kidney Bean" count="5"/>
       <ingredient name="Ground Hot Pepper" count="5"/>
       <ingredient name="Ground Cumin" count="5"/>
       <ingredient name="Ground Ancho" count="5"/>
-    </recipe>
-
-    <recipe name="Beef Chili Step 3" count="1" craft_time="10">
-      <ingredient name="Beef Chili Step 2" count="1"/>
-      <ingredient name="Cooked Pinto Bean" count="1"/>
-      <ingredient name="Cooked Black Bean" count="1"/>
-      <ingredient name="Cooked Kidney Bean" count="5"/>
+      <ingredient name="Beer Double IPA" count="2"/>
+      <ingredient name="Cheddar" count="20"/>
     </recipe>
 
     <recipe name="Beef Taco" count="5" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
@@ -2130,23 +2093,11 @@
       <ingredient name="Diced Onions" count="2"/>
     </recipe>
 
-    <recipe name="Biscuit" count="10" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
-      <ingredient name="Biscuit Step 3" count="1"/>
-    </recipe>
-
-    <recipe name="Biscuit Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+    <recipe name="Biscuit" count="10" craft_time="15" craft_area="oven" craft_tool="Baking Sheet">
       <ingredient name="Wheat Flour" count="2"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="Lard" count="5"/>
-    </recipe>
-
-    <recipe name="Biscuit Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Biscuit Step 1" count="1"/>
       <ingredient name="Milk" count="1"/>
-    </recipe>
-
-    <recipe name="Biscuit Step 3" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Pizza Cutter">
-      <ingredient name="Biscuit Step 2" count="1"/>
     </recipe>
 
     <recipe name="Biscuits and Gravy" count="1" craft_time="10">
@@ -2206,31 +2157,16 @@
       <ingredient name="Butter" count="1"/>
     </recipe>
 
-    <recipe name="Bolognese Sauce" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Bolognese Sauce Step 3" count="1"/>
-      <ingredient name="White Zin" count="1"/>
-      <ingredient name="Crushed Tomato" count="1"/>
-    </recipe>
-
-    <recipe name="Bolognese Sauce Step 1" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Olive Oil" count="1"/>
-      <ingredient name="Butter" count="1"/>
-      <ingredient name="Diced Onions" count="10"/>
-      <ingredient name="Celery" count="1"/>
-      <ingredient name="Carrot" count="1"/>
-    </recipe>
-
-    <recipe name="Bolognese Sauce Step 2" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Bolognese Sauce Step 1" count="1"/>
+    <recipe name="Bolognese Sauce" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Ground Veal" count="5"/>
-      <ingredient name="Salt" count="1"/>
-      <ingredient name="Black Pepper" count="1"/>
-      <ingredient name="Ground Oregano" count="2"/>
-    </recipe>
-
-    <recipe name="Bolognese Sauce Step 3" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Bolognese Sauce Step 2" count="1"/>
+      <ingredient name="Diced Onions" count="10"/>
+      <ingredient name="Carrot" count="1"/>
+      <ingredient name="Crushed Tomato" count="1"/>
+      <ingredient name="White Zin" count="1"/>
+      <ingredient name="Butter" count="1"/>
       <ingredient name="Milk" count="1"/>
+      <ingredient name="Ground Oregano" count="2"/>
+      <ingredient name="Salt" count="1"/>
     </recipe>
 
     <recipe name="Bowl of Rice" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
@@ -2306,33 +2242,19 @@
       <ingredient name="drinkJarBoiledWater" count="1"/>
     </recipe>
 
-    <recipe name="Cheddar" count="50" craft_time="10" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
-      <ingredient name="Cheddar Step 5" count="1"/>
-    </recipe>
-
-    <recipe name="Cheddar Step 1" count="1" craft_time="10" craft_area="Brew Cooker" craft_tool="Boiler">
+    <!-- First make the cheese curds -->
+    <recipe name="Cheddar Step 1" count="1" craft_time="20" craft_area="Brew Cooker" craft_tool="Boiler">
       <ingredient name="Milk" count="10"/>
       <ingredient name="Salt" count="5"/>
       <ingredient name="Cheese Culture" count="5"/>
       <ingredient name="Rennet" count="5"/>
     </recipe>
 
-    <recipe name="Cheddar Step 2" count="1" craft_time="10" craft_area="Brew Cooker" craft_tool="Boiler">
+    <!-- Then press and age the cheese -->
+    <recipe name="Cheddar" count="50" craft_time="20" craft_area="Fermentor Bench" craft_tool="Cheese Press">
       <ingredient name="Cheddar Step 1" count="1"/>
-    </recipe>
-
-    <recipe name="Cheddar Step 3" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
-      <ingredient name="Cheddar Step 2" count="1"/>
-    </recipe>
-
-    <recipe name="Cheddar Step 4" count="1" craft_time="10" craft_area="Fermentor Bench" craft_tool="Cheese Press">
-      <ingredient name="Cheddar Step 3" count="1"/>
       <ingredient name="Salt" count="5"/>
       <ingredient name="Cheese Cloth" count="1"/>
-    </recipe>
-
-    <recipe name="Cheddar Step 5" count="1" craft_time="10" craft_area="Fermentor Bench">
-      <ingredient name="Cheddar Step 4" count="1"/>
       <ingredient name="Briney Water" count="1"/>
     </recipe>
 
@@ -2390,65 +2312,38 @@
       <ingredient name="drinkJarBoiledWater" count="15"/>
     </recipe>
 
-    <recipe name="Chicken Tamale" count="20" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Chicken Tamale Step 5" count="1"/>
-      <ingredient name="Dried Husk" count="20"/>
-    </recipe>
-
-    <recipe name="Chicken Tamale Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Diced Onions" count="5"/>
-      <ingredient name="Minced Garlic" count="2"/>
-      <ingredient name="Salt" count="1"/>
-      <ingredient name="drinkJarBoiledWater" count="5"/>
+    <!-- First make the chicken filling -->
+    <recipe name="Chicken Tamale Step 1" count="1" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="PulledChicken" count="5"/>
-    </recipe>
-
-    <recipe name="Chicken Tamale Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Tomatillo" count="5"/>
+      <ingredient name="Diced Onions" count="8"/>
+      <ingredient name="Minced Garlic" count="3"/>
       <ingredient name="Jalapeno Pepper" count="2"/>
       <ingredient name="Cilantro" count="5"/>
-      <ingredient name="Minced Garlic" count="1"/>
-    </recipe>
-
-    <recipe name="Chicken Tamale Step 3" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Olive Oil" count="1"/>
-      <ingredient name="Diced Onions" count="3"/>
-      <ingredient name="Chicken Tamale Step 2" count="1"/>
-      <ingredient name="Salt" count="1"/>
+      <ingredient name="Salt" count="2"/>
       <ingredient name="Black Pepper" count="1"/>
     </recipe>
 
-    <recipe name="Chicken Tamale Step 4" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Chicken Tamale Step 3" count="1"/>
+    <!-- Then make the tamales -->
+    <recipe name="Chicken Tamale" count="20" craft_time="20" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Chicken Tamale Step 1" count="1"/>
-    </recipe>
-
-    <recipe name="Chicken Tamale Step 5" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Chicken Tamale Step 4" count="1"/>
       <ingredient name="Corn Masa" count="2"/>
       <ingredient name="ChickenStock" count="2"/>
       <ingredient name="Lard" count="10"/>
-      <ingredient name="Salt" count="1"/>
-    </recipe>
-
-    <recipe name="Chile Relleno" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Chile Relleno Step 2" count="1"/>
-      <ingredient name="Chile Relleno Step 3" count="1"/>
-      <ingredient name="Lard" count="2"/>
+      <ingredient name="Dried Husk" count="20"/>
     </recipe>
 
     <recipe name="Chile Relleno Step 1" count="1" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
       <ingredient name="Poblano Pepper" count="2"/>
     </recipe>
 
-    <recipe name="Chile Relleno Step 2" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
+    <recipe name="Chile Relleno" count="1" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Chile Relleno Step 1" count="1"/>
       <ingredient name="Queso Fresco" count="6"/>
-    </recipe>
-
-    <recipe name="Chile Relleno Step 3" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Wheat Flour" count="1"/>
+      <ingredient name="Lard" count="2"/>
     </recipe>
 
     <recipe name="Chilled Cucumber Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
@@ -2540,17 +2435,14 @@
     </recipe>
 
     <recipe name="Corn Tortillas" count="10" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Corn Tortillas Step 2" count="1"/>
+      <ingredient name="Corn Tortillas Step 1" count="1"/>
+      <ingredient name="Lard" count="1"/>
     </recipe>
 
     <recipe name="Corn Tortillas Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Corn Masa" count="5"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="4"/>
-    </recipe>
-
-    <recipe name="Corn Tortillas Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Pasta Helper">
-      <ingredient name="Corn Tortillas Step 1" count="1"/>
     </recipe>
 
     <recipe name="Country Boy Breakfast" count="1" craft_time="10" craft_area="Chopping Board">
@@ -2593,7 +2485,9 @@
     </recipe>
 
     <recipe name="Denver Omelette" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Omelette Batter" count="1"/>
+      <ingredient name="foodEgg" count="4"/>
+      <ingredient name="Salt" count="1"/>
+      <ingredient name="Black Pepper" count="1"/>
       <ingredient name="Denver Omelette Step 1" count="1"/>
     </recipe>
 
@@ -2718,10 +2612,11 @@
     </recipe>
 
     <recipe name="Fajitas Platter" count="1" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
-      <ingredient name="Fajitas Platter Step 3" count="1"/>
+      <ingredient name="Fajitas Platter Step 2" count="1"/>
       <ingredient name="Guacamole" count="1"/>
-      <ingredient name="Chips and Salsa" count="2"/>
-      <ingredient name="Guac and Chips" count="2"/>
+      <ingredient name="Tortillas Chips" count="3"/>
+      <ingredient name="Spicy Salsa" count="2"/>
+      <ingredient name="Diced Cilantro" count="5"/>
       <ingredient name="Flour Tortillas" count="10"/>
     </recipe>
 
@@ -2730,31 +2625,23 @@
       <ingredient name="Sliced Green Bell" count="3"/>
       <ingredient name="Sliced Yellow Bell" count="3"/>
       <ingredient name="Sliced Red Bell" count="3"/>
-      <ingredient name="Olive Oil" count="2"/>
+      <ingredient name="Lard" count="1"/>
     </recipe>
 
     <recipe name="Fajitas Platter Step 2" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Fajitas Platter Step 1" count="1"/>
       <ingredient name="Diced Onions" count="3"/>
       <ingredient name="Minced Garlic" count="2"/>
-      <ingredient name="Poblano Pepper" count="2"/>
+      <ingredient name="Lard" count="1"/>
       <ingredient name="Salt" count="4"/>
       <ingredient name="Black Pepper" count="4"/>
-    </recipe>
-
-    <recipe name="Fajitas Platter Step 3" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Fajitas Platter Step 2" count="1"/>
-      <ingredient name="Diced Cilantro" count="5"/>
-      <ingredient name="Ground Ancho" count="3"/>
       <ingredient name="Ground Hot Pepper" count="3"/>
     </recipe>
 
     <recipe name="Florentine Omelette" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Omelette Batter" count="1"/>
-      <ingredient name="Florentine Omelette Step 1" count="1"/>
-    </recipe>
-
-    <recipe name="Florentine Omelette Step 1" count="1" craft_time="10" craft_area="Chopping Board">
+      <ingredient name="foodEgg" count="4"/>
+      <ingredient name="Salt" count="1"/>
+      <ingredient name="Black Pepper" count="1"/>
       <ingredient name="Italian Sausage" count="3"/>
       <ingredient name="Diced Tomatos" count="3"/>
       <ingredient name="Diced Onions" count="3"/>
@@ -2784,21 +2671,13 @@
       <ingredient name="Ham Steak" count="1"/>
     </recipe>
 
-    <recipe name="Fried Okra" count="2" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Fried Okra Step 1" count="1"/>
-      <ingredient name="Fried Okra Step 2" count="1"/>
-      <ingredient name="Vegetable Oil" count="5"/>
-    </recipe>
-
-    <recipe name="Fried Okra Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+    <recipe name="Fried Okra" count="2" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Sliced Okra" count="10"/>
       <ingredient name="foodEgg" count="1"/>
-    </recipe>
-
-    <recipe name="Fried Okra Step 2" count="1" craft_time="10">
       <ingredient name="foodCornMeal" count="1"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="Black Pepper" count="1"/>
+      <ingredient name="resourceAnimalFat" count="2"/>
     </recipe>
 
     <recipe name="Fruit Pancakes" count="1" craft_time="10" craft_area="Chopping Board">
@@ -2823,25 +2702,19 @@
       <ingredient name="Maple Syrup" count="5"/>
     </recipe>
 
-    <recipe name="Garlic Green Beans" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Garlic Green Beans Step 1" count="1"/>
+    <recipe name="Garlic Green Beans" count="1" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
+      <ingredient name="Cut Green Beans" count="10"/>
+      <ingredient name="drinkJarBoiledWater" count="2"/>
       <ingredient name="Butter" count="2"/>
       <ingredient name="Minced Garlic" count="2"/>
       <ingredient name="Meyer Lemon" count="1"/>
-    </recipe>
-
-    <recipe name="Garlic Green Beans Step 1" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Cut Green Beans" count="10"/>
-      <ingredient name="drinkJarBoiledWater" count="2"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
 
-    <recipe name="Grandma's Omelette" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Omelette Batter" count="1"/>
-      <ingredient name="Grandma's Omelette Step 1" count="1"/>
-    </recipe>
-
-    <recipe name="Grandma's Omelette Step 1" count="1" craft_time="10" craft_area="Chopping Board">
+    <recipe name="Grandma's Omelette" count="1" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
+      <ingredient name="foodEgg" count="4"/>
+      <ingredient name="Salt" count="1"/>
+      <ingredient name="Black Pepper" count="1"/>
       <ingredient name="PulledChicken" count="3"/>
       <ingredient name="Diced Ham" count="3"/>
       <ingredient name="Sliced Broccoli" count="3"/>
@@ -2861,19 +2734,11 @@
       <ingredient name="Cucumber" count="3"/>
     </recipe>
 
-    <recipe name="Green Beans Bacon Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Diced Onions" count="3"/>
+    <recipe name="Green Beans with Bacon" count="10" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Smoked Bacon" count="5"/>
-    </recipe>
-
-    <recipe name="Green Beans Bacon Step 2" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
+      <ingredient name="Diced Onions" count="3"/>
       <ingredient name="Cut Green Beans" count="8"/>
       <ingredient name="drinkJarBoiledWater" count="4"/>
-    </recipe>
-
-    <recipe name="Green Beans with Bacon" count="10" craft_time="10" craft_area="Chopping Board">
-      <ingredient name="Green Beans Bacon Step 1" count="1"/>
-      <ingredient name="Green Beans Bacon Step 2" count="1"/>
     </recipe>
 
     <recipe name="Grilled Salmon Steak" count="1" craft_time="10" craft_area="Webber Grill" craft_tool="Tongs">
@@ -2941,19 +2806,10 @@
       <ingredient name="Guacamole" count="2"/>
       <ingredient name="Tortillas Chips" count="3"/>
     </recipe>
-    <recipe name="Guacamole" count="10" craft_time="10" craft_area="Chopping Board">
-      <ingredient name="Guacamole Step 2" count="1"/>
-      <ingredient name="Lime" count="1"/>
-      <ingredient name="Sliced Jalapeno" count="1"/>
-    </recipe>
-    <recipe name="Guacamole Step 1" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
+    <recipe name="Guacamole" count="10" craft_time="15" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Sliced Avocado" count="15"/>
-    </recipe>
-    <recipe name="Guacamole Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Guacamole Step 1" count="1"/>
-      <ingredient name="Diced Cilantro" count="2"/>
-      <ingredient name="Diced Tomatos" count="2"/>
       <ingredient name="Diced Onions" count="2"/>
+      <ingredient name="Lime" count="1"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
     <recipe name="Ham Steak" count="10" craft_time="10" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
@@ -2984,18 +2840,12 @@
       <ingredient name="Butter" count="1"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
-    <recipe name="Hollandaise" count="10" craft_time="10" craft_area="Chopping Board">
-      <ingredient name="Hollandaise Step 2" count="1"/>
-      <ingredient name="Ground Hot Pepper" count="1"/>
-      <ingredient name="Salt" count="1"/>
-    </recipe>
-    <recipe name="Hollandaise Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+    <recipe name="Hollandaise" count="10" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="foodEgg" count="4"/>
       <ingredient name="Meyer Lemon" count="1"/>
-    </recipe>
-    <recipe name="Hollandaise Step 2" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Hollandaise Step 1" count="1"/>
       <ingredient name="Butter" count="3"/>
+      <ingredient name="Ground Hot Pepper" count="1"/>
+      <ingredient name="Salt" count="1"/>
     </recipe>
     <recipe name="Italian Sausage" count="10" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Italian Sausage Step 1" count="1"/>
@@ -3028,16 +2878,13 @@
       <ingredient name="drinkJarEmpty" count="15"/>
       <ingredient name="Cheese Cloth" count="1"/>
     </recipe>
-    <recipe name="Ketchup" count="10" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Ketchup Step 1" count="1"/>
-      <ingredient name="Crushed Tomato" count="2"/>
-      <ingredient name="Cooking Vinegar" count="1"/>
-    </recipe>
-    <recipe name="Ketchup Step 1" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
+    <recipe name="Ketchup" count="10" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Sauteed Onions" count="2"/>
       <ingredient name="Olive Oil" count="1"/>
       <ingredient name="Ground Hot Pepper" count="1"/>
       <ingredient name="Salt" count="1"/>
+      <ingredient name="Crushed Tomato" count="2"/>
+      <ingredient name="Cooking Vinegar" count="1"/>
     </recipe>
     <recipe name="Koji Culture" count="10" craft_time="10" craft_area="Fermentor Bench" craft_tool="Clay Pot">
       <ingredient name="Bowl of Rice" count="5"/>
@@ -3058,10 +2905,7 @@
       <ingredient name="Olive Oil" count="1"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
-    <recipe name="Lard" count="10" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Lard Step 1" count="1"/>
-    </recipe>
-    <recipe name="Lard Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+    <recipe name="Lard" count="10" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Pork Fat" count="5"/>
     </recipe>
     <recipe name="Linguini" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Pasta Helper">
@@ -3094,17 +2938,11 @@
       <ingredient name="Spicy BBQ Sauce" count="10"/>
       <ingredient name="Cooking Vinegar" count="1"/>
     </recipe>
-    <recipe name="Mayo" count="20" craft_time="10" craft_area="Chopping Board">
-      <ingredient name="Mayo Step 2" count="1"/>
-      <ingredient name="Salt" count="2"/>
-    </recipe>
-    <recipe name="Mayo Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+    <recipe name="Mayo" count="20" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="foodEgg" count="5"/>
       <ingredient name="Meyer Lemon" count="2"/>
-    </recipe>
-    <recipe name="Mayo Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Mayo Step 1" count="1"/>
       <ingredient name="Olive Oil" count="5"/>
+      <ingredient name="Salt" count="2"/>
     </recipe>
     <recipe name="Meatballs" count="10" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
       <ingredient name="Meatballs Step 1" count="1"/>
@@ -3116,17 +2954,14 @@
       <ingredient name="Salt" count="1"/>
       <ingredient name="Black Pepper" count="1"/>
     </recipe>
-    <recipe name="Mexican Black Beans" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+    <recipe name="Mexican Black Beans" count="1" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Cooked Black Bean" count="2"/>
-      <ingredient name="Diced Cilantro" count="1"/>
-      <ingredient name="Ground Cumin" count="1"/>
-      <ingredient name="Salt" count="1"/>
-      <ingredient name="Mexican Black Beans Step 1" count="1"/>
-    </recipe>
-    <recipe name="Mexican Black Beans Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Olive Oil" count="1"/>
       <ingredient name="Diced Onions" count="3"/>
       <ingredient name="Minced Garlic" count="3"/>
+      <ingredient name="Diced Cilantro" count="1"/>
+      <ingredient name="Ground Cumin" count="1"/>
+      <ingredient name="Salt" count="1"/>
     </recipe>
     <recipe name="Mexican Combo 3" count="1" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
       <ingredient name="Pork Chimichanga" count="1"/>
@@ -3148,16 +2983,9 @@
     <recipe name="Minced Onion" count="5" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Onion" count="3"/>
     </recipe>
-    <recipe name="Miso Paste" count="10" craft_time="10" craft_area="Fermentor Bench" craft_tool="Clay Pot">
-      <ingredient name="Miso Paste Step 2" count="1"/>
-      <ingredient name="Salt" count="10"/>
-    </recipe>
-    <recipe name="Miso Paste Step 1" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
+    <recipe name="Miso Paste" count="10" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Soy Bean" count="10"/>
       <ingredient name="drinkJarRiverWater" count="10"/>
-    </recipe>
-    <recipe name="Miso Paste Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Miso Paste Step 1" count="1"/>
       <ingredient name="Salt" count="2"/>
       <ingredient name="Koji Culture" count="10"/>
     </recipe>
@@ -3206,11 +3034,6 @@
     <recipe name="Olive Paste" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Veggie Attachment">
       <ingredient name="Olive" count="5"/>
     </recipe>
-    <recipe name="Omelette Batter" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="foodEgg" count="4"/>
-      <ingredient name="Salt" count="1"/>
-      <ingredient name="Black Pepper" count="1"/>
-    </recipe>
     <recipe name="Pancake" count="10" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Pancake Step 1" count="1"/>
       <ingredient name="Butter" count="3"/>
@@ -3225,25 +3048,16 @@
     <recipe name="Pancetta" count="10" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="Cured Pancetta" count="1"/>
     </recipe>
-    <recipe name="Pancetta Linguini" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Pancetta Linguini Step 3" count="1"/>
+    <recipe name="Pancetta Linguini" count="1" craft_time="20" craft_area="range" craft_tool="Cast Iron Skillet">
+      <ingredient name="Pancetta" count="10"/>
+      <ingredient name="Diced Onions" count="5"/>
+      <ingredient name="Brussels Sprouts" count="5"/>
+      <ingredient name="Garlic" count="1"/>
+      <ingredient name="Chardonne" count="2"/>
+      <ingredient name="Boiled Linguini" count="1"/>
       <ingredient name="Parmesan" count="4"/>
       <ingredient name="Salt" count="2"/>
       <ingredient name="Black Pepper" count="2"/>
-    </recipe>
-    <recipe name="Pancetta Linguini Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Pancetta" count="10"/>
-      <ingredient name="Diced Onions" count="5"/>
-    </recipe>
-    <recipe name="Pancetta Linguini Step 2" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Pancetta Linguini Step 1" count="1"/>
-      <ingredient name="Brussels Sprouts" count="5"/>
-      <ingredient name="Garlic" count="1"/>
-    </recipe>
-    <recipe name="Pancetta Linguini Step 3" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Pancetta Linguini Step 2" count="1"/>
-      <ingredient name="Chardonne" count="2"/>
-      <ingredient name="Boiled Linguini" count="1"/>
     </recipe>
     <recipe name="Parmesan" count="10" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Milk" count="5"/>
@@ -3268,16 +3082,13 @@
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
-    <recipe name="Penne Pesto" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Penne Pesto Step 1" count="1"/>
-      <ingredient name="Boiled Penne" count="1"/>
-      <ingredient name="Pesto" count="1"/>
-    </recipe>
-    <recipe name="Penne Pesto Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+    <recipe name="Penne Pesto" count="1" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Ground Veal" count="5"/>
       <ingredient name="Olive Oil" count="1"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="Black Pepper" count="1"/>
+      <ingredient name="Boiled Penne" count="1"/>
+      <ingredient name="Pesto" count="1"/>
     </recipe>
     <recipe name="Pesto" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Veggie Attachment">
       <ingredient name="Basil" count="5"/>
@@ -3286,17 +3097,14 @@
       <ingredient name="Olive Oil" count="1"/>
       <ingredient name="Parmesan" count="1"/>
     </recipe>
-    <recipe name="Pickled Ginger" count="20" craft_time="10" craft_area="Fermentor Bench" craft_tool="Aging Shelves">
-      <ingredient name="Pickled Ginger Step 1" count="1"/>
-      <ingredient name="Pickled Ginger Step 2" count="1"/>
-    </recipe>
-    <recipe name="Pickled Ginger Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+    <recipe name="Pickled Ginger Step 1" count="1" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Sliced Ginger" count="10"/>
       <ingredient name="Salt" count="1"/>
-    </recipe>
-    <recipe name="Pickled Ginger Step 2" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Cooking Vinegar" count="1"/>
       <ingredient name="Sugar" count="3"/>
+    </recipe>
+    <recipe name="Pickled Ginger" count="20" craft_time="10" craft_area="Fermentor Bench" craft_tool="Aging Shelves">
+      <ingredient name="Pickled Ginger Step 1" count="1"/>
     </recipe>
     <recipe name="Plain Ice Cream" count="10" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Milk" count="10"/>
@@ -3309,17 +3117,9 @@
       <ingredient name="drinkJarEmpty" count="19"/>
       <ingredient name="Cheese Cloth" count="1"/>
     </recipe>
-    <recipe name="Plain Yogurt" count="20" craft_time="10" craft_area="Fermentor Bench">
-      <ingredient name="Yogurt Step 2" count="1"/>
-      <ingredient name="drinkJarEmpty" count="19"/>
-      <ingredient name="Cheese Cloth" count="1"/>
-    </recipe>
     <recipe name="Poached Eggs" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
-    </recipe>
-    <recipe name="Pork Chimichanga" count="1" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
-      <ingredient name="Pork Chimichanga Step 2" count="1"/>
     </recipe>
     <recipe name="Pork Chimichanga Step 1" count="1" craft_time="10" craft_area="Chopping Board">
       <ingredient name="Pulled Pork" count="5"/>
@@ -3328,7 +3128,8 @@
       <ingredient name="Flour Tortillas" count="1"/>
       <ingredient name="Queso Fresco" count="2"/>
     </recipe>
-    <recipe name="Pork Chimichanga Step 2" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+
+    <recipe name="Pork Chimichanga" count="1" craft_time="15" craft_area="oven" craft_tool="Baking Sheet">
       <ingredient name="Pork Chimichanga Step 1" count="1"/>
       <ingredient name="Olive Oil" count="1"/>
     </recipe>
@@ -3338,19 +3139,10 @@
     <recipe name="Pulled Pork" count="10" craft_time="10" craft_area="Chopping Board">
       <ingredient name="Smoked Pork Ribs" count="1"/>
     </recipe>
-    <recipe name="Queso Fresco" count="10" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Queso Fresco Step 3" count="1"/>
-    </recipe>
-    <recipe name="Queso Fresco Step 1" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
+    <recipe name="Queso Fresco" count="10" craft_time="20" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Milk" count="5"/>
       <ingredient name="Salt" count="1"/>
-    </recipe>
-    <recipe name="Queso Fresco Step 2" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Queso Fresco Step 1" count="1"/>
       <ingredient name="Cooking Vinegar" count="3"/>
-    </recipe>
-    <recipe name="Queso Fresco Step 3" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Queso Fresco Step 2" count="1"/>
       <ingredient name="Cheese Cloth" count="1"/>
     </recipe>
     <recipe name="Raspberry Ice Cream" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
@@ -3369,34 +3161,29 @@
       <ingredient name="Apple Woodchips" count="5"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
-    <recipe name="Refried Beans" count="10" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Refried Beans Step 2" count="1"/>
-      <ingredient name="Salt" count="5"/>
-      <ingredient name="Black Pepper" count="5"/>
-    </recipe>
     <recipe name="Refried Beans Step 1" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Cooked Pinto Bean" count="10"/>
-      <ingredient name="Onion" count="1"/>
+      <ingredient name="Diced Onions" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="2"/>
       <ingredient name="Ground Ancho" count="2"/>
       <ingredient name="Garlic" count="1"/>
     </recipe>
-    <recipe name="Refried Beans Step 2" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+
+    <recipe name="Refried Beans" count="10" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Refried Beans Step 1" count="1"/>
       <ingredient name="Lard" count="2"/>
-    </recipe>
-    <recipe name="Rennet" count="15" craft_time="10">
-      <ingredient name="Rennet Step 2" count="1"/>
-      <ingredient name="Cheese Cloth" count="1"/>
-      <ingredient name="drinkJarEmpty" count="15"/>
+      <ingredient name="Salt" count="5"/>
+      <ingredient name="Black Pepper" count="5"/>
     </recipe>
     <recipe name="Rennet Step 1" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
       <ingredient name="Calf Stomache" count="5"/>
     </recipe>
-    <recipe name="Rennet Step 2" count="1" craft_time="10" craft_area="Fermentor Bench">
+    <recipe name="Rennet" count="15" craft_time="15" craft_area="Fermentor Bench">
       <ingredient name="Rennet Step 1" count="1"/>
       <ingredient name="Briney Water" count="1"/>
       <ingredient name="Cooking Vinegar" count="2"/>
+      <ingredient name="Cheese Cloth" count="1"/>
+      <ingredient name="drinkJarEmpty" count="15"/>
     </recipe>
     <recipe name="Rigatoni" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Pasta Helper">
       <ingredient name="Wheat Flour" count="5"/>
@@ -3404,27 +3191,17 @@
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
-    <recipe name="Risotto" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Risotto Step 4" count="1"/>
-      <ingredient name="ChickenStock" count="4"/>
-      <ingredient name="Parmesan" count="1"/>
-    </recipe>
     <recipe name="Risotto Step 1" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="Shallot" count="1"/>
     </recipe>
-    <recipe name="Risotto Step 2" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+    <recipe name="Risotto" count="1" craft_time="20" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Risotto Step 1" count="1"/>
-      <ingredient name="Butter" count="1"/>
-      <ingredient name="Salt" count="1"/>
-    </recipe>
-    <recipe name="Risotto Step 3" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Risotto Step 2" count="1"/>
       <ingredient name="Rice" count="1"/>
-      <ingredient name="Butter" count="1"/>
-    </recipe>
-    <recipe name="Risotto Step 4" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Risotto Step 3" count="1"/>
+      <ingredient name="Butter" count="2"/>
+      <ingredient name="Salt" count="1"/>
       <ingredient name="White Zin" count="1"/>
+      <ingredient name="ChickenStock" count="4"/>
+      <ingredient name="Parmesan" count="1"/>
     </recipe>
     <recipe name="Roasted Brussels Sprouts" count="1" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
       <ingredient name="Brussels Sprouts" count="5"/>
@@ -3474,43 +3251,28 @@
     <recipe name="Salt" count="20" craft_time="1">
       <ingredient name="Salt Shaker" count="1"/>
     </recipe>
-    <recipe name="Black Pepper" count="4" craft_time="1">
-      <ingredient name="Salt and Pepper" count="1"/>
-    </recipe>
     <recipe name="Salt" count="4" craft_time="1">
       <ingredient name="Salt and Pepper" count="1"/>
     </recipe>
-    <recipe name="Sauerkraut" count="15" craft_time="10" craft_area="Fermentor Bench">
-      <ingredient name="Sauerkraut Step 3" count="1"/>
-      <ingredient name="drinkJarEmpty" count="15"/>
+    <recipe name="Black Pepper" count="4" craft_time="1">
+      <ingredient name="Salt and Pepper" count="1"/>
     </recipe>
-    <recipe name="Sauerkraut Step 1" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
+    <recipe name="Sauerkraut Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Shredded Cabbage" count="45"/>
-    </recipe>
-    <recipe name="Sauerkraut Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Sauerkraut Step 1" count="1"/>
       <ingredient name="Salt" count="10"/>
     </recipe>
-    <recipe name="Sauerkraut Step 3" count="1" craft_time="10" craft_area="Fermentor Bench" craft_tool="Aging Shelves">
-      <ingredient name="Sauerkraut Step 2" count="1"/>
+    <recipe name="Sauerkraut" count="15" craft_time="15" craft_area="Fermentor Bench" craft_tool="Aging Shelves">
+      <ingredient name="Sauerkraut Step 1" count="1"/>
+      <ingredient name="drinkJarEmpty" count="15"/>
     </recipe>
-    <recipe name="Sausage Gravy" count="10" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Sausage Gravy Step 3" count="1"/>
-      <ingredient name="Milk" count="1"/>
-    </recipe>
-    <recipe name="Sausage Gravy Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+    <recipe name="Sausage Gravy" count="10" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Ground Pork" count="5"/>
-    </recipe>
-    <recipe name="Sausage Gravy Step 2" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Sausage Gravy Step 1" count="1"/>
       <ingredient name="Butter" count="2"/>
+      <ingredient name="Wheat Flour" count="1"/>
+      <ingredient name="Milk" count="1"/>
       <ingredient name="Minced Garlic" count="1"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="Black Pepper" count="1"/>
-    </recipe>
-    <recipe name="Sausage Gravy Step 3" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Sausage Gravy Step 2" count="1"/>
-      <ingredient name="Wheat Flour" count="1"/>
     </recipe>
     <recipe name="Sausage Patty" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Italian Sausage" count="1"/>
@@ -3614,9 +3376,6 @@
       <ingredient name="Apple Woodchips" count="2"/>
       <ingredient name="Walnut Woodchips" count="3"/>
     </recipe>
-    <recipe name="Smoked Salmon" count="10" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
-      <ingredient name="Smoked Salmon Step 2" count="1"/>
-    </recipe>
     <recipe name="Smoked Salmon Salad" count="1" craft_time="10" craft_area="Chopping Board">
       <ingredient name="Smoked Salmon" count="3"/>
       <ingredient name="Chopped Romaine" count="3"/>
@@ -3630,7 +3389,8 @@
       <ingredient name="Maple Syrup" count="5"/>
       <ingredient name="Orange" count="3"/>
     </recipe>
-    <recipe name="Smoked Salmon Step 2" count="1" craft_time="10" craft_area="Cold Smoker" craft_tool="Smoker Mat">
+
+    <recipe name="Smoked Salmon" count="10" craft_time="15" craft_area="Cold Smoker" craft_tool="Smoker Mat">
       <ingredient name="Smoked Salmon Step 1" count="1"/>
       <ingredient name="Walnut Woodchips" count="2"/>
       <ingredient name="Apple Woodchips" count="3"/>
@@ -3657,20 +3417,14 @@
       <ingredient name="Meatballs" count="10"/>
       <ingredient name="Parmesan" count="2"/>
     </recipe>
-    <recipe name="Spanish Rice" count="10" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Spanish Rice Step 2" count="1"/>
-      <ingredient name="Ground Ancho" count="2"/>
-      <ingredient name="Ground Cumin" count="2"/>
-    </recipe>
-    <recipe name="Spanish Rice Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+    <recipe name="Spanish Rice" count="10" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Rice" count="5"/>
       <ingredient name="Olive Oil" count="4"/>
-    </recipe>
-    <recipe name="Spanish Rice Step 2" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Spanish Rice Step 1" count="1"/>
       <ingredient name="ChickenStock" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="2"/>
       <ingredient name="Minced Garlic" count="1"/>
+      <ingredient name="Ground Ancho" count="2"/>
+      <ingredient name="Ground Cumin" count="2"/>
     </recipe>
     <recipe name="Spicy BBQ Sauce" count="10" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Ketchup" count="10"/>
@@ -3707,35 +3461,19 @@
       <ingredient name="Lime" count="1"/>
       <ingredient name="Salt" count="3"/>
     </recipe>
-    <recipe name="Sriracha" count="20" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Sriracha Step 3" count="1"/>
-    </recipe>
-    <recipe name="Sriracha Step 1" count="1" craft_time="10" craft_area="Chopping Board">
+    <recipe name="Sriracha" count="20" craft_time="20" craft_area="Fermentor Bench">
       <ingredient name="Jalapeno Pepper" count="5"/>
       <ingredient name="Poblano Pepper" count="5"/>
       <ingredient name="Minced Garlic" count="5"/>
       <ingredient name="Salt" count="2"/>
-    </recipe>
-    <recipe name="Sriracha Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Sriracha Step 1" count="1"/>
-      <ingredient name="drinkJarRiverWater" count="1"/>
       <ingredient name="Sugar" count="5"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
     </recipe>
-    <recipe name="Sriracha Step 3" count="1" craft_time="10" craft_area="Fermentor Bench" craft_tool="Clay Pot">
-      <ingredient name="Sriracha Step 2" count="1"/>
-    </recipe>
-    <recipe name="Steak Burrito" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
-      <ingredient name="Steak Burrito Step 2" count="1"/>
-      <ingredient name="Lard" count="1"/>
-    </recipe>
-    <recipe name="Steak Burrito Step 1" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
+    <recipe name="Steak Burrito" count="1" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Sliced Steak" count="5"/>
-      <ingredient name="Lard" count="1"/>
+      <ingredient name="Lard" count="2"/> <!-- Combined Lard from both steps -->
       <ingredient name="Salt" count="1"/>
       <ingredient name="Black Pepper" count="1"/>
-    </recipe>
-    <recipe name="Steak Burrito Step 2" count="1" craft_time="10" craft_area="Chopping Board">
-      <ingredient name="Steak Burrito Step 1" count="1"/>
       <ingredient name="Queso Fresco" count="2"/>
       <ingredient name="Shredded Lettuce" count="2"/>
       <ingredient name="Refried Beans" count="1"/>
@@ -3778,58 +3516,29 @@
       <ingredient name="Sushi Rice Step 1" count="1"/>
       <ingredient name="Sushi Rice Step 2" count="1"/>
     </recipe>
-    <recipe name="Sushi Rice Step 1" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
+    <recipe name="Sushi Rice" count="10" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot">
+      <ingredient name="Rice" count="5"/>
       <ingredient name="Cooking Vinegar" count="2"/>
       <ingredient name="Sugar" count="2"/>
       <ingredient name="Salt" count="2"/>
-    </recipe>
-    <recipe name="Sushi Rice Step 2" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Rice" count="5"/>
       <ingredient name="drinkJarBoiledWater" count="5"/>
     </recipe>
-    <recipe name="Swiss Cheese" count="50" craft_time="10" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
-      <ingredient name="Swiss Cheese Step 8" count="1"/>
-    </recipe>
-    <recipe name="Swiss Cheese Step 1" count="1" craft_time="10" craft_area="Brew Cooker" craft_tool="Boiler">
+    <recipe name="Swiss Cheese" count="50" craft_time="30" craft_area="Dairy Churn">
       <ingredient name="Milk" count="10"/>
       <ingredient name="Cheese Culture" count="5"/>
-    </recipe>
-    <recipe name="Swiss Cheese Step 2" count="1" craft_time="10" craft_area="Fermentor Bench">
-      <ingredient name="Swiss Cheese Step 1" count="1"/>
-    </recipe>
-    <recipe name="Swiss Cheese Step 3" count="1" craft_time="10" craft_area="Brew Cooker" craft_tool="Boiler">
-      <ingredient name="Swiss Cheese Step 2" count="1"/>
       <ingredient name="Rennet" count="5"/>
-    </recipe>
-    <recipe name="Swiss Cheese Step 4" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
-      <ingredient name="Swiss Cheese Step 3" count="1"/>
-    </recipe>
-    <recipe name="Swiss Cheese Step 5" count="1" craft_time="10" craft_area="Brew Cooker" craft_tool="Boiler">
-      <ingredient name="Swiss Cheese Step 4" count="1"/>
-    </recipe>
-    <recipe name="Swiss Cheese Step 6" count="1" craft_time="10" craft_area="Chopping Board">
-      <ingredient name="Swiss Cheese Step 5" count="1"/>
-      <ingredient name="Cheese Cloth" count="1"/>
-    </recipe>
-    <recipe name="Swiss Cheese Step 7" count="1" craft_time="10" craft_area="Fermentor Bench" craft_tool="Cheese Press">
-      <ingredient name="Swiss Cheese Step 6" count="1"/>
-      <ingredient name="Cheese Cloth" count="1"/>
-    </recipe>
-    <recipe name="Swiss Cheese Step 8" count="1" craft_time="10" craft_area="Fermentor Bench">
-      <ingredient name="Swiss Cheese Step 7" count="1"/>
+      <ingredient name="Salt" count="5"/>
+      <ingredient name="Cheese Cloth" count="2"/>
       <ingredient name="Briney Water" count="1"/>
     </recipe>
     <recipe name="Taco Shell" count="10" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
       <ingredient name="Corn Tortillas Step 2" count="1"/>
     </recipe>
     <recipe name="Tortillas Chips" count="10" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
-      <ingredient name="Tortillas Chips Step 2" count="1"/>
+      <ingredient name="Tortillas Chips Step 1" count="1"/>
     </recipe>
     <recipe name="Tortillas Chips Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Flour Tortillas" count="5"/>
-    </recipe>
-    <recipe name="Tortillas Chips Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Tortillas Chips Step 1" count="1"/>
       <ingredient name="Olive Oil" count="1"/>
       <ingredient name="Lime" count="1"/>
       <ingredient name="Salt" count="1"/>
@@ -3841,30 +3550,15 @@
       <ingredient name="Refried Beans" count="3"/>
       <ingredient name="Queso Fresco" count="3"/>
     </recipe>
-    <recipe name="Umeboshi" count="5" craft_time="10" craft_area="Chopping Board">
-      <ingredient name="Umeboshi Step 3" count="1"/>
-    </recipe>
-    <recipe name="Umeboshi Step 1" count="1" craft_time="10" craft_area="Fermentor Bench">
+    <recipe name="Umeboshi Step 1" count="1" craft_time="10" craft_area="Fermentor Bench" craft_tool="Clay Pot">
       <ingredient name="Ume" count="10"/>
       <ingredient name="bucketRiverWater" count="1"/>
-    </recipe>
-    <recipe name="Umeboshi Step 2" count="1" craft_time="10" craft_area="Fermentor Bench" craft_tool="Clay Pot">
-      <ingredient name="Umeboshi Step 1" count="1"/>
       <ingredient name="Salt" count="20"/>
       <ingredient name="Cheese Cloth" count="2"/>
     </recipe>
-    <recipe name="Umeboshi Step 3" count="1" craft_time="10" craft_area="Fermentor Bench" craft_tool="Clay Pot">
-      <ingredient name="Umeboshi Step 2" count="1"/>
+    <recipe name="Umeboshi" count="5" craft_time="10" craft_area="Fermentor Bench" craft_tool="Clay Pot">
+      <ingredient name="Umeboshi Step 1" count="1"/>
       <ingredient name="Cheese Cloth" count="2"/>
-    </recipe>
-    <recipe name="Vegetable Oil" count="10" craft_time="10">
-      <ingredient name="Vegetable Oil Step 1" count="10"/>
-    </recipe>
-    <recipe name="Vegetable Oil Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Veggie Attachment">
-      <ingredient name="foodCropCorn" count="5"/>
-    </recipe>
-    <recipe name="Vegetable Oil Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Veggie Attachment">
-      <ingredient name="Soy Bean" count="5"/>
     </recipe>
     <recipe name="Vegetable Pasta Meal" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Boiled Penne" count="1"/>
@@ -3903,12 +3597,14 @@
       <ingredient name="drinkJarEmpty" count="15"/>
       <ingredient name="Cheese Cloth" count="1"/>
     </recipe>
-    <recipe name="Yogurt Step 1" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
+    <recipe name="Yogurt Step 1" count="1" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot">
       <ingredient name="Milk" count="2"/>
-    </recipe>
-    <recipe name="Yogurt Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Yogurt Step 1" count="1"/>
       <ingredient name="Yogurt Culture" count="1"/>
+    </recipe>
+    <recipe name="Plain Yogurt" count="20" craft_time="10" craft_area="Fermentor Bench">
+      <ingredient name="Yogurt Step 1" count="1"/>
+      <ingredient name="drinkJarEmpty" count="19"/>
+      <ingredient name="Cheese Cloth" count="1"/>
     </recipe>
 
     <!--
