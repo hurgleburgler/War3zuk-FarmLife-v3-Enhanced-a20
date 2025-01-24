@@ -1391,11 +1391,7 @@
     </recipe>
 
     <recipe name="Flour" count="1" craft_time="5" craft_area="KitchNaid" craft_tool="Grain Miller">
-      <ingredient name="Whole Wheat" count="4"/>
-    </recipe>
-
-    <recipe name="Whole Wheat" count="5" craft_time="5" craft_area="KitchNaid" craft_tool="Grain Miller">
-      <ingredient name="foodCropCorn" count="10"/>
+      <ingredient name="Wheat" count="4"/>
     </recipe>
 
     <recipe name="resourcePaper" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Grain Miller">
@@ -1429,7 +1425,7 @@
     </recipe>
 
     <recipe name="Cereal" count="1" craft_time="10">
-      <ingredient name="Whole Wheat" count="1"/>
+      <ingredient name="Wheat" count="1"/>
       <ingredient name="Flax Fiber" count="1"/>
       <ingredient name="Milk" count="1"/>
     </recipe>
