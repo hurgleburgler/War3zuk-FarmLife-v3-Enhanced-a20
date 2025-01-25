@@ -1958,10 +1958,6 @@
       <ingredient name="Cheddar Step 5" count="1"/>
     </recipe>
 
-    <recipe name="Wheat Flour" count="1">
-      <ingredient name="Aged Wheat Flour" count="1"/>
-    </recipe>
-
     <recipe name="Alkaline Solution" count="1" craft_time="10" craft_area="Brew Cooker">
       <ingredient name="bucketRiverWater" count="1"/>
       <ingredient name="Wood Ash" count="5"/>
@@ -1979,7 +1975,7 @@
 
     <recipe name="Apple Pie" count="1" craft_time="10" craft_area="oven" craft_tool="PyreX Bakeware">
       <ingredient name="Sliced Apples" count="6"/>
-      <ingredient name="Wheat Flour" count="2"/>
+      <ingredient name="Flour" count="2"/>
       <ingredient name="foodEgg" count="1"/>
       <ingredient name="resourceAnimalFat" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
@@ -2031,7 +2027,7 @@
       <ingredient name="Banana" count="10"/>
       <ingredient name="Sugar" count="10"/>
       <ingredient name="Butter" count="5"/>
-      <ingredient name="Wheat Flour" count="2"/>
+      <ingredient name="Flour" count="2"/>
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Milk" count="1"/>
       <ingredient name="Ground Cinnamon" count="1"/>
@@ -2039,7 +2035,7 @@
     </recipe>
 
     <recipe name="Bechamel" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-      <ingredient name="Wheat Flour" count="1"/>
+      <ingredient name="Flour" count="1"/>
       <ingredient name="Milk" count="2"/>
       <ingredient name="Salt" count="1"/>
     </recipe>
@@ -2085,7 +2081,7 @@
     </recipe>
 
     <recipe name="Biscuit" count="10" craft_time="15" craft_area="oven" craft_tool="Baking Sheet">
-      <ingredient name="Wheat Flour" count="2"/>
+      <ingredient name="Flour" count="2"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="resourceAnimalFat" count="5"/>
       <ingredient name="Milk" count="1"/>
@@ -2273,7 +2269,7 @@
 
     <recipe name="Cherry Pie" count="1" craft_time="10" craft_area="oven" craft_tool="PyreX Bakeware">
       <ingredient name="Cherry" count="4"/>
-      <ingredient name="Wheat Flour" count="2"/>
+      <ingredient name="Flour" count="2"/>
       <ingredient name="foodEgg" count="1"/>
       <ingredient name="resourceAnimalFat" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
@@ -2325,7 +2321,7 @@
       <ingredient name="Chile Relleno Step 1" count="1"/>
       <ingredient name="Queso Fresco" count="6"/>
       <ingredient name="foodEgg" count="2"/>
-      <ingredient name="Wheat Flour" count="1"/>
+      <ingredient name="Flour" count="1"/>
       <ingredient name="resourceAnimalFat" count="2"/>
     </recipe>
 
@@ -2559,7 +2555,7 @@
     </recipe>
 
     <recipe name="Egg Noodles Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Wheat Flour" count="4"/>
+      <ingredient name="Flour" count="4"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Milk" count="1"/>
@@ -2597,7 +2593,7 @@
 
     <recipe name="English Muffin Step 2" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="English Muffin Step 1" count="1"/>
-      <ingredient name="Wheat Flour" count="3"/>
+      <ingredient name="Flour" count="3"/>
     </recipe>
 
     <recipe name="Fajitas Platter" count="1" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
@@ -2641,7 +2637,7 @@
     </recipe>
 
     <recipe name="Flour Tortillas Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Wheat Flour" count="4"/>
+      <ingredient name="Flour" count="4"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="resourceAnimalFat" count="2"/>
       <ingredient name="drinkJarBoiledWater" count="4"/>
@@ -2774,6 +2770,15 @@
       <ingredient name="Habanero Pepper" count="1"/>
       <ingredient name="Poblano Pepper" count="1"/>
     </recipe>
+    <recipe name="Ground Hot Pepper" count="10" craft_time="10" craft_area="KitchNaid" craft_tool="Grain Miller">
+      <ingredient name="Ghost Pepper" count="3"/>
+    </recipe>
+    <recipe name="Ground Hot Pepper" count="10" craft_time="10" craft_area="KitchNaid" craft_tool="Grain Miller">
+      <ingredient name="Habanero Pepper" count="3"/>
+    </recipe>
+    <recipe name="Ground Hot Pepper" count="10" craft_time="10" craft_area="KitchNaid" craft_tool="Grain Miller">
+      <ingredient name="Poblano Pepper" count="3"/>
+    </recipe>
     <recipe name="Ground Oregano" count="10" craft_time="10" craft_area="KitchNaid" craft_tool="Grain Miller">
       <ingredient name="Oregano" count="2"/>
     </recipe>
@@ -2902,7 +2907,7 @@
       <ingredient name="Horse Fat" count="5"/>
     </recipe>
     <recipe name="Linguini" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Pasta Helper">
-      <ingredient name="Wheat Flour" count="5"/>
+      <ingredient name="Flour" count="5"/>
       <ingredient name="Milk" count="1"/>
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Salt" count="1"/>
@@ -3033,7 +3038,7 @@
       <ingredient name="Butter" count="3"/>
     </recipe>
     <recipe name="Pancake Step 1" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-      <ingredient name="Wheat Flour" count="3"/>
+      <ingredient name="Flour" count="3"/>
       <ingredient name="Salt" count="1"/>
       <ingredient name="Sugar" count="2"/>
       <ingredient name="Milk" count="2"/>
@@ -3071,7 +3076,7 @@
       <ingredient name="resourceScrapPolymers" count="4"/>
     </recipe>
     <recipe name="Penne" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Pasta Helper">
-      <ingredient name="Wheat Flour" count="5"/>
+      <ingredient name="Flour" count="5"/>
       <ingredient name="Milk" count="1"/>
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Salt" count="1"/>
@@ -3180,7 +3185,7 @@
       <ingredient name="drinkJarEmpty" count="15"/>
     </recipe>
     <recipe name="Rigatoni" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Pasta Helper">
-      <ingredient name="Wheat Flour" count="5"/>
+      <ingredient name="Flour" count="5"/>
       <ingredient name="Milk" count="1"/>
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Salt" count="1"/>
@@ -3277,7 +3282,7 @@
     <recipe name="Sausage Gravy" count="10" craft_time="15" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Ground Pork" count="5"/>
       <ingredient name="Butter" count="2"/>
-      <ingredient name="Wheat Flour" count="1"/>
+      <ingredient name="Flour" count="1"/>
       <ingredient name="Milk" count="1"/>
       <ingredient name="Minced Garlic" count="1"/>
       <ingredient name="Salt" count="1"/>
@@ -3400,7 +3405,7 @@
       <ingredient name="ChickenBreast" count="4"/>
     </recipe>
     <recipe name="Spaghetti" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Pasta Helper">
-      <ingredient name="Wheat Flour" count="4"/>
+      <ingredient name="Flour" count="4"/>
       <ingredient name="Milk" count="1"/>
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Salt" count="1"/>
@@ -3576,9 +3581,6 @@
     <recipe name="Wheat Bread" count="1" craft_time="10" craft_area="oven" craft_tool="Baking Sheet">
       <ingredient name="Dough" count="1"/>
     </recipe>
-    <recipe name="Wheat Flour" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Grain Miller">
-      <ingredient name="Wheat" count="1"/>
-    </recipe>
     <recipe name="Whipped Cream" count="5" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
       <ingredient name="Milk" count="5"/>
       <ingredient name="Sugar" count="1"/>
@@ -3703,7 +3705,7 @@
     </recipe>
     <recipe name="Turkey Gravy Step 3" count="1" craft_time="10" craft_area="range" craft_tool="Cast Iron Skillet">
       <ingredient name="Turkey Gravy Step 2" count="1"/>
-      <ingredient name="Wheat Flour" count="1"/>
+      <ingredient name="Flour" count="1"/>
     </recipe>
 
     <recipe name="Turkey Diner" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
@@ -4172,7 +4174,7 @@
     </recipe>
 
     <recipe name="Graham Crackers" count="10" craft_time="60" craft_area="oven" craft_tool="Baking Sheet">
-      <ingredient name="Wheat Flour" count="3"/>
+      <ingredient name="Flour" count="3"/>
       <ingredient name="Sugar" count="3"/>
       <ingredient name="Butter" count="1"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
