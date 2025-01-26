@@ -2377,3 +2377,14 @@ Lamb Fat,,item,Food,newKey,Lamb Fat,,Lammfett
 farmLifeLambFatDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item [FF684F]( required.)\nMaterial: [c7b992].\nUnlocked by: [c7b992]Farm Life\n\nRaw lamb fat trimmed from lamb cuts. Can be rendered into tallow.",,"Typ: [c7b992]Farm Life Item [FF684F] (benötigt.)\nMaterial: [c7b992].\nFreischalten durch: [c7b992]Farm Life\n\nRohes Lammfett von Lammfleischstücken. Kann zu Talg ausgelassen werden."
 Horse Fat,,item,Food,newKey,Horse Fat,,Pferdefett
 farmLifeHorseFatDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item [FF684F]( required.)\nMaterial: [c7b992].\nUnlocked by: [c7b992]Farm Life\n\nRaw horse fat trimmed from horse meat. Can be rendered into tallow.",,"Typ: [c7b992]Farm Life Item [FF684F] (benötigt.)\nMaterial: [c7b992].\nFreischalten durch: [c7b992]Farm Life\n\nRohes Pferdefett von Pferdefleisch. Kann zu Talg ausgelassen werden."
+
+buffAgilityAdd,buffs,buff,,,Agility Bonus,Shows bonus to Agility attribute
+buffStrengthAdd,buffs,buff,,,Strength Bonus,Shows bonus to Strength attribute
+buffPerceptionAdd,buffs,buff,,,Perception Bonus,Shows bonus to Perception attribute
+buffFistDamage,buffs,buff,,,Fist Damage,Shows increase to fist damage
+buffStaminaRegen,buffs,buff,,,Stamina Regeneration,Shows increase to stamina regen
+buffStunResist,buffs,buff,,,Stun Resistance,Shows increase to stun resistance
+buffFistDamage,buffs,buff,,,Fist Damage,Shows increase to fist damage
+buffHealthRegen,buffs,buff,,,Health Regeneration,Shows increase to health regeneration
+buffExplosiveWeapons,buffs,buff,,,Explosive Weapons,Shows increase to explosive weapons skill
+buffAutomaticWeapons,buffs,buff,,,Automatic Weapons,Shows increase to automatic weapons skill

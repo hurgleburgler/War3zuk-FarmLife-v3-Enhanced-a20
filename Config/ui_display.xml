@@ -1,154 +1,209 @@
 <configs>
-	
-	<append xpath="/ui_display_info/crafting_category_display">
-		
-		<crafting_category_list display_type="Chicken">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Cow">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
-			<crafting_category name="Animals" icon="ui_game_symbol_farm_life" display_name="Animals" icon_color="255,255,0" />
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
 
-		<crafting_category_list display_type="Elk">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Horse">
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Pheasant">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Pig">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Sheep">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Turkey">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<!-- WORKSTATIONS -->
-		<crafting_category_list display_type="Brew Cooker">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_beer" display_name="Brewing" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Brew Station">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_beer" display_name="Brewing" icon_color="153,0,0"/>
-		</crafting_category_list>	
-	
-		<crafting_category_list display_type="Butcher Table">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_knife" display_name="Butchering" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Chopping Board">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_knife" display_name="Chopping" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Cold Smoker">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_knife" display_name="Smoking" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Dairy Churn">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Dairy" icon="ui_game_symbol_fork" display_name="Churn" />
-		</crafting_category_list>
-	
-		<crafting_category_list display_type="Farm Forge">
-			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_farm_life" display_name="lblCategoryFoodCooking" />
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-		</crafting_category_list>
-	
-		<crafting_category_list display_type="Farm Table">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Seeds" icon="ui_game_symbol_tree" display_name="Seeds" icon_color="0,153,0"/>
-			<crafting_category name="Animals" icon="ui_game_symbol_resource" display_name="Animal Resources" icon_color="255,255,0" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Grain Processor">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Processor" icon="ui_game_symbol_farm_life" display_name="Processor" />
-			<crafting_category name="Grain" icon="ui_game_symbol_coffee" display_name="Grain Processor" />			
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Fermentor Bench">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Fermentor" icon="ui_game_symbol_beer" display_name="Fermentor" />
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Gas Oven">
-			<crafting_category name="Gas Oven" icon="ui_game_symbol_spatula" display_name="Gas Oven" />			
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="KitchNaid">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
-			<crafting_category name="KitchNaid" icon="ui_game_symbol_coffee" display_name="KitchNaid" />
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Rustic Smoker">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Smoker" icon="ui_game_symbol_spatula" display_name="Smoker" icon_color="255,111,0" />
-		</crafting_category_list>
+  <append xpath="/ui_display_info/crafting_category_display">
 
-		<crafting_category_list display_type="Spinning Wheel">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Spinning Wheel" icon="ui_game_symbol_farm_life" display_name="Spinning Wheel" icon_color="255,111,0" />
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Webber Grill">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Webber Grill" icon="ui_game_symbol_spatula" display_name="Webber Grill" icon_color="255,111,0" />
-		</crafting_category_list>
-		
-		<crafting_category_list display_type="Wood Grill">			
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Wood Grill" icon_color="174,0,255"/>
-		</crafting_category_list>
-		
-</append>
+    <crafting_category_list display_type="Chicken">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking"/>
+      <crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
+    </crafting_category_list>
 
-		<!--  CUSTOM ADDITIONS FOR TESTING -->
-		
-<append xpath="/ui_display_info/item_display">
-	
-<item_display_info display_type="dizastahoneyjar" display_group="groupConsumables">
-    <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
-    <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
-    <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
-    <display_entry name=".foodStaminaBonusAdd" title_key="statStaminaAmount" />
-    <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
-    <display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent" />
-    <display_entry name="dCureDysentery" title_key="statCureDysentery" display_type="Percent" />
+    <crafting_category_list display_type="Cow">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All"/>
+      <crafting_category name="Animals" icon="ui_game_symbol_farm_life" display_name="Animals" icon_color="255,255,0"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking"/>
+      <crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Elk">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking"/>
+      <crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Horse">
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking"/>
+      <crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Pheasant">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking"/>
+      <crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Pig">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking"/>
+      <crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Sheep">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking"/>
+      <crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Turkey">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking"/>
+      <crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <!-- WORKSTATIONS -->
+    <crafting_category_list display_type="Brew Cooker">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_beer" display_name="Brewing" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Brew Station">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_beer" display_name="Brewing" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Butcher Table">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_knife" display_name="Butchering" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Chopping Board">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_knife" display_name="Chopping" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Cold Smoker">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_knife" display_name="Smoking" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Dairy Churn">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Dairy" icon="ui_game_symbol_fork" display_name="Churn"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Farm Forge">
+      <crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_farm_life" display_name="lblCategoryFoodCooking"/>
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Farm Table">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Seeds" icon="ui_game_symbol_tree" display_name="Seeds" icon_color="0,153,0"/>
+      <crafting_category name="Animals" icon="ui_game_symbol_resource" display_name="Animal Resources" icon_color="255,255,0"/>
+      <crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Grain Processor">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Processor" icon="ui_game_symbol_farm_life" display_name="Processor"/>
+      <crafting_category name="Grain" icon="ui_game_symbol_coffee" display_name="Grain Processor"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Fermentor Bench">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Fermentor" icon="ui_game_symbol_beer" display_name="Fermentor"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Gas Oven">
+      <crafting_category name="Gas Oven" icon="ui_game_symbol_spatula" display_name="Gas Oven"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="KitchNaid">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All"/>
+      <crafting_category name="KitchNaid" icon="ui_game_symbol_coffee" display_name="KitchNaid"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Rustic Smoker">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Smoker" icon="ui_game_symbol_spatula" display_name="Smoker" icon_color="255,111,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Spinning Wheel">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Spinning Wheel" icon="ui_game_symbol_farm_life" display_name="Spinning Wheel" icon_color="255,111,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Webber Grill">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Webber Grill" icon="ui_game_symbol_spatula" display_name="Webber Grill" icon_color="255,111,0"/>
+    </crafting_category_list>
+
+    <crafting_category_list display_type="Wood Grill">
+      <crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Wood Grill" icon_color="174,0,255"/>
+    </crafting_category_list>
+
+  </append>
+
+  <!--  CUSTOM ADDITIONS FOR TESTING -->
+
+  <append xpath="/ui_display_info/item_display">
+
+    <item_display_info display_type="dizastahoneyjar" display_group="groupConsumables">
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+      <display_entry name=".foodStaminaBonusAdd" title_key="statStaminaAmount"/>
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent"/>
+      <display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent"/>
+      <display_entry name="dCureDysentery" title_key="statCureDysentery" display_type="Percent"/>
     </item_display_info>
-</append>
+
+    <item_display_info display_type="foodTravelingBBQ" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dAgilityBonus" title_key="buffAgilityAdd" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodRedneck" display_group="groupConsumables">
+      <display_entry name="dFistDamage" title_key="buffFistDamage"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent"/>
+      <display_entry name="dStunResist" title_key="buffStunResist"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodHopFreak" display_group="groupConsumables">
+      <display_entry name="dStrengthBonus" title_key="buffStrengthAdd" display_leading_plus="true"/>
+      <display_entry name="dPerceptionBonus" title_key="buffPerceptionAdd" display_leading_plus="true"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodTastyIPA" display_group="groupConsumables">
+      <display_entry name="dFistDamage" title_key="buffFistDamage"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent"/>
+      <display_entry name="dStunResist" title_key="buffStunResist"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBavarianLager" display_group="groupConsumables">
+      <display_entry name="dFistDamage" title_key="buffFistDamage" display_leading_plus="true"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dStunResist" title_key="buffStunResist" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodStoutTime" display_group="groupConsumables">
+      <display_entry name="dFistDamage" title_key="buffFistDamage" display_leading_plus="true"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dStunResist" title_key="buffStunResist" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBeetroot" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dHealthRegen" title_key="buffHealthRegen" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBeetMe" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dExplosiveWeapons" title_key="buffExplosiveWeapons" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodLimpBisquit" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dAutomaticWeapons" title_key="buffAutomaticWeapons" display_leading_plus="true"/>
+    </item_display_info>
+  </append>
 
 </configs>

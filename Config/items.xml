@@ -789,7 +789,7 @@
     <item name="BBQ Elk Jerky">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
+      <property name="DisplayType" value="foodTravelingBBQ" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -807,6 +807,7 @@
       <property name="CustomIcon" value="Elk Jerky" />
       <property name="CustomIconTint" value="9D2400" />
       <effect_group tiered="false">
+        <display_value name="dAgilityBonus" value="1"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Traveling BBQ" />
       </effect_group>
       <effect_group tiered="false">
@@ -1210,6 +1211,7 @@
     <item name="Beer Cheap">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="3" />
+      <property name="DisplayType" value="foodRedneck"/>
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -1227,7 +1229,10 @@
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Redneck" />
+        <display_value name="dFistDamage" value="5"/>
+        <display_value name="dStaminaRegen" value="0.1"/>
+        <display_value name="dStunResist" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffRedneck"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBeerCheapDesc" />
     </item>
@@ -1278,6 +1283,7 @@
     </item>
     <item name="Beer Double IPA">
       <property name="CreativeMode" value="Player" />
+      <property name="DisplayType" value="foodHopFreak"/>
       <property name="HoldType" value="3" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
@@ -1298,13 +1304,17 @@
       <property name="CustomIcon" value="Beer IPA" />
       <property name="CustomIconTint" value="929000" />
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Hop Freak" />
+        <display_value name="dStrengthBonus" value="1"/>
+        <display_value name="dPerceptionBonus" value="1"/>
+        <display_value name="dStaminaRegen" value="0.35"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffHopFreak"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBeerDoubleIPADesc" />
     </item>
     <item name="Beer IPA">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="3" />
+      <property name="DisplayType" value="foodTastyIPA"/>
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -1322,7 +1332,10 @@
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Tasty IPA" />
+        <display_value name="dFistDamage" value="3"/>
+        <display_value name="dStaminaRegen" value="0.35"/>
+        <display_value name="dStunResist" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffTastyIPA"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBeerIPADesc" />
     </item>
@@ -1390,8 +1403,12 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodBavarianLager"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Bavarian Lager" />
+        <display_value name="dFistDamage" value="3"/>
+        <display_value name="dStaminaRegen" value="0.35"/>
+        <display_value name="dStunResist" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Bavarian Lager"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBeerLagerDesc" />
     </item>
@@ -1459,8 +1476,12 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodStoutTime"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Stout Time" />
+        <display_value name="dFistDamage" value="3"/>
+        <display_value name="dStaminaRegen" value="0.35"/>
+        <display_value name="dStunResist" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Stout Time"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBeerStoutDesc" />
     </item>
@@ -1537,7 +1558,6 @@
     <item name="Beet Juice">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="3" />
-      <property name="DisplayType" value="water" />
       <property name="Group" value="Food/Cooking,KitchNaid,All" />
       <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -1558,8 +1578,11 @@
         <requirement name="HasBuff" buff="buffIsOnFire" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire" />
       </effect_group>
+      <property name="DisplayType" value="foodBeetroot"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Beetroot" />
+        <display_value name="dStaminaRegen" value="0.1"/>
+        <display_value name="dHealthRegen" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Beetroot"/>
       </effect_group>
       <effect_group tiered="false">
         <requirement name="NotHasBuff" buff="buffIsOnFire" />
@@ -1572,7 +1595,6 @@
     <item name="Beet Salad">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -1592,8 +1614,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodBeetMe"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Beet me!" />
+        <display_value name="dExplosiveWeapons" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Beet me!"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBeetSaladDesc" />
     </item>
