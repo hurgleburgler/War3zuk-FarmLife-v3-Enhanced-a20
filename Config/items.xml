@@ -241,7 +241,6 @@
     </item>
     <item name="SpicyChickenWings">
       <property name="Extends" value="baseCookedChicken"/>
-      <property name="DisplayType" value="foodWaterNegative"/>
       <property name="CustomIcon" value="Spicy Chicken Wings"/>
       <effect_group tiered="false" name="Food Tier 0">
         <!-- Effects -->
@@ -249,21 +248,29 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="-7"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+      </effect_group>
+      <property name="DisplayType" value="foodBdubs"/>
+      <effect_group tiered="false">
+        <display_value name="dBuyingBartering" value="10"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Bdubs can't do these"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeSpicyChickenWingsDesc"/>
     </item>
     <item name="SpicyHotWings">
       <property name="Extends" value="baseCookedChicken"/>
-      <property name="DisplayType" value="foodWaterNegative"/>
       <property name="CustomIcon" value="7hotwings"/>
       <effect_group tiered="false" name="Food Tier 0">
         <!-- Effects -->
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="14"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="8"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="-10"/>
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffHotWings"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+      </effect_group>
+      <property name="DisplayType" value="foodHotWings"/>
+      <effect_group tiered="false">
+        <display_value name="dRunSpeed" value="100"/>
+        <display_value name="dStaminaCost" value="50"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffHotWings"/>
       </effect_group>
       <property name="DescriptionKey" value="SpicyHotWingsDesc"/>
     </item>
@@ -1587,7 +1594,6 @@
       <effect_group tiered="false">
         <requirement name="NotHasBuff" buff="buffIsOnFire" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="24" />
-        <display_value name="staminaAmount" value="4" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBeetJuiceDesc" />
@@ -1664,7 +1670,6 @@
     <item name="Biscuit">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -1684,8 +1689,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodLimpBisquit"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Limp Bisquit" />
+        <display_value name="dAutomaticWeapons" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Limp Bisquit"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBiscuitDesc" />
     </item>
@@ -1737,7 +1744,6 @@
     <item name="Biscuits and Gravy">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -1757,8 +1763,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodShitNShingles"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Shit n Shingles" />
+        <display_value name="dStayDown" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Shit n Shingles"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBiscuitsandGravyDesc" />
     </item>
@@ -2155,8 +2163,11 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodKentuckyChar"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Kentucky Char" />
+        <display_value name="dStrength" value="1"/>
+        <display_value name="dPerception" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Kentucky Char"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBourbonDesc" />
     </item>
@@ -2207,7 +2218,6 @@
     <item name="Brazilian Grilled Pineapple">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -2227,8 +2237,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodBuenosAires"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Buenos Aires" />
+        <display_value name="dConcussionResist" value="5"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Buenos Aires"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBrazilianGrilledPineappleDesc" />
     </item>
@@ -2403,8 +2415,11 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodDoubleGold"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Double Gold" />
+        <display_value name="dStrength" value="1"/>
+        <display_value name="dPerception" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Double Gold"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeBulleeetRyeDesc" />
     </item>
@@ -2519,8 +2534,11 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodAccidentalVarietal"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Accidental Varietal" />
+        <display_value name="dBetterBarter" value="1"/>
+        <display_value name="dCharismaticNature" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Accidental Varietal"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeCabernetSauvignonDesc" />
     </item>
@@ -2663,8 +2681,11 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodWhiteBurgundy"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="White Burgundy" />
+        <display_value name="dBetterBarter" value="1"/>
+        <display_value name="dCharismaticNature" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="White Burgundy"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeChardonneDesc" />
     </item>
@@ -2843,7 +2864,6 @@
     <item name="Cheeseburger">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Webber Grill" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -2863,8 +2883,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="8" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodWithCheese"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="With Cheese" />
+        <display_value name="dHammerForge" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="With Cheese"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeCheeseburgerDesc" />
     </item>
@@ -2896,7 +2918,6 @@
     <item name="Cherry Ice Cream">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,KitchNaid,All" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -2916,15 +2937,16 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="11" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodLittleTart"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Little Tart" />
+        <display_value name="dBurningResist" value="13"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Little Tart"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeCherryIceCreamDesc" />
     </item>
     <item name="Cherry Pie">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -2944,8 +2966,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="6" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodCherryPie"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="She's my cherry pie" />
+        <display_value name="dBurningEnvironmentResist" value="9"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="She's my cherry pie"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeCherryPieDesc" />
     </item>
@@ -3011,7 +3035,6 @@
     <item name="Chicken Tamale">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -3031,8 +3054,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodNoMalTamale"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="No mal Tamale" />
+        <display_value name="dInfectionResist" value="6"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="No mal Tamale"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeChickenTamaleDesc" />
     </item>
@@ -3722,7 +3747,6 @@
     <item name="Country Boy Breakfast">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -3742,8 +3766,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="18" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodCountryBoy"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Country Boy" />
+        <display_value name="dIntellect" value="2"/>
+        <display_value name="dBleedingResist" value="20"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Country Boy"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeCountryBoyBreakfastDesc" />
     </item>
@@ -3987,7 +4014,6 @@
     <item name="Denver Omelette">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -4007,8 +4033,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="16" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodRottenEggs"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Rotten Eggs" />
+        <display_value name="dRunAndGun" value="2"/>
+        <display_value name="dInfectionResist" value="21"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Rotten Eggs"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeDenverOmeletteDesc" />
     </item>
@@ -4475,7 +4504,6 @@
     <item name="Eggs Benedict">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -4495,8 +4523,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="6" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodGooeyGold"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Gooey Gold" />
+        <display_value name="dSkullCrusher" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Gooey Gold"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeEggsBenedictDesc" />
     </item>
@@ -4999,7 +5029,6 @@
     <item name="Fried Okra">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -5019,8 +5048,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="16" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodDeepSouth"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Deep South" />
+        <display_value name="dPainTolerance" value="2"/>
+        <display_value name="dRunAndGun" value="2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Deep South"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeFriedOkraDesc" />
     </item>
@@ -5057,7 +5089,6 @@
     <item name="Fruit Pancakes">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -5077,15 +5108,16 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="8" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodFruityCake"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Fruity Cake" />
+        <display_value name="dMiner69r" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Fruity Cake"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeFruitPancakesDesc" />
     </item>
     <item name="Fruit Smoothie">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="3" />
-      <property name="DisplayType" value="water" />
       <property name="Group" value="Food/Cooking,KitchNaid,All" />
       <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -5106,8 +5138,10 @@
         <requirement name="HasBuff" buff="buffIsOnFire" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire" />
       </effect_group>
+      <property name="DisplayType" value="foodYummySmoothie"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Yummy Smoothie" />
+        <display_value name="dFoodBonus" value="2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Yummy Smoothie"/>
       </effect_group>
       <effect_group tiered="false">
         <requirement name="NotHasBuff" buff="buffIsOnFire" />
@@ -5120,7 +5154,6 @@
     <item name="Fuego en el Culo">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -5135,8 +5168,11 @@
         <property name="Delay" value="1.0" />
         <property name="Sound_start" value="player_eating" />
       </property>
+      <property name="DisplayType" value="foodSpicyBurn"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Spicy Burn" />
+        <display_value name="dPerceptionLoss" value="1"/>
+        <display_value name="dWaterLoss" value="3"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Spicy Burn"/>
       </effect_group>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="109" />
@@ -5148,7 +5184,6 @@
     <item name="Full Stack 'o Pancakes">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -5168,8 +5203,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="17" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodCakeBoy"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Cake boy" />
+        <display_value name="dPainTolerance" value="2"/>
+        <display_value name="dHealingFactor" value="2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Cake boy"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeFullStackoPancakesDesc" />
     </item>
@@ -5327,7 +5365,6 @@
     <item name="Grandma's Omelette">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -5347,8 +5384,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="22" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodGrandmasDead"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Grandma's dead" />
+        <display_value name="dDrowningResist" value="29"/>
+        <display_value name="dStunResist" value="29"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Grandma's dead"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeGrandmasOmeletteDesc" />
     </item>
@@ -5930,7 +5970,6 @@
     <item name="Hamburger">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Webber Grill" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -5950,8 +5989,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="7" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodWithoutCheese"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Without Cheese" />
+        <display_value name="dConcussionResist" value="10"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Without Cheese"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeHamburgerDesc" />
     </item>
@@ -6155,7 +6196,6 @@
     <item name="Joel's Breakfast">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -6170,8 +6210,10 @@
         <property name="Delay" value="1.0" />
         <property name="Sound_start" value="player_eating" />
       </property>
+      <property name="DisplayType" value="foodMadmole"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="madmole" />
+        <display_value name="dStrength" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="madmole"/>
       </effect_group>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="23" />
@@ -6809,7 +6851,6 @@
     <item name="Mexican Combo 3">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -6824,8 +6865,11 @@
         <property name="Delay" value="1.0" />
         <property name="Sound_start" value="player_eating" />
       </property>
+      <property name="DisplayType" value="foodMariachi"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Mariachi" />
+        <display_value name="dFortitude" value="1"/>
+        <display_value name="dStaminaRegen" value="0.2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Mariachi"/>
       </effect_group>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="88" />
@@ -6837,7 +6881,6 @@
     <item name="Mexican Combo 69">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -6852,8 +6895,11 @@
         <property name="Delay" value="1.0" />
         <property name="Sound_start" value="player_eating" />
       </property>
+      <property name="DisplayType" value="foodMariachi"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Mariachi" />
+        <display_value name="dFortitude" value="1"/>
+        <display_value name="dStaminaRegen" value="0.2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Mariachi"/>
       </effect_group>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="106" />
@@ -6890,7 +6936,6 @@
     <item name="Milk">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="3" />
-      <property name="DisplayType" value="water" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -6911,8 +6956,10 @@
         <requirement name="HasBuff" buff="buffIsOnFire" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire" />
       </effect_group>
+      <property name="DisplayType" value="foodStrongBones"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Strong Bones" />
+        <display_value name="dBoneHealing" value="100"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Strong Bones"/>
       </effect_group>
       <effect_group tiered="false">
         <requirement name="NotHasBuff" buff="buffIsOnFire" />
@@ -7105,7 +7152,6 @@
     <item name="Mixed Greens">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,KitchNaid,All" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -7125,8 +7171,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodRabbitFood"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Rabbit Food" />
+        <display_value name="dCarryCapacity" value="3"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Rabbit Food"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeMixedGreensDesc" />
     </item>
@@ -7191,8 +7239,10 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodCubanHighball"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Cuban Highball" />
+        <display_value name="dPerception" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Cuban Highball"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeMojitoDesc" />
     </item>
@@ -7308,7 +7358,6 @@
     <item name="Old Timer's Breakfast">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -7328,8 +7377,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="15" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodOldTimers"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Old Timers are all dead.." />
+        <display_value name="dBetterBarter" value="2"/>
+        <display_value name="dBurningMolotovResist" value="18"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Old Timers are all dead.."/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeOldTimersBreakfastDesc" />
     </item>
@@ -7538,7 +7590,6 @@
     <item name="Pancake">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -7558,8 +7609,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodPamcakes"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Pamcakes" />
+        <display_value name="dExplosiveWeapons" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Pamcakes"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePancakeDesc" />
     </item>
@@ -7606,7 +7659,6 @@
     <item name="Pancetta Linguini">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -7626,8 +7678,12 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="43" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodLuigi"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Luigi" />
+        <display_value name="dLuckyLooter" value="3"/>
+        <display_value name="dHarvestCount" value="95"/>
+        <display_value name="dAdvancedEngineering" value="3"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Luigi"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePancettaLinguiniDesc" />
     </item>
@@ -7875,7 +7931,6 @@
     <item name="Pickled Ginger">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Fermentor" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -7895,8 +7950,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodBlurp"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Blurp" />
+        <display_value name="dMasterChef" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Blurp"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePickledGingerDesc" />
     </item>
@@ -7949,8 +8006,10 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodMonchito"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Monchito" />
+        <display_value name="dPerception" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Monchito"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePinaColadaDesc" />
     </item>
@@ -7998,8 +8057,11 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodProvence"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Provence" />
+        <display_value name="dBetterBarter" value="1"/>
+        <display_value name="dCharismaticNature" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Provence"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePinkRoseDesc" />
     </item>
@@ -8087,7 +8149,6 @@
     <item name="Plain Ice Cream">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,KitchNaid,All" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -8107,15 +8168,16 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodBoring"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Boring.." />
+        <display_value name="dSelfMedicated" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Boring.."/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePlainIceCreamDesc" />
     </item>
     <item name="Plain Kefir">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Fermentor" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -8135,15 +8197,16 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodGutBomb"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Gut bomb" />
+        <display_value name="dChargingBull" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Gut bomb"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePlainKefirDesc" />
     </item>
     <item name="Plain Yogurt">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Fermentor" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -8163,15 +8226,16 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodHealthyBreakfast"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Healthy Breakfast" />
+        <display_value name="dStaminaMax" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Healthy Breakfast"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePlainYogurtDesc" />
     </item>
     <item name="Poached Eggs">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -8191,8 +8255,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodNeedsMoreHSauce"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Needs more H sauce" />
+        <display_value name="dGreaseMonkey" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Needs more H sauce"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePoachedEggsDesc" />
     </item>
@@ -8224,7 +8290,6 @@
     <item name="Pork Chimichanga">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -8244,8 +8309,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="17" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodChimicurri"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Chimicurri?" />
+        <display_value name="dFromTheShadows" value="2"/>
+        <display_value name="dLivingOffTheLand" value="2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Chimicurri?"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePorkChimichangaDesc" />
     </item>
@@ -8337,8 +8405,11 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodTawny"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Tawny" />
+        <display_value name="dBetterBarter" value="1"/>
+        <display_value name="dCharismaticNature" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Tawny"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifePortWineDesc" />
     </item>
@@ -8529,7 +8600,6 @@
     <item name="Raspberry Ice Cream">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,KitchNaid,All" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -8549,8 +8619,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="11" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodRASSSSPBERRY"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="RASSSSPBERRY" />
+        <display_value name="dAutomaticWeapons" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="RASSSSPBERRY"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeRaspberryIceCreamDesc" />
     </item>
@@ -8800,7 +8872,6 @@
     <item name="Refried Beans">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,KitchNaid,All" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -8820,8 +8891,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="3" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodFriedTimes2"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Fried times 2" />
+        <display_value name="dParkour" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Fried times 2"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeRefriedBeansDesc" />
     </item>
@@ -8954,7 +9027,6 @@
     <item name="Risotto">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -8974,8 +9046,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="27" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodEuroRice"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Euro rice" />
+        <display_value name="dGunslinger" value="2"/>
+        <display_value name="dFlurryOfBlows" value="2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Euro rice"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeRisottoDesc" />
     </item>
@@ -9042,7 +9117,6 @@
     <item name="Roasted Brussels Sprouts">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -9062,8 +9136,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="9" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodBurntLikeAWitch"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Burnt like a witch" />
+        <display_value name="dShotgunMessiah" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Burnt like a witch"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeRoastedBrusselsSproutsDesc" />
     </item>
@@ -9172,7 +9248,6 @@
     <item name="Roland's Breakfast">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -9187,8 +9262,10 @@
         <property name="Delay" value="1.0" />
         <property name="Sound_start" value="player_eating" />
       </property>
+      <property name="DisplayType" value="foodForumGuy"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Forum Guy" />
+        <display_value name="dCharismaticNature" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Forum Guy"/>
       </effect_group>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="26" />
@@ -9245,8 +9322,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodBunnyFood"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Bunny Food" />
+        <display_value name="dCarryCapacity" value="3"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Bunny Food"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeRomaineSaladDesc" />
     </item>
@@ -9714,8 +9793,13 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodSingleMalt"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Single Malt" />
+        <display_value name="dStrength" value="1"/>
+        <display_value name="dPerception" value="1"/>
+        <display_value name="dStaminaRegen" value=".35"/>
+        <display_value name="dStunResist" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Single Malt"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeScotchDesc" />
     </item>
@@ -9878,7 +9962,6 @@
     <item name="Side of Bacon">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -9898,8 +9981,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodBACONNNN"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="BACONNNN" />
+        <display_value name="dStaminaMax" value="13"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="BACONNNN"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeSideofBaconDesc" />
     </item>
@@ -10406,7 +10491,6 @@
     <item name="Smoked Salmon">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -10426,15 +10510,16 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodWishItWasLox"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Wish it was Lox" />
+        <display_value name="dDaringAdventurer" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Wish it was Lox"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeSmokedSalmonDesc" />
     </item>
     <item name="Smoked Salmon Salad">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -10454,8 +10539,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="15" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodSalmony"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Salmon-y" />
+        <display_value name="dLuckyLooter" value="2"/>
+        <display_value name="dExplosiveWeapons" value="2"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Salmon-y"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeSmokedSalmonSaladDesc" />
     </item>
@@ -10623,7 +10711,6 @@
     <item name="Spanish Rice">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -10643,8 +10730,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="3" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodMoreBeans"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="More beans.." />
+        <display_value name="dSelfMedicated" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="More beans.."/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeSpanishRiceDesc" />
     </item>
@@ -10720,7 +10809,6 @@
     <item name="Spicy Elk Jerky">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -10737,8 +10825,10 @@
       </property>
       <property name="CustomIcon" value="Elk Jerky" />
       <property name="CustomIconTint" value="E77803" />
+      <property name="DisplayType" value="foodHeatWave"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Heat Wave" />
+        <display_value name="dFortitude" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Heat Wave"/>
       </effect_group>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="14" />
@@ -10775,7 +10865,6 @@
     <item name="Spicy Salmon Roll">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -10795,8 +10884,11 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="13" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodSpicySalmon"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Spicy Salmon" />
+        <display_value name="dHeavyMetal" value="1"/>
+        <display_value name="dPackMule" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Spicy Salmon"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeSpicySalmonRollDesc" />
     </item>
@@ -10937,7 +11029,6 @@
     <item name="Sriracha">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,Gas Oven" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -10952,8 +11043,11 @@
         <property name="Delay" value="1.0" />
         <property name="Sound_start" value="player_eating" />
       </property>
+      <property name="DisplayType" value="foodSpicyBurn"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Spicy Burn" />
+        <display_value name="dPerceptionLoss" value="-1"/>
+        <display_value name="dStaminaLoss" value="3"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Spicy Burn"/>
       </effect_group>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="12" />
@@ -11205,7 +11299,6 @@
     <item name="Strawberry Ice Cream">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
-      <property name="DisplayType" value="food" />
       <property name="Group" value="Food/Cooking,KitchNaid,All" />
       <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
@@ -11225,8 +11318,10 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables" />
       </effect_group>
+      <property name="DisplayType" value="foodSweetnessTimesTwo"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Sweetness times 2" />
+        <display_value name="dSlowMetabolism" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Sweetness times 2"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeStrawberryIceCreamDesc" />
     </item>
@@ -11940,8 +12035,10 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodMotherRussia"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Mother Russia" />
+        <display_value name="dStrength" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Mother Russia"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeVodkaDesc" />
     </item>
@@ -12192,8 +12289,10 @@
       </property>
       <property name="CustomIcon" value="Vodka" />
       <property name="CustomIconTint" value="aaaaaa" />
+      <property name="DisplayType" value="foodTommyBahama"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Tommy Bahama" />
+        <display_value name="dStrength" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Tommy Bahama"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeWhiteRumDesc" />
     </item>
@@ -12231,8 +12330,11 @@
         <property name="Sound_start" value="player_drinking" />
         <property name="Create_item" value="drinkJarEmpty" />
       </property>
+      <property name="DisplayType" value="foodSutterHome"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Sutter Home" />
+        <display_value name="dBetterBarter" value="1"/>
+        <display_value name="dCharismaticNature" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Sutter Home"/>
       </effect_group>
       <property name="DescriptionKey" value="farmLifeWhiteZinDesc" />
     </item>
@@ -14319,7 +14421,6 @@
       <property name="Weight" value="10" />
       <property name="Stacknumber" value="50000" />
       <property name="EconomicValue" value="25" />
-      <property name="DisplayType" value="foodWater" />
       <property class="Action0">
         <property name="Class" value="Eat" />
         <property name="Delay" value="2" />
@@ -14335,12 +14436,15 @@
         <property name="Max_strain_time" value="1" />
         <property name="Sound_start" value="swoosh" />
       </property>
+      <property name="DisplayType" value="foodAlcoholCommon"/>
       <effect_group tiered="false">
+        <display_value name="dDrunkChance" value="75"/>
+        <display_value name="dBeerChance" value="25"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffDrunky">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="75" />
+          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="75"/>
         </triggered_effect>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffBeer">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="25" />
+          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="25"/>
         </triggered_effect>
       </effect_group>
       <effect_group tiered="false">
@@ -14360,7 +14464,6 @@
       <property name="Weight" value="10" />
       <property name="Stacknumber" value="50000" />
       <property name="EconomicValue" value="25" />
-      <property name="DisplayType" value="foodWater" />
       <property class="Action0">
         <property name="Class" value="Eat" />
         <property name="Delay" value="2" />
@@ -14376,12 +14479,15 @@
         <property name="Max_strain_time" value="1" />
         <property name="Sound_start" value="swoosh" />
       </property>
+      <property name="DisplayType" value="foodAlcoholCommon"/>
       <effect_group tiered="false">
+        <display_value name="dDrunkChance" value="75"/>
+        <display_value name="dBeerChance" value="50"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffDrunky">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="75" />
+          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="75"/>
         </triggered_effect>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffBeer">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50" />
+          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
         </triggered_effect>
       </effect_group>
       <effect_group tiered="false">
@@ -14401,7 +14507,6 @@
       <property name="Weight" value="10" />
       <property name="Stacknumber" value="50000" />
       <property name="EconomicValue" value="25" />
-      <property name="DisplayType" value="foodWater" />
       <property class="Action0">
         <property name="Class" value="Eat" />
         <property name="Delay" value="2" />
@@ -14417,12 +14522,15 @@
         <property name="Max_strain_time" value="1" />
         <property name="Sound_start" value="swoosh" />
       </property>
+      <property name="DisplayType" value="foodAlcoholCommon"/>
       <effect_group tiered="false">
+        <display_value name="dDrunkChance" value="100"/>
+        <display_value name="dBeerChance" value="75"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffDrunky">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="100" />
+          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="100"/>
         </triggered_effect>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffBeer">
-          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="75" />
+          <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="75"/>
         </triggered_effect>
       </effect_group>
       <effect_group tiered="false">
@@ -16249,35 +16357,35 @@
       <property name="DescriptionKey" value="FudgeDesc" />
     </item>
     <item name="Smore">
-      <property name="Tags" value="food" />
-      <property name="HoldType" value="31" />
-      <property name="Group" value="Food/Cooking,CFFood/Cooking" />
-      <property name="DisplayType" value="food" />
-      <property name="CustomIcon" value="dizastasmore" />
-      <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab" />
-      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
-      <property name="Material" value="Morganic" />
-      <property name="Stacknumber" value="1000" />
-      <property name="EconomicValue" value="134" />
+      <property name="Tags" value="food"/>
+      <property name="HoldType" value="31"/>
+      <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+      <property name="CustomIcon" value="dizastasmore"/>
+      <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Morganic"/>
+      <property name="Stacknumber" value="1000"/>
+      <property name="EconomicValue" value="134"/>
       <property class="Action0">
-        <property name="Class" value="Eat" />
-        <property name="Delay" value="1.0" />
-        <property name="Use_time" value="..." />
-        <property name="Sound_start" value="player_eating" />
+        <property name="Class" value="Eat"/>
+        <property name="Delay" value="1.0"/>
+        <property name="Use_time" value="..."/>
+        <property name="Sound_start" value="player_eating"/>
       </property>
+      <property name="DisplayType" value="foodNightTime"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffNightTime" />
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="9" />
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5" />
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables" />
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4" />
-        <display_value name="dFoodPoisoningRisk" value=".04" />
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist" />
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllFoodPoisoning01">
-          <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll" />
-        </triggered_effect>
+        <display_value name="dExpGain" value="20"/>
+        <display_value name="dCraftingSpeed" value="75"/>
+        <display_value name="dCarryCapacity" value="50"/>
+        <display_value name="dBlockDamage" value="100"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffNightTime"/>
       </effect_group>
-      <property name="DescriptionKey" value="SmoreDesc" />
+      <effect_group>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="9"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+      </effect_group>
+      <property name="DescriptionKey" value="SmoreDesc"/>
     </item>
     <item name="Peach Cobbler">
       <property name="Tags" value="food" />
@@ -16624,12 +16732,7 @@
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="55" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="2" />
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables" />
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4" />
-        <display_value name="dFoodPoisoningRisk" value=".04" />
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist" />
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllFoodPoisoning01">
-          <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll" />
-        </triggered_effect>
+>
       </effect_group>
       <property name="DescriptionKey" value="SpecialBrownieDesc" />
     </item>

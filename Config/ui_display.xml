@@ -158,20 +158,20 @@
 
     <item_display_info display_type="foodRedneck" display_group="groupConsumables">
       <display_entry name="dFistDamage" title_key="buffFistDamage"/>
-      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
       <display_entry name="dStunResist" title_key="buffStunResist"/>
     </item_display_info>
 
     <item_display_info display_type="foodHopFreak" display_group="groupConsumables">
       <display_entry name="dStrengthBonus" title_key="buffStrengthAdd" display_leading_plus="true"/>
       <display_entry name="dPerceptionBonus" title_key="buffPerceptionAdd" display_leading_plus="true"/>
-      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
     </item_display_info>
 
     <item_display_info display_type="foodTastyIPA" display_group="groupConsumables">
       <display_entry name="dFistDamage" title_key="buffFistDamage"/>
-      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent"/>
-      <display_entry name="dStunResist" title_key="buffStunResist"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dStunResist" title_key="buffStunResist" display_leading_plus="true"/>
     </item_display_info>
 
     <item_display_info display_type="foodBavarianLager" display_group="groupConsumables">
@@ -187,8 +187,7 @@
     </item_display_info>
 
     <item_display_info display_type="foodBeetroot" display_group="groupConsumables">
-      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
-      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
       <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
       <display_entry name="dHealthRegen" title_key="buffHealthRegen" display_leading_plus="true"/>
     </item_display_info>
@@ -204,6 +203,394 @@
       <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
       <display_entry name="dAutomaticWeapons" title_key="buffAutomaticWeapons" display_leading_plus="true"/>
     </item_display_info>
+
+    <item_display_info display_type="foodShitNShingles" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dStayDown" title_key="buffStayDown" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodKentuckyChar" display_group="groupConsumables">
+      <display_entry name="dStrength" title_key="buffStrength" display_leading_plus="true"/>
+      <display_entry name="dPerception" title_key="buffPerception" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBuenosAires" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dConcussionResist" title_key="buffConcussionResist" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodDoubleGold" display_group="groupConsumables">
+      <display_entry name="dStrength" title_key="buffStrength" display_leading_plus="true"/>
+      <display_entry name="dPerception" title_key="buffPerception" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodAccidentalVarietal" display_group="groupConsumables">
+      <display_entry name="dBetterBarter" title_key="buffBetterBarter" display_leading_plus="true"/>
+      <display_entry name="dCharismaticNature" title_key="buffCharismaticNature" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodWhiteBurgundy" display_group="groupConsumables">
+    <display_entry name="dBetterBarter" title_key="buffBetterBarter" display_leading_plus="true"/>
+    <display_entry name="dCharismaticNature" title_key="buffCharismaticNature" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodWithCheese" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dHammerForge" title_key="buffHammerForge" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodLittleTart" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dBurningResist" title_key="buffBurningResist" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodCherryPie" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dBurningEnvironmentResist" title_key="buffBurningEnvironmentResist" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodNoMalTamale" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dInfectionResist" title_key="buffInfectionResist" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodCountryBoy" display_group="groupConsumables">
+    <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+    <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+    <display_entry name="dIntellect" title_key="buffIntellect" display_leading_plus="true"/>
+    <display_entry name="dBleedingResist" title_key="buffBleedingResist" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodRottenEggs" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dRunAndGun" title_key="buffRunAndGun" display_leading_plus="true"/>
+      <display_entry name="dInfectionResist" title_key="buffInfectionResist" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodGooeyGold" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dSkullCrusher" title_key="buffSkullCrusher" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodDeepSouth" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dPainTolerance" title_key="buffPainTolerance" display_leading_plus="true"/>
+      <display_entry name="dRunAndGun" title_key="buffRunAndGun" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodFruityCake" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dMiner69r" title_key="buffMiner69r" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodYummySmoothie" display_group="groupConsumables">
+    <display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent"/>
+      <display_entry name="dFoodBonus" title_key="buffFoodBonus" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodSpicyBurn" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dPerceptionLoss" title_key="buffPerceptionLoss"/>
+      <display_entry name="dWaterLoss" title_key="buffWaterLoss" display_type="Percent"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodCakeBoy" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dPainTolerance" title_key="buffPainTolerance" display_leading_plus="true"/>
+      <display_entry name="dHealingFactor" title_key="buffHealingFactor" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodGrandmasDead" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dDrowningResist" title_key="buffDrowningResist" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dStunResist" title_key="buffStunResist" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodWithoutCheese" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dConcussionResist" title_key="buffConcussionResist" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodMadmole" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dStrength" title_key="buffStrength" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodMariachi" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dFortitude" title_key="buffFortitude" display_leading_plus="true"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodStrongBones" display_group="groupConsumables">
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dBoneHealing" title_key="buffBoneHealing" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodRabbitFood" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dCarryCapacity" title_key="buffCarryCapacity" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodCubanHighball" display_group="groupConsumables">
+      <display_entry name="dPerception" title_key="buffPerception" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodOldTimers" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dBetterBarter" title_key="buffBetterBarter" display_leading_plus="true"/>
+      <display_entry name="dBurningMolotovResist" title_key="buffBurningMolotovResist" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodPamcakes" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dExplosiveWeapons" title_key="buffExplosiveWeapons" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodLuigi" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dLuckyLooter" title_key="buffLuckyLooter" display_leading_plus="true"/>
+      <display_entry name="dHarvestCount" title_key="buffHarvestCount" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dAdvancedEngineering" title_key="buffAdvancedEngineering" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodProvence" display_group="groupConsumables">
+      <display_entry name="dBetterBarter" title_key="buffBetterBarter" display_leading_plus="true"/>
+      <display_entry name="dCharismaticNature" title_key="buffCharismaticNature" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBlurp" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dMasterChef" title_key="buffMasterChef" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodMonchito" display_group="groupConsumables">
+      <display_entry name="dPerception" title_key="buffPerception" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBoring" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dSelfMedicated" title_key="buffSelfMedicated" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodGutBomb" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dChargingBull" title_key="buffChargingBull" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodHealthyBreakfast" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dStaminaMax" title_key="buffStaminaMax" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodNeedsMoreHSauce" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dGreaseMonkey" title_key="buffGreaseMonkey" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodChimicurri" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dFromTheShadows" title_key="buffFromTheShadows" display_leading_plus="true"/>
+      <display_entry name="dLivingOffTheLand" title_key="buffLivingOffTheLand" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodTawny" display_group="groupConsumables">
+      <display_entry name="dBetterBarter" title_key="buffBetterBarter" display_leading_plus="true"/>
+      <display_entry name="dCharismaticNature" title_key="buffCharismaticNature" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodRASSSSPBERRY" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dAutomaticWeapons" title_key="buffAutomaticWeapons" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBunnyFood" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dCarryCapacity" title_key="buffCarryCapacity" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBACONNNN" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dStaminaMax" title_key="buffStaminaMax" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodWishItWasLox" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dDaringAdventurer" title_key="buffDaringAdventurer" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodSalmony" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dLuckyLooter" title_key="buffLuckyLooter" display_leading_plus="true"/>
+      <display_entry name="dExplosiveWeapons" title_key="buffExplosiveWeapons" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodFriedTimes2" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dParkour" title_key="buffParkour" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodEuroRice" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dGunslinger" title_key="buffGunslinger" display_leading_plus="true"/>
+      <display_entry name="dFlurryOfBlows" title_key="buffFlurryOfBlows" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBurntLikeAWitch" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dShotgunMessiah" title_key="buffShotgunMessiah" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodForumGuy" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dCharismaticNature" title_key="buffCharismaticNature" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodMoreBeans" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dSelfMedicated" title_key="buffSelfMedicated" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodHeatWave" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dFortitude" title_key="buffFortitude" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodSpicySalmon" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dHeavyMetal" title_key="buffHeavyMetal" display_leading_plus="true"/>
+      <display_entry name="dPackMule" title_key="buffPackMule" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodSweetnessTimesTwo" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dSlowMetabolism" title_key="buffSlowMetabolism" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBdubs" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+      <display_entry name="dBuyingBartering" title_key="buffBuyingBartering" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodHotWings" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+      <display_entry name="dRunSpeed" title_key="buffRunSpeed" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dStaminaCost" title_key="buffStaminaCost" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodNightTime" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dExpGain" title_key="buffExpGain" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dCraftingSpeed" title_key="buffCraftingSpeed" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dCarryCapacity" title_key="buffCarryCapacity" display_leading_plus="true"/>
+      <display_entry name="dBlockDamage" title_key="buffBlockDamage" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodMotherRussia" display_group="groupConsumables">
+      <display_entry name="dStrength" title_key="buffStrength" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodTommyBahama" display_group="groupConsumables">
+      <display_entry name="dStrength" title_key="buffStrength" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodSutterHome" display_group="groupConsumables">
+      <display_entry name="dBetterBarter" title_key="buffBetterBarter" display_leading_plus="true"/>
+      <display_entry name="dCharismaticNature" title_key="buffCharismaticNature" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodAlcoholCommon" display_group="groupConsumables">
+      <display_entry name="dDrunkChance" title_key="buffDrunkChance" display_type="Percent"/>
+      <display_entry name="dBeerChance" title_key="buffBeerChance" display_type="Percent"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodBeefcake" display_group="groupConsumables">
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dBrawlingDamage" title_key="buffBrawlingDamage" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dStunResist" title_key="buffStunResist" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dDuration" title_key="buffDuration" display_type="Time"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodHoneyPot" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dCureInfection" title_key="buffCureInfection" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dCureDysentery" title_key="buffCureDysentery" display_type="Percent" display_leading_plus="true"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodSpecialBrownie" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus"/>
+      <display_entry name="dFoodPoisoningRisk" title_key="buffFoodPoisoningRisk" display_type="Percent"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodSmoothieBase" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dHypothermalResist" title_key="buffHypothermalResist" display_leading_plus="true"/>
+      <display_entry name="dDuration" title_key="buffDuration" display_type="Time"/>
+    </item_display_info>
+
+    <item_display_info display_type="foodSingleMalt" display_group="groupConsumables">
+      <display_entry name="dStrength" title_key="buffStrength" display_leading_plus="true"/>
+      <display_entry name="dPerception" title_key="buffPerception" display_leading_plus="true"/>
+      <display_entry name="dStaminaRegen" title_key="buffStaminaRegen" display_type="Percent" display_leading_plus="true"/>
+      <display_entry name="dStunResist" title_key="buffStunResist" display_leading_plus="true"/>
+    </item_display_info>
+
   </append>
 
 </configs>

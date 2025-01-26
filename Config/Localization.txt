@@ -2378,13 +2378,72 @@ farmLifeLambFatDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item [FF684F]( re
 Horse Fat,,item,Food,newKey,Horse Fat,,Pferdefett
 farmLifeHorseFatDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item [FF684F]( required.)\nMaterial: [c7b992].\nUnlocked by: [c7b992]Farm Life\n\nRaw horse fat trimmed from horse meat. Can be rendered into tallow.",,"Typ: [c7b992]Farm Life Item [FF684F] (benötigt.)\nMaterial: [c7b992].\nFreischalten durch: [c7b992]Farm Life\n\nRohes Pferdefett von Pferdefleisch. Kann zu Talg ausgelassen werden."
 
+buffAdvancedEngineering,buffs,buff,,,Advanced Engineering,Shows increase to Advanced Engineering skill
 buffAgilityAdd,buffs,buff,,,Agility Bonus,Shows bonus to Agility attribute
-buffStrengthAdd,buffs,buff,,,Strength Bonus,Shows bonus to Strength attribute
-buffPerceptionAdd,buffs,buff,,,Perception Bonus,Shows bonus to Perception attribute
-buffFistDamage,buffs,buff,,,Fist Damage,Shows increase to fist damage
-buffStaminaRegen,buffs,buff,,,Stamina Regeneration,Shows increase to stamina regen
-buffStunResist,buffs,buff,,,Stun Resistance,Shows increase to stun resistance
-buffFistDamage,buffs,buff,,,Fist Damage,Shows increase to fist damage
-buffHealthRegen,buffs,buff,,,Health Regeneration,Shows increase to health regeneration
-buffExplosiveWeapons,buffs,buff,,,Explosive Weapons,Shows increase to explosive weapons skill
 buffAutomaticWeapons,buffs,buff,,,Automatic Weapons,Shows increase to automatic weapons skill
+buffBeerChance,buffs,buff,,,Chance for Beer Buff,Shows chance to receive beer buff
+buffBetterBarter,buffs,buff,,,Better Barter,Shows increase to Better Barter skill
+buffBleedingResist,buffs,buff,,,Bleeding Resistance,Shows increase to bleeding resistance
+buffBlockDamage,buffs,buff,,,Block Damage,Shows increase to block damage
+buffBoneHealing,buffs,buff,,,Bone Healing,Shows ability to heal broken bones
+buffBrawlingDamage,buffs,buff,,,Brawling Damage,Shows increase to brawling damage
+buffBurningEnvironmentResist,buffs,buff,,,Environmental Burning Resistance,Shows increase to environmental burning resistance
+buffBurningMolotovResist,buffs,buff,,,Molotov Resistance,Shows increase to molotov burn resistance
+buffBurningResist,buffs,buff,,,Burning Resistance,Shows increase to burning resistance
+buffBuyingBartering,buffs,buff,,,Buying/Bartering,Shows improvement to buying and bartering
+buffCarryCapacity,buffs,buff,,,Carry Capacity,Shows increase to carry capacity
+buffChargingBull,buffs,buff,,,Charging Bull,Shows increase to Charging Bull skill
+buffCharismaticNature,buffs,buff,,,Charismatic Nature,Shows increase to Charismatic Nature skill
+buffConcussionResist,buffs,buff,,,Concussion Resistance,Shows increase to concussion resistance
+buffCraftingSpeed,buffs,buff,,,Crafting Speed,Shows increase to crafting speed
+buffCureDysentery,buffs,buff,,,Cure Dysentery,Shows chance to cure dysentery
+buffCureInfection,buffs,buff,,,Cure Infection,Shows chance to cure infection
+buffDaringAdventurer,buffs,buff,,,Daring Adventurer,Shows increase to Daring Adventurer skill
+buffDrowningResist,buffs,buff,,,Drowning Resistance,Shows resistance to drowning
+buffDrunkChance,buffs,buff,,,Chance to get Drunk,Shows chance to receive drunk effect
+buffDuration,buffs,buff,,,Duration,Shows duration of effect
+buffExpGain,buffs,buff,,,Experience Gain,Shows increase to experience gain
+buffExplosiveWeapons,buffs,buff,,,Explosive Weapons,Shows increase to explosive weapons skill
+buffFistDamage,buffs,buff,,,Fist Damage,Shows increase to fist damage
+buffFlurryOfBlows,buffs,buff,,,Flurry of Blows,Shows increase to Flurry of Blows skill
+buffFoodBonus,buffs,buff,,,Food Bonus,Shows increase to food amount
+buffFoodPoisoningRisk,buffs,buff,,,Food Poisoning Risk,Shows risk of food poisoning
+buffFortitude,buffs,buff,,,Fortitude,Shows increase to Fortitude attribute
+buffFromTheShadows,buffs,buff,,,From The Shadows,Shows increase to From The Shadows skill
+buffGreaseMonkey,buffs,buff,,,Grease Monkey,Shows increase to Grease Monkey skill
+buffGunslinger,buffs,buff,,,Gunslinger,Shows increase to Gunslinger skill
+buffHammerForge,buffs,buff,,,Hammer Forge,Shows increase to Hammer Forge skill
+buffHarvestCount,buffs,buff,,,Harvest Amount,Shows increase to harvest amounts
+buffHealingFactor,buffs,buff,,,Healing Factor,Shows increase to healing factor
+buffHealthRegen,buffs,buff,,,Health Regeneration,Shows increase to health regeneration
+buffHeavyMetal,buffs,buff,,,Heavy Metal,Shows increase to Heavy Metal skill
+buffHypothermalResist,buffs,buff,,,Cold Resistance,Shows resistance to cold
+buffInfectionResist,buffs,buff,,,Infection Resistance,Shows increase to infection resistance
+buffIntellect,buffs,buff,,,Intellect,Shows increase to Intellect attribute
+buffLivingOffTheLand,buffs,buff,,,Living Off The Land,Shows increase to Living Off The Land skill
+buffLuckyLooter,buffs,buff,,,Lucky Looter,Shows increase to Lucky Looter skill
+buffMasterChef,buffs,buff,,,Master Chef,Shows increase to Master Chef skill
+buffMiner69r,buffs,buff,,,Miner 69'er,Shows increase to Miner 69'er skill
+buffPackMule,buffs,buff,,,Pack Mule,Shows increase to Pack Mule skill
+buffPainTolerance,buffs,buff,,,Pain Tolerance,Shows increase to Pain Tolerance skill
+buffParkour,buffs,buff,,,Parkour,Shows increase to Parkour skill
+buffPerception,buffs,buff,,,Perception,Shows increase to Perception attribute
+buffPerceptionAdd,buffs,buff,,,Perception Bonus,Shows bonus to Perception attribute
+buffPerceptionLoss,buffs,buff,,,Perception Loss,Shows decrease to perception
+buffRunAndGun,buffs,buff,,,Run and Gun,Shows increase to Run and Gun skill
+buffRunSpeed,buffs,buff,,,Run Speed,Shows increase to run speed
+buffSelfMedicated,buffs,buff,,,Self Medicated,Shows increase to Self Medicated skill
+buffShotgunMessiah,buffs,buff,,,Shotgun Messiah,Shows increase to Shotgun Messiah skill
+buffSkullCrusher,buffs,buff,,,Skull Crusher,Shows increase to Skull Crusher skill
+buffSlowMetabolism,buffs,buff,,,Slow Metabolism,Shows increase to Slow Metabolism skill
+buffStaminaCost,buffs,buff,,,Stamina Cost,Shows change to stamina costs
+buffStaminaLoss,buffs,buff,,,Stamina Loss,Shows decrease to stamina regeneration
+buffStaminaMax,buffs,buff,,,Maximum Stamina,Shows increase to maximum stamina
+buffStaminaRegen,buffs,buff,,,Stamina Regeneration,Shows increase to stamina regen
+buffStayDown,buffs,buff,,,Stay Down,Shows increase to Stay Down skill
+buffStrength,buffs,buff,,,Strength,Shows increase to Strength attribute
+buffStrengthAdd,buffs,buff,,,Strength Bonus,Shows bonus to Strength attribute
+buffStunResist,buffs,buff,,,Stun Resistance,Shows increase to stun resistance
+buffWaterLoss,buffs,buff,,,Water Loss,Shows increased water consumption
+
+

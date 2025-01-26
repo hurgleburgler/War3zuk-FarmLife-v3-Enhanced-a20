@@ -3877,10 +3877,6 @@
       <ingredient name="Green Onion" count="3"/>
     </recipe>
 
-    <recipe name="Chocolate Chips" count="12" craft_time="20" craft_area="Chopping Board" craft_tool="Damascus Knife">
-      <ingredient name="Chocolate Bar" count="1"/>
-    </recipe>
-
     <recipe name="Berry Salad" count="3" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
       <ingredient name="foodCropBlueberries" count="10"/>
       <ingredient name="Raspberry" count="10"/>
@@ -4029,7 +4025,6 @@
       <ingredient name="foodEgg" count="2"/>
       <ingredient name="Butter" count="2"/>
       <ingredient name="Chocolate Bar" count="4"/>
-      <ingredient name="Chocolate Chips" count="10"/>
     </recipe>
 
     <recipe name="Fudge" count="4" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
