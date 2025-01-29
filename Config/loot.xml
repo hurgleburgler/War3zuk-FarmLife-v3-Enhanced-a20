@@ -171,4 +171,68 @@
     <item name="cryogenicContainerTurkey" count="1" loot_prob_template="verylow"/>
   </append>
 
+    <!-- Add rations to relevant base game groups -->
+  <append xpath="/lootcontainers/lootgroup[@name='cannedfood']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
+    <item name="Graham Cracker Box" count="1,2" loot_prob_template="verylow"/>
+    <item name="Marshmallow Bag" count="1,2" loot_prob_template="verylow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupIngredientsCommon']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
+    <item name="Graham Cracker Box" count="1,2" loot_prob_template="verylow"/>
+    <item name="Marshmallow Bag" count="1,2" loot_prob_template="verylow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupIngredientsUncommon']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
+    <item name="Graham Cracker Box" count="1,2" loot_prob_template="verylow"/>
+    <item name="Marshmallow Bag" count="1,2" loot_prob_template="verylow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupIngredientsRare']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
+  </append>
+
+  <!-- Add to military/survival locations -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupArmyTruck01']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
+  </append>
+
+  <!-- Add to kitchen/cooking locations -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupCookingTools']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
+  </append>
+
+    <!-- Add to food crates -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupShamwayCrate']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
+  </append>
+
+  <!-- Add to cupboards -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupCupboard02']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="verylow"/>
+  </append>
+
+  <!-- Add to food stores -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupShamwayShelves']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="verylow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="verylow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="verylow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootcontainer[@name='munitions']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="verylow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootcontainer[@name='shamwaySafe']">
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
+  </append>
+
 </configs>

@@ -632,14 +632,6 @@
 								Meats
 		===============================================================
 		-->
-    <recipe name="Fresh Bacon Meatloaf" count="1" craft_time="10" craft_area="campfire">
-      <ingredient name="Raw Bacon" count="1"/>
-      <ingredient name="foodEgg" count="1"/>
-      <ingredient name="Herbs" count="1"/>
-      <ingredient name="Raw Ground Beef" count="1"/>
-      <ingredient name="Butter" count="1"/>
-    </recipe>
-
     <recipe name="BakedChickenBreast" count="1" craft_time="15" craft_area="campfire">
       <ingredient name="ChickenBreast" count="1"/>
       <ingredient name="Herbs" count="1"/>

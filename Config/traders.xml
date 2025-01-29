@@ -60,9 +60,11 @@
 	</append>
 
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodCandy']">
-		<item name="Graham Cracker Box" count="1" prob="0.1"/>
-		<item name="Marshmallow Bag" count="1" prob="0.1"/>
-		<item name="Chocolate Bar" count="1" prob="0.5"/>
+		<item name="drugRecog"/>
+		<item name="drugFortBites"/>
+		<item name="Graham Cracker Box"/>
+		<item name="Marshmallow Bag"/>
+		<item name="Chocolate Bar"/>
 	</append>
 
 </configs>
